@@ -2,6 +2,10 @@
 % Mathilde Buenerd, Tuteur: Nicolas Nova
 % Janvier 2018
 
+---
+title: "Ma master thesis"
+---
+
 <link rel="stylesheet" href="style.css"></link>
 
 \newpage
@@ -38,8 +42,6 @@ mathilde.buenerd.fr/converser-a-l-ere-de-l-autocompletion
 ## Sommaire
 
 \newpage
-
-
 
 ## Introduction
 
@@ -269,7 +271,6 @@ C'est pourquoi un point primordial à prendre en considération est celui Cela i
 
 <!-- Si le machine learning permet des systèmes qui peuvent apprendre et donc évoluer sans nécessiter d'être reprogrammé, un système n'a pas besoin d'être entièrement autonome. On peut se perdre en idéalisant notre vision de la technologie. -->
 
-![On peut voir la personnalité non pas comme une chose figée dont il s'agirait de saisir l'exactitude, mais comme quelque chose de maléable, qui peut changer en fonction du moment de la journée ou même de la personne avec laquelle on parle. Et si on donnait la possibilité à chacun de modeler sa personnalité en fonction de son humeur ?](images/principe-gestionnaire-humeur.png "")
 
 \newpage
 
@@ -438,6 +439,19 @@ En parallèle, en temps que designer, il me paraissait important d'illustrer ces
 
 \newpage
 
+### Gestionnaire de personnalité
+
+![Et si... la personnalité n'était pas une chose figée dont il s'agirait de saisir l'exactitude, mais comme quelque chose de maléable, qui peut changer en fonction du moment de la journée ou même de la personne avec laquelle on parle ? Et si on donnait la possibilité à chacun de modeler sa personnalité en fonction de son humeur ?](images/principe-gestionnaire-humeur.png "")
+
+\newpage
+
+### Ecrire dans le style de...
+
+![Et si... on pouvait écrire dans le style de quelqu'un d'autre ?](images/write-in-the-style-of.png "")
+
+\newpage
+
+
 
 ## Bibliographie
 
@@ -511,9 +525,6 @@ Weiser, Mark, et John Seely Brown. 1995. « Designing Calm Technology ». 21 d
 Weizenbaum, Joseph. 1981. Puissance de l’ordinateur et raison de l’homme: du jugement au calcul. Ed. d’informatique.
 
 
-
-
-
 \newpage
 
 Imprimé à la HEAD - Genève, sur du papier ..., avec le caractères typographiques ...
@@ -523,7 +534,6 @@ Ce texte est également disponible en ligne sur le site internet mathildebuenerd
 
 
 [^2bb8]: Kaplan, Frederic. 2007. « Beyond Robotics ». Lift07. Vimeo. 8 février 2007. https://vimeo.com/6453775. 21:26.
-
 
 [^4c7e]: Poole, Erika Shehan, Christopher A. Le Dantec, James R. Eagan, et W. Keith Edwards. 2008. « Reflecting on the Invisible: Understanding End-user Perceptions of Ubiquitous Computing ». In Proceedings of the 10th International Conference on Ubiquitous Computing, 192–201. UbiComp ’08. New York, NY, USA: ACM.
 
