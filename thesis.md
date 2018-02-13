@@ -8,6 +8,8 @@ title: "Ma master thesis"
 
 <link rel="stylesheet" href="style.css"></link>
 
+[#citation-style]: #chicago-author-date-fr
+
 \newpage
 
 # Converser à l'ère de l'autocomplétion
@@ -46,9 +48,9 @@ mathilde.buenerd.fr/converser-a-l-ere-de-l-autocompletion
 
 ## Introduction
 
-_Regime of computation_ [@Hayles2005], _Age of the algorithm_ [@Finn2017], ou encore _"logicialisation"_ de la société [@Citton2015], autant de termes pour désigner un même phénomène : la place grandissante du logiciel \[_software_] dans la société, à une échelle très large et dans des domaines variés : travail, finance, relations sociales etc. Une ère dominée par la figure de l'algorithme comme structure ontologique de compréhension de l'univers [@Finn2017, 21].
+_Regime of computation_ [@Hayles2005], _Age of the algorithm_ [@Finn2017], ou encore _"logicialisation"_ de la société [@Citton2015], autant de termes pour désigner un même phénomène : la place grandissante du logiciel \[_software_] dans la société, à une échelle importante et dans des domaines variés : travail, finance, relations sociales etc. Une ère dominée par la figure de l'algorithme comme structure ontologique de compréhension de l'univers [@Finn2017, 21].
 
-L'une des incarnations du logiciel dans la vie quotidenne concerne la multiplication des assistants personnels ou de ce qu'on pourrait nommer des _machines sociales_[@Hendler2016, 10], au sens d'ordinateurs qui ont la capacité d'interagir dans un espace social traditionnellement réservé aux humains. C'est le cas des applications de messagerie (email) ou de messagerie instantanée (Messenger, Whatsapp et autres) ou encore des assistants personnels (Siri, Alexa...). Plus que de simples intermédaires, ces services impliquent de nouvelles manières d'écrire, d'échanger, et au final, de converser. Ces nouvelles manières de s'exprimer sont permises entre autres par des fonctionnalités telles que l'autocomplétion.
+Une incarnation du logiciel dans la vie quotidenne concerne la multiplication des assistants personnels ou de ce qu'on pourrait nommer des _machines sociales_[@Hendler2016, 10], au sens d'ordinateurs qui ont la capacité d'interagir dans un espace social traditionnellement réservé aux humains. C'est le cas des applications de messagerie (email) ou de messagerie instantanée (Messenger, Whatsapp et autres) ou encore des assistants personnels (Siri, Alexa...). Plus que de simples intermédaires, ces services impliquent de nouvelles manières d'écrire, d'échanger, et au final, de converser. Ces nouvelles manières de s'exprimer sont permises entre autres par des fonctionnalités telles que l'autocomplétion.
 
 L'autocomplétion désigne la fonctionnalité informatique consistant à compléter les mots qu'un utilisateur a commencé à saisir. C'est une fonctionnalité majeure sur le web mais aussi dans les applications de conversation à distance. Elle devient une caractéristique incontournable dans le design de l'expérience utilisateur, en témoignent la multiplication de widgets comme [_autocomplete_](http://jqueryui.com/) du populaire jQueryUI (collection d'outils à destination des développeurs pour faciliter la création de sites internet).
 Synonyme de _complètement_, _complètement automatique_ ou encore _saisie intuitive_ ou _saisie prédicitive_, le terme d'_autocomplétion_ a été choisi ici pour sa proximité avec le terme anglais _autocomplete_, largement utilisé dans le monde de la programmation informatique.
@@ -84,9 +86,9 @@ Ce mémoire n'est pas une contestation unilatérale des principes ou des mouveme
 
 ### D'une aide à la saisie vers une aide à l'écriture
 
-Dans le champ de la téléphonie mobile, l'autocomplétion est présente depuis plusieurs années en tant qu'aide à la saisie. A la fin des années 90, la majorité des terminaux mobiles possèdent un clavier à 12 chiffres, proche de celui des cadrans téléphoniques. Il est conçu avant tout pour la saisie de numéros de téléphone et pas pour celle de textos. Pour pouvoir y saisir du texte, chaque touche possède plusieurs lettres associées (par exemple le '2' permettra aussi de saisir les lettres 'a', 'b' et 'c'), ce qui implique un problème de désambiguïsation \[_disambiguation_] lors de la saisie : comment savoir si l'utilisateur a voulu taper un 'a', un 'b' ou un 'c' ? Des méthodes d'entrée pragmatiques, comme le _mutli-press_ (presser une fois pour 'a', deux fois pour 'b', trois fois pour 'c') ou le _two-keys_ (presser 'abc' puis '1' pour 'a', 'abc' puis '2' pour 'b', etc.) sont utilisées[^6a14]. De manière plus originale, des systèmes comme le T9[^3e08] proposent d'utiliser une approche linguistique basée sur un dictionnaire comportant tous les mots de la langue [@Grover1998]. Bien que plusieurs lettres soient associées à une même touche, une séquence de touches ne pourra produire qu'un nombre de mots très limité[^1715]. En combinant cela au fait que certains mots sont plus fréquemment utilisés que d'autres ('tu' est beaucoup plus fréquent que 'accordéon'), on obtient un système qui permet de _prédire_ quel mot a le plus de chance d'être écrit. C'est d'ailleurs le terme de "texte prédictif" \[_predictive text_] qui est utilisé pour désigner cette technologie de complétion.
+Dans le champ de la téléphonie mobile, l'autocomplétion est présente depuis plusieurs années en tant qu'aide à la saisie. A la fin des années 90, la majorité des terminaux mobiles possèdent un clavier à 12 chiffres, proche de celui des cadrans téléphoniques. Il est conçu avant tout pour la saisie de numéros de téléphone et pas pour celle de textos. Pour pouvoir y saisir du texte, chaque touche possède plusieurs lettres associées (par exemple le '2' permettra aussi de saisir les lettres 'a', 'b' et 'c'), ce qui implique un problème de désambiguïsation \[_disambiguation_] lors de la saisie : comment savoir si l'utilisateur a voulu taper un 'a', un 'b' ou un 'c' ? Des méthodes d'entrée pragmatiques, comme le _mutli-press_ (presser une fois pour 'a', deux fois pour 'b', trois fois pour 'c') ou le _two-keys_ (presser 'abc' puis '1' pour 'a', 'abc' puis '2' pour 'b', etc.) sont utilisées[^6a14]. De manière plus originale, des systèmes comme le T9[^3e08] proposent d'utiliser une approche linguistique basée sur un dictionnaire comportant tous les mots de la langue [@Grover1998]. Bien que plusieurs lettres soient associées à une même touche, une séquence de touches ne pourra produire qu'un petit nombre de mots[^1715]. En combinant cela au fait que les mots ont des fréquences différentes ('tu' est beaucoup plus fréquent que 'accordéon'), on obtient un système qui permet de _prédire_ quel mot a le plus de chance d'être écrit. C'est d'ailleurs le terme de "texte prédictif" \[_predictive text_] qui est utilisé pour désigner cette technologie de complétion.
 
-Bien qu'ayant pour objectif premier la désambiguïsation, le T9 introduit une méthode de saisie qui comporte des similarités avec les systèmes d'autocomplétion actuels, c'est-à-dire parier sur un mot en se basant sur des données (un dictionnaire) et des probabilités (les fréquences).
+Bien que visant à résoudre le problème d'ambiguïté de la saisie, le T9 introduit une méthode de saisie qui comporte des similarités avec les systèmes d'autocomplétion actuels, c'est-à-dire parier sur un mot en se basant sur des données (un dictionnaire) et des probabilités (les fréquences).
 
 ### L'autocomplétion aujourd'hui
 
@@ -110,22 +112,15 @@ Un exemple-type de système de recommandation pour l'écriture, est l'applicatio
 
 ![Réponses automatiques sur Google Allo, Gmail et Facebook](images/réponses-automatiques.jpg)
 
-Dans le cas de ces deux dernières applications, les suggestions sont basées sur une analyse statistique des réponses écrites non pas par l'utilisateur lui-même mais par les utilisateurs en général. S'il est difficile de savoir exactement comment ces réponses sont produites, il est très probable qu'elles ne soient pas le résultat d'un algorithme autonome, car elles ne sont présentes que dans le cas de situations très standardisées, par exemple "Merci" ou "Bien reçu". Néanmoins, on peut voir dans ces nouvelles fonctionnalités une porte ouverte vers l'usage d'algorithmes de machine learning pour faire de la recommandation conversationnelle.
+Dans le cas de ces deux dernières applications, les suggestions sont basées sur une analyse statistique des réponses écrites non pas par l'utilisateur lui-même mais par les utilisateurs en général. S'il est difficile de savoir exactement comment ces réponses sont produites, il est probable qu'elles ne soient pas le résultat d'un algorithme autonome, car elles ne sont présentes que dans le cas de situations standardisées, par exemple "Merci" ou "Bien reçu". Néanmoins, on peut voir dans ces nouvelles fonctionnalités une porte ouverte vers l'usage d'algorithmes de machine learning pour faire de la recommandation conversationnelle.
 
 ### Fonctionnement d'un système de recommandation
 
-Comprendre les grands principes de fonctionnement d'un système de recommandation permet de mieux apprécier leurs spécificités, leurs contraintes et leurs avantages, et donc de pouvoir les concevoir d'un point de vue de design d'expérience. Sans entrer des détails trop pointus, on peut distinguer deux grandes catégories de système de recommandation : ceux basés sur le contenu et ceux dit "collaboratifs".[^0887] Le tableau ci-dessous présente quelques-unes de leurs caratéristiques.
-
-
-| Facteur |    Filtrage basé sur le contenu        |    Filtrage collaboratif                 |
-|---------|----------------------------------------|------------------------------------------|
-| source des mots | l'utilisateur lui-même | d'autres utilisateurs |
-| interprétabilité[^e393] | élevée | fabile |
-|  | utilise des informations descriptives sur les mots : fréquence d'utilisation, synonymes, concepts relatifs | utilise des d |
-| besoin de métadonnées | nécessite beaucoup de métadonnées sur les items, souvent fournies par des humains | n'a pas besoin d'informations labellisées par des humains |
-| temporalité | s'adapte aux changements de comportement | s'adapte doucement aux changements de comportements, si l'utilisateur change avec le temps il aura encore des recommandations basées sur ses goûts passés |
+Comprendre les grands principes de fonctionnement d'un système de recommandation permet de mieux apprécier leurs spécificités, leurs contraintes et leurs avantages, et donc de pouvoir les concevoir d'un point de vue de design d'expérience. Sans entrer des détails trop pointus, on peut distinguer deux grandes catégories de système de recommandation : ceux basés sur le contenu et ceux dit "collaboratifs".[^0887] Le schéma ci-dessous présente quelques-unes de leurs caratéristiques.
 
 Dans le cadre de l'autocomplétion, on pourrait par exemple différencier un système basé sur le contenu, qui recommenderait des mots liés par une relation de sens ou de syntaxe (par exemple un synonyme connu grâce à un dictionnaire) et des mots liés par un comportement collectif (par exemple des mots souvent associés par l'ensemble des utilisateurs).
+
+![Deux types de filtrage](images/types-de-filtrage.png)
 
 
 ### Design d'un système d'un système de recommandation
@@ -146,7 +141,7 @@ On peut voir dans l'autocomplétion une opportunité pour justement élargir cet
 
 ##### Gestion des données personnelles
 
-Le revers de la personnalisation, c'est la collecte massive de données personnelles. Ces données sont récupérées, stockées, analysées. La question de la protection de la vie privée est donc centrale. Il faut garder un certain recul sur la personnalité des utilisateurs perçue au travers de leurs données et garder à l'esprit qu'on ne peut pas rationnaliser la personnalité d'une personne aux données collectées sur elle. Donner aux gens accès aux données collectées sur eux, et leur permettre de les modifier est donc essentiel.
+Le revers de la personnalisation, c'est la collecte massive de données personnelles. Ces données sont récupérées, stockées, analysées. La question de la protection de la vie privée est donc centrale. Il faut garder du recul sur la personnalité des utilisateurs perçue au travers de leurs données et garder à l'esprit qu'on ne peut pas rationnaliser la personnalité d'une personne aux données collectées sur elle. Donner aux gens accès aux données collectées sur eux, et leur permettre de les modifier est donc essentiel.
 
 
 #### Vers de nouvelles manières de designer
@@ -272,7 +267,7 @@ La personnalisation, dans le sens de l'adaptation d'un système aux habitudes de
 
 > In other words, how are we to deal with a common problem faced by parents who often say to their children, _Don’t do what I do; do what I say_ ? Obviously while learning by observation is a good way to learn about things in the world and actions to take in certain contexts, it is not enough to actually know why you are taking an action, or when you should take an action. [@Hendler2016, 158]
 
-Cependant, comme le souligne Hendler dans son ouvrage sur ce qu'il appelle les "machines sociales", que ce soit par manque d'expérience ou par erreur de jugement, on est tous amené à faire des actions que l'on n'approuve pas tout à fait ou que l'on ne considère pas comme nous représentant réellement. Entre ce que je suis, ce que je fais, et ce que je voudrais être, il y a des écarts qui peuvent être lourds de signification. Or la personnalisation ne prend pas en compte ces contradictions qui font partie du comportement humain. Le système voit ainsi ses utilisateurs sous une identité simplifiée, caricaturale, pour des raisons qui peuvent être au mieux techniques, au pire foncièrement idéologiques[^a8fe]. C'est là un des enjeux de la personnalisation : comment faire le tri entre les actions qui sont signifiantes et celles qui ne le sont pas, et qui peuvent même être contradictoires avec la personnalité réelle d'un individu. \
+Cependant, comme le souligne Hendler dans son ouvrage sur ce qu'il appelle les "machines sociales", que ce soit par manque d'expérience ou par erreur de jugement, on est tous amené à faire des actions que l'on n'approuve pas tout à fait ou que l'on ne considère pas comme nous représentant réellement. Entre ce que je suis, ce que je fais, et ce que je voudrais être, il y a des écarts qui peuvent être lourds de signification. Or la personnalisation ne prend pas en compte ces contradictions qui font partie du comportement humain. Le système voit ainsi ses utilisateurs sous une identité simplifiée, caricaturale, pour des raisons qui peuvent être au mieux techniques, au pire foncièrement idéologiques[^a8fe]. C'est là un enjeu de la personnalisation : comment faire le tri entre les actions qui sont signifiantes et celles qui ne le sont pas, et qui peuvent même être contradictoires avec la personnalité réelle d'un individu. \
 
 C'est pourquoi un point primordial à prendre en considération est celui de permettre à l'usager de contrôler et de faire évoluer son identité. Cela impose de ne plus avoir une personnalisation entièrement autonome, mais guidée par l'utilisateur lui-même. Il s'agit donc de promouvoir des systèmes hybrides, qui combinent les données collectées avec les injonctions explicites de l'utilisateur final. C'est là que se situe vraiment l'opportunité de la personnalisation. Non pas dans l'adaptation "en arrière plan", mais dans le fait de donner à chacun la possibilité d'avoir explicitement le contrôle qu'il souhaite sur les systèmes qu'il utilise.
 
@@ -304,7 +299,7 @@ Ce mouvement est régulièrement critiqué, notamment par des personnes comme Ti
 ### ~~Tirer parti des ordinateurs plutôt que de les servir~~ => S'adapter à la logique computationnelle
 
 
-Un des principes évoqué dans _The Best Interface is No Interface_, est celui selon lequel ce n'est pas aux humains de s'adapter aux ordinateurs, mais aux ordinateurs de s'adapter aux humains. Et si, à l'inverse, encourager les usagers à s'adapter à leurs outils, c'était leur permettre de mieux les comprendre et de mettre en place les conditions nécessaires à une appropriation plus forte de la technologie par les gens qui la côtoient au quotidien ?
+Parmi les principes évoqués dans _The Best Interface is No Interface_, il y a celui selon lequel ce n'est pas aux humains de s'adapter aux ordinateurs, mais aux ordinateurs de s'adapter aux humains. Et si, à l'inverse, encourager les usagers à s'adapter à leurs outils, c'était leur permettre de mieux les comprendre et de mettre en place les conditions nécessaires à une appropriation plus forte de la technologie par les gens qui la côtoient au quotidien ?
 
 Pour illustrer son propos, Krishna prend l'exemple du remplissage de formulaires en ligne. Il évoque ce moment agaçant, quand on met des tirets, des espaces ou des points entre les nombres de notre numéro de téléphone, et que le système nous indique par un message d'erreur qu'il doit uniquement contenir des chiffres. Selon lui, il faut créer des systèmes qui savent reconnaître et interpréter ces "erreurs", de manière à ne pas ennuyer l'utilisateur avec des détails techniques, qui n'ont de sens que pour la machine.
 
@@ -312,32 +307,32 @@ Pour illustrer son propos, Krishna prend l'exemple du remplissage de formulaires
 
 Néanmoins, contraindre l'utilisateur à parler à l'ordinateur dans son langage, lui demander de s'adapter à son mode de compréhension, génère une connaissance plus juste de la réalité des capacités techniques des ordinateurs. Quand je rentre mon numéro de téléphone, mon ordinateur ne sait pas comment m'appeler, il associe simplement une suite de nombres à mon profil, sous le label "téléphone". M'obliger à ne pas utiliser d'espace quand je saisie mon numéro, c'est me rappeler que ce n'est pas mon numéro de téléphone que l'ordinateur comprend, mais bien une série de chiffres.
 
-La nuance est mince, mais contribue à alimenter une incompréhension de la technologie par les gens qui l'utilisent pourtant au quotidien. Or, une technologie incomprise génère de la frustration et restreint la créativité. Une étude conduite par Erika Shehan Poole et al montre que les problèmes posés par une mauvaise compréhension de la technologie incluent : de mauvaises suppositions sur les risques d'adoption de cette technologie; des attentes en terme de bénéfices qui sont en décalage avec la réalité des possibilités techniques; des difficultés à trouver des solutions quand intervient un problème avec celle-ci [@Poole2008]. Il cite l'exemple d'une personne qui pensait que les RFID étaient des traqueurs de position. Cette croyance populaire (que les auteurs nomment en anglais _folk theories_) le faisait s'inquiéter que des vendeurs ou des organisations gouvernementales utilisent des technologies basées sur le RFID pour l'espionner. Cette situation illustre comment un malentendu sur son fonctionnement peut avoir des conséquences considérables sur l'adoption d'une technologie. L'étude conclue également que, même s'ils portent en eux de sérieuses inquiétudes face aux nouvelles technologies, les participants étaient généralement réticents à faire remonter publiquement leurs doutes. Une des raisons avancée est qu'ils doutent de leur possibilité d'avoir leur mot à dire dans une évolution technologique qu'ils perçoivent comme inévitable.
+La nuance est mince, mais contribue à alimenter une incompréhension de la technologie par les gens qui l'utilisent pourtant au quotidien. Or, une technologie incomprise génère de la frustration et restreint la créativité. Une étude conduite par Erika Shehan Poole et al montre que les problèmes posés par une mauvaise compréhension de la technologie incluent : de mauvaises suppositions sur les risques d'adoption de cette technologie; des attentes en terme de bénéfices qui sont en décalage avec la réalité des possibilités techniques; des difficultés à trouver des solutions quand intervient un problème avec celle-ci [@Poole2008]. Il cite l'exemple d'une personne qui pensait que les RFID étaient des traqueurs de position. Cette croyance populaire (que les auteurs nomment en anglais _folk theories_) le faisait s'inquiéter que des vendeurs ou des organisations gouvernementales utilisent des technologies basées sur le RFID pour l'espionner. Cette situation illustre comment un malentendu sur son fonctionnement peut avoir des conséquences considérables sur l'adoption d'une technologie. L'étude conclue également que, même s'ils portent en eux de sérieuses inquiétudes face aux nouvelles technologies, les participants étaient généralement réticents à faire remonter publiquement leurs doutes. Une des raisons avancées est qu'ils doutent de leur possibilité d'avoir leur mot à dire dans une évolution technologique qu'ils perçoivent comme inévitable.
 
 > By removing our knowledge of the glue that holds the systems that make up the infrastructure together, it becomes much more difficult, if not impossible, to begin to understand how we are constructed as subjects, what types of systems are brought into place (legal, technical, social, etc.) and where the possibilities for transformation exist [@Ratto2007].
 
-Sur le même sujet, Matt Ratto souligne qu'une incompréhension de la technologie rend difficile, voir impossible une réflexion sur les possibilités de transformation de celle-ci. En ne montrant pas le fonctionnement d'un système, on retire aux gens leur abilité à le comprendre, le critiquer et le reconfigurer, c'est-à-dire leur abilité à imaginer que les choses soient différentes. Vu sous cet angle, le design "invisible" participe à creuser un fossé entre les professionnels qui créent des ces objets électroniques et les personnes qui les utilisent. On voit que les conclusions que l'étude témoignent d'un imaginaire technologique très limité chez les usagers (mauvaise estimation des possibilités techniques, difficulté d'improviser en cas de problème). Dans ce contexte, donner les clés de compréhension d'un système en demandant une adaptation des usagers à la logique computationnelle rendrait possible un renouvellement de cet imaginaire. Les objets électroniques et les logiciels ne devraient pas être vus uniquement comme complexes (même s'ils le sont indéniablement), ni comme une matière figée, mais au contraire comme des entités en permanente évolution, questionnables, et qui peuvent être modelées de manière collaborative [@Finn2017, 7].
+Sur le même sujet, Matt Ratto souligne qu'une incompréhension de la technologie rend difficile, voir impossible une réflexion sur les possibilités de transformation de celle-ci. En ne montrant pas le fonctionnement d'un système, on retire aux gens leur abilité à le comprendre, le critiquer et le reconfigurer, c'est-à-dire leur abilité à imaginer que les choses soient différentes. Vu sous cet angle, le design "invisible" participe à creuser un fossé entre les professionnels qui créent des ces objets électroniques et les personnes qui les utilisent. On voit que les conclusions que l'étude témoignent d'un imaginaire technologique limité chez les usagers (mauvaise estimation des possibilités techniques, difficulté d'improviser en cas de problème). Dans ce contexte, donner les clés de compréhension d'un système en demandant une adaptation des usagers à la logique computationnelle rendrait possible un renouvellement de cet imaginaire. Les objets électroniques et les logiciels ne devraient pas être vus uniquement comme complexes (même s'ils le sont indéniablement), ni comme une matière figée, mais au contraire comme des entités en permanente évolution, questionnables, et qui peuvent être modelées de manière collaborative [@Finn2017, 7].
 
 \newpage
 
 ### ~~La magie de l'invisibilité~~ => La nécessité de visibilité
 
-Les modèles statistiques utilisés par les algorithmes de machine learning permettent, par l'analyse de grandes quantités de données, de percevoir des corrélations invisibles pour un humain ordinaire. Ces liens mystérieux semblent sortis de nulle part, ils fascinent, bien qu'ils ne soient pas une source de connaissance explicable. A titre d'exemple, on peut penser aux "pics de rupture" appuyés sur les mises à jour de statut Facebook, qui montrent clairement une hausse au début du printemps et deux semaines avant Noël[^5ee2]. Il faut malgré tout garder à l'esprit que cette connaissance n'est pas forcément juste et indiscutable et que cela peut parfois se réveler problématique.
+Les modèles statistiques utilisés par les algorithmes de machine learning permettent, par l'analyse de grandes quantités de données, de percevoir des corrélations invisibles pour un humain ordinaire. Ces liens mystérieux semblent sortis de nulle part, ils fascinent, bien qu'ils ne soient pas une source de connaissance explicable. A titre d'exemple, on peut penser aux "pics de rupture" appuyés sur les mises à jour de statut Facebook, qui montrent clairement une hausse au début du printemps et deux semaines avant Noël[^5ee2]. Il faut malgré tout garder à l'esprit que cette connaissance n'est pas forcément juste et indiscutable et que cela peut se réveler problématique.
 
 #### Permettre de déceler les dysfonctionnements
 
 Pour illustrer cette problématique, on peut se pencher sur une étude exposant le problème posé par une faible intelligibilité des modèles basés sur du machine learning. "L'intelligibilité" correspond à la capacité à comprendre pourquoi le système prend une décision. \
 Cette étude se place dans le cadre de services de santé. Son but était de concevoir un modèle capable de déterminer les patients avec une haute probabilité de décès (PDD) par pneumonie de manière à les hospitaliser, et traiter ceux avec une faible probabilité en consultation externe [@Caruana2015][^a3fa]. Deux modèles sont envisagés : un basé sur des réseaux de neurones \[_neural networks_], avec une précision plus élevée mais jugé trop risqué, et un second, basé sur des règles, moins précis, et qui sera finalement choisi.
-Sans entrer dans des détails techniques[^32da], ce second modèle permet explicitement, contrairement au premier, de voir les relations entre entre chaque valeur analysée et la PDD associée. Il révèle par exemple que, statistiquement, être asthmatique est corrélé avec un faible niveau de PDD. À première vue, c'est une observation illogique. En fait, il s'avère que les patients atteints de pneumonie avec des antécédents asthmatiques sont généralement directement envoyés en unité de soins intensifs. Comme le pronostic pour ces patients est meilleur que la moyenne, leur chance de survie l'est également. Ainsi, la corrélation existe, mais il n'y pas de lien de causalité. Malgré sa puissance de calcul, l'analyse statistique ne permet pas de faire la différence entre une réelle bonne performance du système médical et une supposée robustesse de la santé du patient. Si le modèle basé sur le réseau de neurones avait été choisi, il aurait pu délibérement suggérer d'envoyer un patient asthmatique en consultation externe au lieu des urgences. Cet exemple illustre la nécessité de ne pas avoir une confiance absolue dans des algorithmes dont on n'est pas en mesure de comprendre le fonctionnement.
+Sans entrer dans des détails techniques[^32da], ce second modèle permet explicitement, contrairement au premier, de voir les relations entre entre chaque valeur analysée et la PDD associée. Il révèle par exemple que, statistiquement, être asthmatique est corrélé avec un faible niveau de PDD. À première vue, c'est une observation illogique. En fait, il s'avère que les patients atteints de pneumonie avec des antécédents asthmatiques sont généralement directement envoyés en unité de soins intensifs. Comme le pronostic pour ces patients est meilleur que la moyenne, leur chance de survie l'est également. Ainsi, la corrélation existe, mais il n'y pas de lien de causalité. Malgré sa puissance de calcul, l'analyse statistique ne permet pas de faire la différence entre une réelle bonne performance du système médical et une supposée robustesse de la santé du patient. Si le modèle basé sur le réseau de neurones avait été choisi, il aurait pu délibérement suggérer d'envoyer un patient asthmatique en consultation externe au lieu des urgences. Cet exemple illustre la nécessité de ne pas avoir une confiance absolue dans des algorithmes dont on n'est pas en mesure de comprendre le fonctionnement.[^fc8b]
 
-Dans un système d'autocomplétion basé sur du machine learning, une dérive pourrait par exemple se trouver si le système se mettait à associer... _trouver un exemple de ce type de problème dans le cadre du système d'autocomplétion_
+Dans un système d'autocomplétion basé sur du machine learning, une dérive pourrait par exemple se trouver si certaines associations statistiques de mots étaient révélatrices de préjugés. Par exemple, si les adjectifs associés à un pronom féminin étaient différents de ceux associés à un pronom masculin, et traduisaient une tendance à qualifier les femmes par leur physique et les hommes par leurs capacités. Ce ne serait pas un biais causé par le système d'autocomplétion, mais un biais qui existe dans le monde réel [@Bian2017] et qui serait ainsi prolongé. Une visibilité sur de telles corrélations peut permettre de mettre en place des rééquilibrages pour favoriser certains aspects de la langue. C'est par exemple le constat à l'origine d'une application de clavier initée par Plan International, le [sheboard](https://sheboard.com/) [@zotero-89]. Ce clavier a pour spécificité un système d'autocomplétion qui suggère spécifiquement des mots issus de champs lexicaux qui vont contre les préjugés que l'on porte envers les femmes.
 
-Si une vigilance lors du développement des systèmes est indispensable, effectuer une "médiation technique" avec l'utilisateur final peut aussi être pertinente. En énonçant clairement comment les suggestions sont produites, on peut permettre de relativiser des résultats inappropriés, incompris ou erronés.[^fc8b]
+![Le système d'autocomplétion de Sheboard est conçu de telle manière à favoriser l'association de noms féminins avec un champ lexical de la réussite et de la confiance en soi](images/sheboard.png)
+
+En énonçant ayant une visibilité sur comment les suggestions sont produites, on peut permettre de relativiser des résultats inappropriés, et mettre en place des stratégies pour leur faire face.
 
 
 \newpage
-
-
 
 
 ## Vers de nouvelles formes de collaboration humain-machine
@@ -351,10 +346,6 @@ Dans cette dernière partie, qui fait office de conclusion, nous allons définir
 
 > Maybe you want _chili technology_, maybe you actually think that technology is something a bit exciting that should push you a little bit. Not just being in the background and do just what you want to do, but sometimes, come in your life and have a kind of unexpected effect. [@Kaplan2007]
 
-<!-- Le piment est rouge, il est visible.
-Le piment est fort, il est perturbant.
-Le piment est un épice, il pousse à l'inventivité. -->
-
 Si les termes contestés dans les chapitres précédents ne sont pas satisfaisants, pourquoi ne pas en essayer un autre ? Dans une conférence à Lift en 2007, Frederic Kaplan évoque l'idée d'une "chili technology", qu'il oppose à la calm technology. Il définit ce type de technologie par sa capacité à être un peu excitante, à surprendre et à provoquer de l'inattendu. Une forme de technologie qui ne viendrait pas seulement résoudre un problème, mais pimenter la vie de tous les jours.
 
 
@@ -362,14 +353,19 @@ Si les termes contestés dans les chapitres précédents ne sont pas satisfaisan
 -> pas calme / excitante, surprenante
 -> fait pas juste ce que tu veux qu'elle fasse / A une forme d'autonomie, est là où on ne l'attend pas
 
-#### Une interface visible
-L'interface n'est ni une couche de décoration, ni une couche de facilitation. C'est un élément qui doit donner les clés de compréhension d'un système.
+
+#### Un objectif : pousser à l'inventivité
+L'objectif d'une application ne doit pas être vu sous l'angle utopique de rendre le monde meilleur, mais sous celui de créer un espace pour proposer des modes de pensée qui ne sont pas accessibles par un humain. Créer un espace littéral et intellectuel pour la pensée associative, la curiosité et la créativité.
 
 #### Une expérience perturbante
 Un logiciel doit montrer qu'il est là. L'utilisateur doit avoir conscience d'utiliser un système automatisé, pour pouvoir en tirer parti au maximum et ne pas être frustré lorsqu'il ne fonctionne pas.
 
-#### Un objectif : pousser à l'inventivité
-L'objectif d'une application ne doit pas être vu sous l'angle utopique de rendre le monde meilleur, mais sous celui de créer un espace pour proposer des modes de pensée qui ne sont pas accessibles par un humain. Créer un espace littéral et intellectuel pour la pensée associative, la curiosité et la créativité.
+#### Une interface visible
+L'interface n'est ni une couche de décoration, ni une couche superflue. C'est un élément qui doit donner les clés de compréhension d'un système.
+
+
+
+
 
 
 
@@ -393,16 +389,16 @@ Ces principes doivent nous amener à regarder les objets électroniques sous un 
 
 L'imaginaire que l'on associe aux "assistants personnel" est fortement influencé par une vision anthropomorphique de l'intelligence artificielle. On considère qu'un ordinateur intelligent est un ordinateur qui se comporte comme un humain : qui est capable de parler, écrire, être émotif. Mais les appareils électroniques peuvent avoir un intérêt au-delà de cette image de l'humain "augmenté". On peut voir l'autocomplétion non pas comme un assistant mais comme un _outil créatif_.
 
-La relation que l'on a avec un assistant est une relation hérarchique, il nous est subordonné. Il est celui auquel on délègue une tâche, qu'on est souvent en mesure de réaliser, mais qu'on n'a pas envie de faire. On peut émettre l'hypothèse qu'il faut repenser cette relation humain-machine, pour la voir plutôt comme une forme de collaboration.
+La relation que l'on a avec un assistant est une relation hiérarchique, il nous est subordonné. Il est celui auquel on délègue une tâche, qu'on est souvent en mesure de réaliser, mais qu'on n'a pas envie de faire. Pourquoi ne pas penser cette relation plutôt comme une forme de collaboration ?
 
-On peut voir dans les machines des opportunités pour penser et s'exprimer différement et non pas comme un assistant qui là pour nous permettre d'augmenter notre productivité. La clé de voûte de la relation humain-machine ne doit pas être la productivité mais l'inventivité.
+On peut voir dans les machines des opportunités pour penser et s'exprimer différement et non pas comme un assistant qui là pour nous permettre d'augmenter notre productivité. La clé de voûte de la relation humain-machine, notamment dans le cadre de systèmes d'aide à la parole et à l'écriture, est peut-être l'inventivité.
 Pour pouvoir profiter de ces qualités qui sont au-delà même de ce qu'on peut imaginer,
 
-Comme dans une équipe, le succès d'une collaboration réside dans la compréhension mutuelle entre les deux équipiers. Elle peut passer, comme nous l'avons vu dans la partie 2, par une interface qui laisse transparaître le fonctionnement du système. Mais elle peut aussi passer par le fait d'avoir des logiciels aisément configurables et reconfigurables. C'est-à-dire privilégier des formes de logiciel qui soient modulaires et paramétrables, permettant des possibilités d'utilisation exponentielles. Par _modulaire_ j'entends un logicel sur lequel on peut venir des greffer d'autre petits logiciels, de manière enrichir ses fonctionnalités. Par _paramétrable_ j'entends des possibilités de configuration étendues. Ces deux directions encouragent une diversité des fonctionnalités en laissant aux utilisateurs eux-mêmes la possibilité de personnaliser leurs outils.
+Comme dans une équipe, le succès d'une collaboration réside dans la compréhension mutuelle entre les deux équipiers. Elle peut passer, comme nous l'avons vu dans la partie 2, par une interface qui laisse transparaître le fonctionnement du système. Mais elle peut aussi passer par le fait d'avoir des logiciels aisément configurables. C'est-à-dire privilégier des formes de logiciel qui soient modulaires et paramétrables, permettant des possibilités d'utilisation exponentielles. Par _modulaire_ j'entends un logicel sur lequel on peut venir des greffer d'autre petits logiciels, de manière enrichir ses fonctionnalités. Par _paramétrable_ j'entends des possibilités de configuration étendues. Ces deux directions encouragent une diversité des fonctionnalités en laissant aux utilisateurs eux-mêmes la possibilité de personnaliser leurs outils.
 
 ### Le modèle des extensions
 
-Un modèle qui tire parti de cela est celui des extensions \[_addons_] pour navigateurs (Firefox ou Google Chrome par exemple). Une extension est un petit programme que l'on peut utiliser pour enrichir les fonctionnalités d'un navigateur. Ce n'est pas un logiciel ni une application en soit, mais un module que l'on peut greffer sur un logiciel existant pour étendre ses fonctions. Certaines extensions sont officielles et grand public (bloqueurs de publicité, calendriers, traducteurs). D'autres ressemblent plus à de petits _hacks_[^e149], par exemple _I'm not robot captcha clicker_ valide automatiquement le captcha pour faire gagner quelques secondes, ou bien _Disable Ctrl-Q_ empêche de fermer accidentellement son navigateur avec le raccourci clavier 'ctrl+Q'. D'autres enfin sont explicitement des projets artistiques, voir activitistes, par exemple [loveMachine](http://lovemachine.cc/), qui envoie un "j'aime" à toutes les publications disponibles dans le fil d'actualité de Facebook pour ne plus être touché efficacement par les publicités ciblées.\
+Un modèle qui tire parti de cette modularité est celui des extensions \[_addons_] pour navigateurs (Firefox ou Google Chrome par exemple). Une extension est un petit programme que l'on peut utiliser pour enrichir les fonctionnalités d'un navigateur. Ce n'est pas un logiciel ni une application en soit, mais un module que l'on peut greffer sur un logiciel existant pour étendre ses fonctions. Certaines extensions sont officielles et grand public (bloqueurs de publicité, calendriers, traducteurs). D'autres ressemblent plus à de petits _hacks_[^e149], par exemple _I'm not robot captcha clicker_ valide automatiquement le captcha pour faire gagner quelques secondes, ou bien _Disable Ctrl-Q_ empêche de fermer accidentellement son navigateur avec le raccourci clavier 'ctrl+Q'. D'autres enfin sont explicitement des projets artistiques, voir activitistes, par exemple [loveMachine](http://lovemachine.cc/), qui envoie un "j'aime" à toutes les publications disponibles dans le fil d'actualité de Facebook pour compliquer la tâche des entreprises faisant de la publicité ciblée.\
 Les extensions peuvent provenir de sources variées, de développeurs professionnels comme amateurs, et sont donc porteuses d'une diversité impossible à trouver dans un logiciel classique.
 
 
@@ -463,6 +459,19 @@ Ce texte est également disponible en ligne sur le site internet mathildebuenerd
 
 <!-- La bibliographie est générée automatiquement avec Zotero -->
 
+[#bibliography]: #
+
+### Iconographie
+
++ Filtrage collaboratif / Filtrage basé sur le contenu
+Schéma : http://i65.tinypic.com/2ebah6c.png
+Emojis : Par Twitter, www.flaticon.com
+Personnages : Par Freepik, www.flaticon.com
+
+
+
+
+
 [^f0f4]: [@Hall2017].
 
 [^a8fe]: On peut penser par exemple à Mark Zuckerberg, qui déclarait en 2011 à David Kirkpatrick dans _The Facebook Effect_ (Simon & Schuster) qu'avoir deux identités était un exemple de "manque d'intégrité".
@@ -478,8 +487,6 @@ Ce texte est également disponible en ligne sur le site internet mathildebuenerd
 [^5f04]: On peut également citer _The Invisible Computer_ de Don Norman, publié en 1998.
 
 [^3b2a]: C'est la vision à la base de la notion d'informatique ubiquitaire, que Weiser a contribué à définir et populariser. Voir http://www.ubiq.com/hypertext/weiser/UbiHome.html
-
-[^e393]: La capacité à comprendre quels critères ont déterminé une suggestion.
 
 [^57b4]: L'optimisation délibérée des contenus pour les rendre plus facilement indexables par un algorithme n'est que l'aspect le plus visible de cette négociation tacite. Parmi d'autres aspects Gillepsie cite l'utilisation de hashtags populaires non-relatifs au contenu pour se faire remarquer, ou encore les utilisateurs que P2P qui font exprès des fautes de frappes pour "cacher" un contenu illégal.
 
