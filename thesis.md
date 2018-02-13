@@ -337,119 +337,109 @@ En ayant une visibilité sur comment les suggestions sont produites, on offre la
 
 ## Vers de nouvelles formes de collaboration humain-machine
 
-Au cours des trois chapitres précédents, nous avons vu comment les logiciels changent, et pourraient changer notre manière d'interagir via la parole et l'écriture. Nous avons également vu quelles habitudes de conceptions instaurer pour tenir compte des spécificités des expériences basées sur des algorithmes. Ces habitudes s'articulent autour de trois points clés : en premier lieu, pousser à l'inventivité en priviliégiant une approche critique et en valorisant des usages insolites sur la résolution d'un problème. En second lieu affirmer la présence . Et enfin, expliquer le fonctionnement du système grâce à l'interface.
+Au cours des trois chapitres précédents, nous avons vu comment les logiciels changent, et pourraient changer notre manière d'interagir via la parole et l'écriture. Nous avons également vu quelles habitudes de conceptions instaurer pour tenir compte des spécificités des expériences basées sur des algorithmes. Ces habitudes s'articulent autour de trois points clés : en premier lieu, pousser à l'inventivité en priviliégiant une approche critique et en valorisant des usages insolites sur la résolution d'un problème. En second lieu assumer la complexité. Et enfin, expliquer le fonctionnement du système grâce à une interface qui montre l'envers du décor.
 
-Dans cette dernière partie, qui sert de conclusion, nous élargirons le sujet sur la relation humain-machine en questionnant l'idée d'assistant personnel et en désignant la modularité et la paramétrabilité d'un logiciel comme des caractéristiques essentielles.. Puis nous définirons l'idée de _technologie chili_ comme une synthèse des points évoqués dans les chapitres précédents
-
-
-### Une technologie _chili_
-
-> Maybe you want _chili technology_, maybe you actually think that technology is something a bit exciting that should push you a little bit. Not just being in the background and do just what you want to do, but sometimes, come in your life and have a kind of unexpected effect. [@Kaplan2007]
-
-Si les termes contestés dans les chapitres précédents ne sont pas satisfaisants, pourquoi ne pas en essayer un autre ? Dans une conférence à Lift en 2007, Frederic Kaplan évoque l'idée d'une "chili technology", qu'il oppose à la calm technology. Il définit ce type de technologie par sa capacité à être un peu excitante, à surprendre et à provoquer de l'inattendu. Une forme de technologie qui ne viendrait pas seulement résoudre un problème, mais pimenter la vie de tous les jours.
-
-
--> pas en arrière plan / Visible
--> pas calme / excitante, surprenante
--> fait pas juste ce que tu veux qu'elle fasse / A une forme d'autonomie, est là où on ne l'attend pas
-
-
-#### Un objectif : pousser à l'inventivité
-L'objectif d'une application ne doit pas être vu sous l'angle utopique de rendre le monde meilleur, mais sous celui de créer un espace pour proposer des modes de pensée qui ne sont pas accessibles par un humain. Créer un espace littéral et intellectuel pour la pensée associative, la curiosité et la créativité.
-
-#### Une expérience perturbante
-Un logiciel doit montrer qu'il est là. L'usager doit avoir conscience de se servir un système automatisé, pour pouvoir en tirer parti au maximum et ne pas être frustré lorsqu'il ne fonctionne pas.
-
-#### Une interface visible
-L'interface n'est ni une couche de décoration, ni une couche superflue. C'est un élément qui doit donner les clés de compréhension d'un système.
-
-
-
-
-
-
-
- Pour résumer, ces stratégies s'articulent autour de trois points.
-+ Un design _visible_
-  + L'élimination de toute forme de friction n'est pas un but.
-  + L'interface doit présenter de manière ostensible le parcours des données de l'usager.
-  + La présence de décisions basées sur des algorithmes doit être explicitement énoncée.
-+ Un design _subversif_
-  + Un usager n'a pas une identité unique. Le système doit  en compte ces variations.
-  + La présence de contrainte dans le parcours de l'usager doit être vue comme une aubaine pour proposer une expérience originale.
-+ Un design qui pousse à _l'inventivité_
-  + L'exploitation des caractéristiques des algorithmes est autant valable que la résolution d'un problème.
-  + Une approche critique de la technologie doit primer sur une approche naïve.
+Dans cette dernière partie, qui sert de conclusion, nous élargirons le sujet sur la relation humain-machine en questionnant l'idée d'assistant personnel et en désignant la modularité et la paramétrabilité d'un logiciel comme des caractéristiques essentielles. Puis nous définirons l'idée de _technologie chili_ comme une synthèse des points évoqués dans les chapitres précédents.
 
 
 
 ### La technologie en tant qu'outil créatif d'expression et non en temps qu'assistant
 
-Ces principes doivent nous amener à regarder les objets électroniques sous un regard qui n'est pas celui de l'assistant personnel. Est-on obligé de penser l'assistance sous l'angle d'une visée utilitariste ? N'y aurait-il pas des alternatives ?
+Les principes évoqués précédemment doivent nous amener à regarder les objets électroniques sous un regard qui n'est peut-être pas celui d'un _assistant_. Est-on obligé de penser l'assistance sous l'angle d'une visée utilitariste ? N'y aurait-il pas des alternatives ?
 
-L'imaginaire que l'on associe aux "assistants personnel" est influencé par une vision anthropomorphique de l'intelligence artificielle. On considère qu'un ordinateur intelligent est un ordinateur qui se comporte comme un humain : qui est capable de parler, écrire, être émotif. Mais les appareils électroniques peuvent avoir un intérêt au-delà de cette image de l'humain "augmenté". On peut voir l'autocomplétion non pas comme un assistant mais comme un _outil créatif_.
+L'imaginaire que l'on associe aux "assistants personnel" est influencé par une vision anthropomorphique de l'intelligence artificielle. Comme nous l'avons évoqué dans l'introduction avec le test de Turing et ELIZA, on a tendance à considérer qu'un ordinateur intelligent est un ordinateur qui se comporte comme un humain : qui est capable de parler, écrire, être émotif. Mais les appareils électroniques peuvent avoir un intérêt au-delà de cette image de l'humain "augmenté". On peut voir l'autocomplétion non pas comme un assistant mais comme un _outil créatif_. \
+Le terme d'asssitant induit une relation hiérarchique, un assistant nous est subordonné. Il est celui auquel on délègue une tâche, qu'on est souvent en mesure de réaliser, mais qu'on n'a pas envie de faire. Pourquoi ne pas penser cette relation plutôt comme une forme de collaboration ?
 
-La relation que l'on a avec un assistant est une relation hiérarchique, il nous est subordonné. Il est celui auquel on délègue une tâche, qu'on est souvent en mesure de réaliser, mais qu'on n'a pas envie de faire. Pourquoi ne pas penser cette relation plutôt comme une forme de collaboration ?
+### L'importance d'avoir des logiciels paramètrables et modulaires
 
-On peut voir dans les machines des circonstances nécessaires pour penser et s'exprimer différement et non pas un assistant qui là pour augmenter notre productivité. La clé de voûte de la relation humain-machine, notamment dans le cadre de systèmes d'aide à la parole et à l'écriture, est peut-être l'inventivité.
-Pour pouvoir profiter de ces qualités qui sont au-delà même de ce qu'on peut imaginer,
+Comme dans une équipe, la compréhension mutuelle entre les deux équipiers est un facteur déterminant pour le succès d'une collaboration. Elle peut passer, comme nous l'avons vu dans la partie 4, par une interface qui laisse transparaître le fonctionnement du système. Mais elle peut aussi passer par des logiciels modulaires et aisément paramétrables, permettant des possibilités d'usage exponentielles. Par _modulaire_ j'entends un logicel sur lequel on peut venir des greffer d'autre petits logiciels, de manière enrichir ses fonctionnalités. Par _paramétrable_ j'entends des possibilités de configuration étendues. Ces deux directions encouragent une diversité des fonctionnalités en laissant aux usagers eux-mêmes la possibilité de personnaliser leurs outils.
 
-Comme dans une équipe, le succès d'une collaboration réside dans la compréhension mutuelle entre les deux équipiers. Elle peut passer, comme nous l'avons vu dans la partie 2, par une interface qui laisse transparaître le fonctionnement du système. Mais elle peut aussi passer par des logiciels aisément configurables. C'est-à-dire privilégier des formes de logiciel qui soient modulaires et paramétrables, avec des possibilités d'usage exponentielles. Par _modulaire_ j'entends un logicel sur lequel on peut venir des greffer d'autre petits logiciels, de manière enrichir ses fonctionnalités. Par _paramétrable_ j'entends des possibilités de configuration étendues. Ces deux directions encouragent une diversité des fonctionnalités en laissant aux usagers eux-mêmes la possibilité de personnaliser leurs outils.
+> Ainsi, ce que dénonce David M. Berry, c’est bien le développement de certains types de machines (programmes) avec lesquelles nous ne pouvons strictement rien faire, ou peu faire, ou ne rien faire qui n’ait déjà été anticipé – des machines qui « rendent service » de façon si parfaitement programmée qu’aucune marge de manoeuvre ne sera possible, mettant ainsi en défaut toute conduite technique. Contre l’automatisation issue des sciences comportementales, il nous faut donc oeuvrer à rechercher et à créer des « marges d’indétermination » au sein de nos rapports aux machines. [@Masure2016]
+
+Comme le souligne Anthony Masure, la collaboration humain-machine ne doit pas passer par des machines qui seraient de plus en plus autonomes et ne laissent pas de marge de manoeuvre à l'usager; mais au contraire par des machines plus facilement manipulables. Si l'on commence à penser les "assistants" non pas comme des logiciels parfaitement conçus, à utiliser selon des critères prédéfinis, mais comme une base pouvant être étendue à l'infini par l'usager, alors on laisse une place à des usages originaux et inventifs.
 
 ### Le modèle des extensions
 
 Un modèle qui tire parti de cette modularité est celui des extensions \[_addons_] pour navigateurs (Firefox ou Google Chrome par exemple). Une extension est un petit programme qui enrichit les fonctionnalités d'un navigateur. Ce n'est pas un logiciel ni une application en soit, mais un module que l'on peut greffer sur un logiciel existant pour étendre ses fonctions. Certaines extensions sont officielles et grand public (bloqueurs de publicité, calendriers, traducteurs). D'autres ressemblent plus à de petits _hacks_[^e149], par exemple _I'm not robot captcha clicker_ valide le captcha à la place de l'usager pour lui faire gagner quelques secondes, ou bien _Disable Ctrl-Q_ empêche de fermer son navigateur par accident avec le raccourci clavier 'ctrl+Q'. D'autres enfin sont des projets artistiques, voir activitistes, par exemple [loveMachine](http://lovemachine.cc/), qui envoie un "j'aime" à toutes les publications disponibles dans le fil d'actualité de Facebook pour compliquer la tâche des entreprises faisant de la publicité ciblée.\
 Les extensions peuvent provenir de sources variées, de développeurs professionnels comme amateurs, ce qui les rend porteuses d'une diversité impossible à trouver dans un logiciel classique.
 
+### Une technologie chili
 
-### L'importance d'avoir des logiciels paramètrables et modulaires
+En conclusion, je souhaiterais définir l'idée d'une technologie "chili", comme alternative à celles évoquées dans les chapitres précédents.\
+Hélas, je ne considère pas que le monde de l'art et du design manque de termes spécialisés dont l'utilité est doûteuse [@Jacobi2005][^0f5d]. Cependant, il y a un an, quand j'ai commencé à définir mon sujet de mémoire, j'essayais en vain de l'articuler autour de la question de "comment les assistants personnels peuvent pimenter les relations sociales ?". Je tentais de le formuler différemment, mais cette idée de "piment" me restait toujours dans la tête. C'est alors que je suis tombée face à cette conférence de Frédéric Kaplan, vieille de déjà dix ans [@Kaplan2007]. Il présente durant une vingtaine de minutes différentes expérimentations mettant en scène AIBO, un robot-chien (ou chien-robot ?) de compagnie, développé par Sony et à la conception duquel il a contribué. Ces différentes expériences mettent en lumière les _relations_ de curiosité, de peur ou de complicité qui se créent entre le robot et l'environnement dans lequel il est déployé : les enfants, les autres animaux de compagnie ou le maître qui cherche à lui apprendre à reconnaître une balle. Pour conclure sa présentation il évoque l'idée d'une "technologie chili", qu'il place antipodes d'une technologie calme.
 
-> Ainsi, ce que dénonce David M. Berry, c’est bien le développement de certains types de machines (programmes) avec lesquelles nous ne pouvons strictement rien faire, ou peu faire, ou ne rien faire qui n’ait déjà été anticipé – des machines qui « rendent service » de façon si parfaitement programmée qu’aucune marge de manoeuvre ne sera possible, mettant ainsi en défaut toute conduite technique. Contre l’automatisation issue des sciences comportementales, il nous faut donc oeuvrer à rechercher et à créer des « marges d’indétermination » au sein de nos rapports aux machines." [@Masure2016]
+> Maybe you want _chili technology_, maybe you actually think that technology is something a bit exciting that should push you a little bit. Not just being in the background and do just what you want to do, but sometimes, come in your life and have a kind of unexpected effect.
 
-Si l'on commence à penser une application non pas comme un logiciel parfaitement conçu, à utiliser selon des critères prédéfinis, mais comme une base pouvant être étendue à l'infini par l'usager, alors on laisse une place à des usages originaux et inventifs. On laisse aussi la place à
+Il définit ce type de technologie par sa capacité à être un peu excitante, à surprendre et à faire naître des situations inattendues. Une forme de technologie qui ne viendrait pas seulement résoudre un problème, mais agrémenter la vie de tous les jours. C'est autour de cette base et des principes évoqués dans les chapitres précédents que se définissent les principes suivants.
 
+\newpage
 
+### Technologie chili
 
-|    Etat actuel                         |    Etat futur                            |
-|----------------------------------------|------------------------------------------|
-| quelques fonctionnalités activées en permanence | beaucoup de fonctionnalités activables/désactivables |
-| une interface pour tout le monde       | une interface par conversation/contextes |
-| fonctionnalités permanentes            | fonctionnalités interchangeables         |
-| monolithique                           | modulaire                                |
-| utilisable                             | configurable                             |
-| quelques grosses fonctionnalités       | ensemble de micro-fonctionnalités        |
+#### Un objectif : pousser à l'inventivité
+L'intérêt d'une technologie ne se résume pas à solutionner des problèmes. Elle permet de créer un espace pour la pensée associative et la curiosité.
 
+#### Une expérience surprenante
+Un système automatisé n'agit pas en arrière-plan. Il pousse l'usager à se dépasser, apprend de lui et lui fait front.
 
+#### Une interface visible
+L'interface n'est ni une couche d'embellissement, ni une couche accessoire. Elle doit donner les clés de compréhension du fonctionnement du système.
 
 \newpage
 
 
 ## Annexe : Et si... ?
 
-Toute au long de ce mémoire, j'ai défendu plusieurs principes qu'ils me semblent utiles de garder à l'esprit quand on conçoit l'expérience et l'interface d'un système d'autocomplétion.
+Toute au long de ce mémoire, j'ai défendu plusieurs principes pour la conception de l'expérience et l'interface d'un système d'autocomplétion.
 
-En parallèle, en temps que praticienne, il me paraissait important d'illustrer ces principes par des exemples d'application concrets. Cette annexe présente une petite collection d'interfaces fictionnelles, qui tirent parti des algorithmes de machine learning, en se plaçant dans la lignée de la technologie chili.
+En parallèle, en temps que designer, il me paraissait important d'illustrer ces principes par des exemples d'application. Cette annexe présente une petite collection d'interfaces fictionnelles, qui tirent parti des algorithmes de machine learning, en se plaçant dans la lignée de la technologie chili.
 
 \newpage
 
-### Gestionnaire de personnalité
+### Coach personnel pour les relations sociales
 
-![Et si... la personnalité n'était pas une chose figée dont il s'agirait de saisir l'exactitude, mais comme quelque chose de maléable, qui peut changer en fonction du moment de la journée ou même de la personne avec laquelle on parle ? Et si on donnait la possibilité à chacun de modeler sa personnalité en fonction de son humeur ?](images/principe-gestionnaire-humeur.png "")
+![Et si... on pouvait recevoir en temps réel des conseils pour améliorer sa manière de converser ?](images/annexe/mockup-assistant-personnel.png)
+
+\newpage
+
+### Templates de conversation
+
+![Et si... on pouvait télécharger (ou acheter) des templates de conversation ? Pour ne jamais être à court d'idées ?](images/annexe/mockup-template-de-conversation.png)
 
 \newpage
 
 ### Ecrire dans le style de...
 
-![Et si... on pouvait écrire dans le style de quelqu'un d'autre ?](images/write-in-the-style-of.png "")
+![Et si... on pouvait écrire dans le style des meilleurs écrivains ?](images/annexe/mockup-ecrire-dans-le-style-de.png)
+
+\newpage
+
+### Gestionnaire de personnalité
+
+![Et si... on pouvait changer son tempéramment en fonction du moment de la journée ou de la personne avec laquelle on parle, et ainsi obtenir des recommandations compatibles avec notre humeur ?](images/annexe/mockup-gestionnaire-de-personnalite.png)
+
+\newpage
+
+### Gestionnaire de vocabulaire
+
+![Et si... on pouvait contrôler précisemment son vocabulaire : ajouter, modifier ou supprimer des mots ? Et même, apprendre des mots nouveaux ?](images/annexe/mockup-gestionnaire-de-vocabulaire.png)
+
+\newpage
+
+### Différencier les mots complétés
+
+![Et si... l'autocomplétion devenait tellement utilisée qu'il serait nécessaire de préciser quand quelqu'un écrit "réellement" ?](images/annexe/mockup-emphase-sur-l-autocompletion-2.png)
+
+
 
 \newpage
 
 
 
-Imprimé à la HEAD - Genève, sur du papier ..., avec le caractères typographiques ...
+Imprimé à la HEAD - Genève, avec le caractères typographique GT America.
 
-Ce texte est également disponible en ligne sur le site internet mathildebuenerd.fr.
-
+Ce texte est également disponible en ligne sur le site internet
+alternative.mathildebuenerd.fr/memoire
 
 
 
@@ -463,10 +453,18 @@ Ce texte est également disponible en ligne sur le site internet mathildebuenerd
 
 ### Iconographie
 
-+ Filtrage collaboratif / Filtrage basé sur le contenu
-Schéma : http://i65.tinypic.com/2ebah6c.png
+#### Schéma filtrage collaboratif / filtrage basé sur le contenu
+Schéma inspiré de : http://i65.tinypic.com/2ebah6c.png
 Emojis : Par Twitter, www.flaticon.com
 Personnages : Par Freepik, www.flaticon.com
+
+#### Annexe
++ Mock-up téléphone : designed by Vexels.com
++ Interfaces :
+  + Design par Mathilde Buenerd
+  + Emojis par Twitter ou Freepik, www.flaticon.com
+  + Photographies par www.unsplash.com
+
 
 
 
@@ -521,3 +519,5 @@ Personnages : Par Freepik, www.flaticon.com
 [^82d2]: Pour une analyse plus détaillée des systèmes de correction, voir [@Christie2017].
 
 [^1cb3]: [@Arnall2013].
+
+[^0f5d]: Voir [@Feron].

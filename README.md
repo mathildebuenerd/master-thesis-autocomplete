@@ -8,10 +8,23 @@ Thanks to pandoc, the markdown file can be converted to many formats, including 
 
 When you import the icml file in indesign, the text can be very easily styled, because every markdown component is associated with a paragraph style (headers, lists, blockquotes, footnotes...), and the emphasis are associated with character styles. The footnotes remain dynamic, they are inserted at the bottom of the text block.
 
+## Softwares & plugins needed
+
+### For writing
+
++ [atom](https://atom.io/)
++ atom packages : [Markdown Preview Plus](https://atom.io/packages/markdown-preview-plus), [Markdown footnotes](https://atom.io/packages/markdown-footnote), [Zotero Markdown citations](https://atom.io/packages/zotero-citations), [Zotero picker](https://atom.io/packages/zotero-picker).
++ [Zotero](https://www.zotero.org/)
+
+### For converting
+
++ [Pandoc](https://pandoc.org/)
++ [XeLaTeX](https://doc.ubuntu-fr.org/xelatex)
+
 ## How to write ?
 
 + You can use all the markdown syntaxes supported by Pandoc. [Markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
-+ You can also add some latex commands such as `\newpage`
++ You can also add some latex commands such as `\newpage`.
 
 ## Convert to pdf (xelatex) with Pandoc
 
@@ -26,15 +39,4 @@ When you import the icml file in indesign, the text can be very easily styled, b
 
 ## Convert to icml (for indesign)
 
-## Software & plugins needed
-
-### For writing
-
-+ [atom](https://atom.io/)
-+ atom packages : [Markdown Preview Plus](https://atom.io/packages/markdown-preview-plus), [Markdown footnotes](https://atom.io/packages/markdown-footnote), [Zotero Markdown citations](https://atom.io/packages/zotero-citations), [Zotero picker](https://atom.io/packages/zotero-picker).
-+ Zotero
-
-### For converting
-
-+ [Pandoc](https://pandoc.org/)
-+ [XeLaTeX](https://doc.ubuntu-fr.org/xelatex)
+[How to convert to icml]()http://networkcultures.org/digitalpublishing/2014/10/08/markdown-to-indesign-with-pandoc-via-icml/
