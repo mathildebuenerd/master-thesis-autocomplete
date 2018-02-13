@@ -337,7 +337,7 @@ En ayant une visibilité sur comment les suggestions sont produites, on offre la
 
 ## Vers de nouvelles formes de collaboration humain-machine
 
-Au cours des trois chapitres précédents, nous avons vu comment les logiciels changent, et pourraient changer notre manière d'interagir via la parole et l'écriture. Nous avons également vu quelles habitudes de conceptions instaurer pour tenir compte des spécificités de ces expériences basées sur des algorithmes.
+Au cours des trois chapitres précédents, nous avons vu comment les logiciels changent, et pourraient changer notre manière d'interagir via la parole et l'écriture. Nous avons également vu quelles habitudes de conceptions instaurer pour tenir compte des spécificités des expériences basées sur des algorithmes. Ces habitudes s'articulent autour de trois points clés : en premier lieu, priviliégier une approche critique 
 
 Dans cette dernière partie, qui sert de conclusion, nous allons définir l'idée de _technologie chili_ comme une synthèse des points évoqués dans les chapitres précédents. Puis nous élargirons le sujet sur la relation humain-machine en questionnant l'idée d'assistant personnel et en désignant la modularité et la paramétrabilité d'un logiciel comme des caractéristiques essentielles.
 
