@@ -6,9 +6,53 @@ window.addEventListener('resize', () => {
     placeFootnotes();
 });
 
+window.addEventListener('scroll', (e) => {
+    console.log(e.pageY);
+
+    let chapters = document.querySelectorAll('h2');
+    let currentChapterNumber = findCurrentChapter(e.pageY);
+
+    function findCurrentChapter(scrollPosition) {
+        for (let i=0; i<chapters.length; i++) {
+            if (scrollPosition < chapters[i].offsetTop) {
+                return i-1;
+            }
+        }
+    }
+    let currentChapter = '';
+
+    if (currentChapterNumber === -1) {
+        currentChapter = 'test';
+    } else {
+        currentChapter = chapters[currentChapterNumber].textContent;
+    }
+
+    // updateTimeline();
+    //
+    // function updateTimeline() {
+    //
+    //
+    // }
+    //
+    // console.log('current section');
+    // console.log(currentChapter);
+
+    // update the current chapter displayed in the timeline
+    let chapterBar = document.querySelector('#currentChapter');
+    chapterBar.textContent = currentChapter;
+
+
+
+
+
+
+
+});
+
 
 function setup() {
     placeFootnotes();
+    createTimeline();
 }
 
 
@@ -41,4 +85,17 @@ function placeFootnotes() {
         // we also remove the backlink to the footnote, because the footnote is very close to the text
         notesContent[i].querySelector('.footnote-back').style.display = 'none';
     }
+}
+
+
+function createTimeline() {
+
+    let chapterBar = document.createElement('div');
+    chapterBar.setAttribute('id', 'chapterBar');
+    let currentChapter = document.createElement('p');
+    currentChapter.setAttribute('id', 'currentChapter');
+    chapterBar.appendChild(currentChapter);
+
+    document.body.appendChild(chapterBar);
+
 }

@@ -73,6 +73,7 @@ Ce mémoire n'est pas une contestation unilatérale des principes ou des mouveme
 
 \newpage
 
+
 <!-- \part{Du système d'autocomplétion au système de recommandation} -->
 
 ## Du système d'autocomplétion au système de recommandation
