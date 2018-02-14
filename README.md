@@ -30,6 +30,12 @@ When you import the icml file in indesign, the text can be very easily styled, b
 
 `pandoc thesis.md --pdf-engine=xelatex --bibliography citations-thesis.bib -o thesis.pdf`
 
++ With colored hyperlinks
+`pandoc thesis.md --pdf-engine=xelatex --variable urlcolor=blue --bibliography citations-thesis.bib -o thesis.pdf`
+
+<!-- + Avec un header LaTeX
+`pandoc -N --template=template.tex thesis.md --pdf-engine=xelatex --variable urlcolor=blue --bibliography citations-thesis.bib -o 14.02.12.22.pdf` -->
+
 + `thesis.md` is the input file.
 + `thesis.pdf` is the output file.
 + `citations-thesis.bib` is the bib file created with [Zotero](https://www.zotero.org/). Zotero needs to be open at the time of converting. The bibliography is parsed at the end of the file.
@@ -39,4 +45,16 @@ When you import the icml file in indesign, the text can be very easily styled, b
 
 ## Convert to icml (for indesign)
 
-[How to convert to icml]()http://networkcultures.org/digitalpublishing/2014/10/08/markdown-to-indesign-with-pandoc-via-icml/
+### Convert it
+
+[How to convert to icml](http://publicationstation.wdka.hro.nl/wiki/index.php/Research/Web-to-print/ICML)
+
++ Convert without bibliography
+`pandoc -s -f markdown -t icml -o thesis.icml thesis.md`
+
++ Convert with the bibliography
+`pandoc -s -f markdown -t icml --bibliography citations-thesis.bib -o thesis.icml thesis.md`
+
+### Import it in indesign
+
+File > Place (Fichier > Importer), then `maj` + click at the top left of the first _page_ (not gabarit). The page have to be empty, the block will be created automatically.

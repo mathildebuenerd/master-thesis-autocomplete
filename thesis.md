@@ -1,13 +1,12 @@
+
 % Converser à l'ère de l'autocomplétion
 % Mathilde Buenerd, Tuteur: Nicolas Nova
 % Janvier 2018
 
----
-title: "Ma master thesis"
----
 
 <link rel="stylesheet" href="style.css"></link>
 
+<!-- Format de citation à générer -->
 [#citation-style]: #chicago-author-date-fr
 
 \newpage
@@ -42,7 +41,9 @@ Les mots en italique entre \[_crochets_] sont utilisés pour clarifier la réfé
 
 \newpage
 
-## Introduction
+<!-- ## Introduction -->
+
+\part{Introduction}
 
 _Regime of computation_ [@Hayles2005], _Age of the algorithm_ [@Finn2017], ou encore _"logicialisation"_ de la société [@Citton2015], autant de termes pour désigner un même phénomène : la place grandissante du logiciel \[_software_] dans la société, à une échelle importante et dans des domaines variés : travail, finance, relations sociales etc. Une ère dominée par la figure de l'algorithme comme structure ontologique de compréhension de l'univers [@Finn2017, 21].
 
@@ -74,8 +75,9 @@ Ce mémoire n'est pas une contestation unilatérale des principes ou des mouveme
 
 \newpage
 
+\part{Du système d'autocomplétion au système de recommandation}
 
-## Du système d'autocomplétion au système de recommandation
+<!-- ## Du système d'autocomplétion au système de recommandation -->
 
 ### D'une aide à la saisie vers une aide à l'écriture
 
@@ -437,11 +439,6 @@ alternative.mathildebuenerd.fr/memoire
 
 \newpage
 
-## Bibliographie
-
-<!-- La bibliographie est générée automatiquement avec Zotero -->
-
-[#bibliography]: #
 
 ### Iconographie
 
@@ -458,7 +455,9 @@ Personnages : Par Freepik, www.flaticon.com
   + Photographies par www.unsplash.com
 
 
+\newpage
 
+## Bibliographie
 
 
 

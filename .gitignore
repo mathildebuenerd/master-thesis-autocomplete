@@ -1,1 +1,3 @@
 *.pdf
+.idlk
+tex2pdf.*
