@@ -41,7 +41,7 @@ Les mots en italique entre \[_crochets_] sont utilisés pour clarifier la réfé
 
 <!-- ## Introduction -->
 
-\part{Introduction}
+## Introduction
 
 _Regime of computation_ [@Hayles2005], _Age of the algorithm_ [@Finn2017], ou encore _"logicialisation"_ de la société [@Citton2015], autant de termes pour désigner un même phénomène : la place grandissante du logiciel \[_software_] dans la société, à une échelle importante et dans des domaines variés : travail, finance, relations sociales etc. Une ère dominée par la figure de l'algorithme comme structure ontologique de compréhension de l'univers [@Finn2017, 21].
 
@@ -73,9 +73,9 @@ Ce mémoire n'est pas une contestation unilatérale des principes ou des mouveme
 
 \newpage
 
-\part{Du système d'autocomplétion au système de recommandation}
+<!-- \part{Du système d'autocomplétion au système de recommandation} -->
 
-<!-- ## Du système d'autocomplétion au système de recommandation -->
+## Du système d'autocomplétion au système de recommandation
 
 ### D'une aide à la saisie vers une aide à l'écriture
 
@@ -96,8 +96,6 @@ La seconde est celle qui vient suggérer des mots ou des phrases complètes, en 
 Recourir à des statistiques et des probabilités pour prédire ou anticiper les actions de quelqu'un, c'est l'idée au centre d'un champ d'étude de l'intelligence artificielle particulièrement en vogue, le _machine learning_[^152f], qu'on peut traduire en français par _apprentissage automatique_. Ces algorithmes font fonctionner les assistants personnels comme Siri et produisent les recommandations personnalisées de Spotify ou d'Amazon. Ces programmes cherchent à prédire un comportement futur en se basant sur une analyse statistique des comportements passés. Ils apprenent du comportement de l'usager, et évoluent en fonction de ses habitudes. Le corollaire d'une telle technique consiste en une personnalisation grandissante de l'expérience utilisateur : le programme "s'adapte" à chaque individu.
 
 La place centrale qu'a pris la prédiction dans les systèmes d'autocomplétion fait qu'on peut les définir comme des _systèmes de recommandation pour l'écriture_. C'est-à-dire, des systèmes qui cherchent à prédire la préférence d'une personne pour un mot, une phrase, un emoji ou une idée.
-
-##### "Répondre sans taper, dans son propre style"
 
 ![Google Allo : "Répondre sans taper, dans son propre style"](images/allo-your-style.png "Respond without typing, in your style")
 
@@ -150,7 +148,8 @@ Les trois prochains chapitres sont une relecture de ces trois caractéristiques.
 \newpage
 
 
-\part{\sout{utilisabilité} => inventivité}
+<!-- \part{\sout{utilisabilité} => inventivité} -->
+## utilisabilité => inventivité
 
 L'_utilisabilité_ peut se définir par la capacité d'un objet à être utilisé de manière efficace (atteindre le but prévu), efficiente (atteindre ce but avec un effort minimal) et générer une satisfaction de l'utilisateur (être agréable à utiliser)[^0f35].
 
@@ -200,7 +199,8 @@ Si l'argument de la "communication efficace" n'est pas univoque, doit-on pour au
 \newpage
 
 
-\part{\sout{technologie calme} => technologie perturbante}
+<!-- \part{\sout{technologie calme} => technologie perturbante} -->
+## technologie calme => technologie perturbante
 
 La notion de "technologie calme" \[_calm technology_] est introduite en 1995 par Mark Weiser et John Seely Brown dans le texte _Designing Calm Technology_ [@Weiser1995]. Ces deux figures, occupant alors des postes à responsabilité au XEROX Parc, et notamment Weiser, considéré comme le père de l'informatique ubiquitaire, font le constat que les technologies de l'information sont de plus en plus invasives et accaparent trop l'attention. Contre cette tendance, ils expriment leur souhait d'une technologie calme, c'est-à-dire qui n'accapare pas explicitement l'attention de l'utilisateur, et se situe en périphérie de celui-ci.
 
@@ -269,7 +269,8 @@ De ce point de vue, l'idée d'une technologie qui capte en arrière-plan des inf
 
 \newpage -->
 
-\part{\sout{design invisible} => design visible}
+<!-- \part{\sout{design invisible} => design visible} -->
+## design invisible => design visible
 
 #### "La meilleure interface est... pas d'interface"
 
@@ -320,7 +321,8 @@ En ayant une visibilité sur comment les suggestions sont produites, on offre la
 \newpage
 
 
-\part{Vers de nouvelles formes de collaboration humain-machine}
+<!-- \part{Vers de nouvelles formes de collaboration humain-machine} -->
+## Vers de nouvelles formes de collaboration humain-machine
 
 Au cours des trois chapitres précédents, nous avons vu comment les logiciels changent, et pourraient changer notre manière d'interagir via la parole et l'écriture. Nous avons également vu quelles habitudes de conceptions instaurer pour tenir compte des spécificités des expériences basées sur des algorithmes. Ces habitudes s'articulent autour de trois points clés : en premier lieu, pousser à l'inventivité en priviliégiant une approche critique et en relativisant l'idée que le design a pour but la résolution d'un problème. En second lieu imaginer des expériences plus surprenantes en valorisant des usages insolites de la technologie et en la mettant au centre de l'attention plutôt qu'en périphérie. Et enfin, ne pas voir l'interface comme un acte de polissage mais comme un moyen de rendre visible fonctionnement du système.
 

@@ -43,9 +43,10 @@ When you import the icml file in indesign, the text can be very easily styled, b
 
 ## Convert to html
 
-`pandoc -s thesis.md --bibliography citations-thesis.bib -o html/thesis.html`
+`pandoc -s thesis.md --bibliography citations-thesis.bib --toc -o html/thesis.html`
 
-Note : the '-s' is for 'standalone', it's used to produce a valid HTML file with a doctype, head, body etc.
++ '-s' is for 'standalone', it's used to produce a valid HTML file with a doctype, head, body etc.
++ '--toc' is for 'table of content'
 
 ## Convert to icml (for indesign)
 

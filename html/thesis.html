@@ -23,6 +23,54 @@
 <p class="author">Mathilde Buenerd, Tuteur: Nicolas Nova</p>
 <p class="date">Janvier 2018</p>
 </header>
+<nav id="TOC">
+<ul>
+<li><a href="#converser-à-lère-de-lautocomplétion">Converser à l’ère de l’autocomplétion</a><ul>
+<li><a href="#remerciements">Remerciements</a></li>
+<li><a href="#sommaire">Sommaire</a></li>
+<li><a href="#introduction">Introduction</a><ul>
+<li><a href="#présentation-du-mémoire">Présentation du mémoire</a></li>
+</ul></li>
+<li><a href="#du-système-dautocomplétion-au-système-de-recommandation">Du système d’autocomplétion au système de recommandation</a><ul>
+<li><a href="#dune-aide-à-la-saisie-vers-une-aide-à-lécriture">D’une aide à la saisie vers une aide à l’écriture</a></li>
+<li><a href="#lautocomplétion-aujourdhui">L’autocomplétion aujourd’hui</a></li>
+<li><a href="#fonctionnement-dun-système-de-recommandation">Fonctionnement d’un système de recommandation</a></li>
+<li><a href="#design-dun-système-dun-système-de-recommandation">Design d’un système d’un système de recommandation</a></li>
+<li><a href="#vers-de-nouvelles-manières-de-designer">Vers de nouvelles manières de designer</a></li>
+</ul></li>
+<li><a href="#utilisabilité-inventivité">utilisabilité =&gt; inventivité</a><ul>
+<li><a href="#des-expériences-pleines-de-bonnes-intentions-des-expériences-critiques"><del>Des expériences pleines de bonnes intentions</del> / Des expériences critiques</a></li>
+<li><a href="#la-quête-de-lefficacité-la-quête-de-la-singularité"><del>La quête de l’efficacité</del> / La quête de la singularité</a></li>
+</ul></li>
+<li><a href="#technologie-calme-technologie-perturbante">technologie calme =&gt; technologie perturbante</a><ul>
+<li><a href="#une-technologie-qui-fait-juste-ce-quon-lui-demande-une-technologie-qui-agit-là-où-on-ne-lattend-pas"><del>Une technologie qui fait <em>juste</em> ce qu’on lui demande</del> / Une technologie qui agit là où on ne l’attend pas</a></li>
+<li><a href="#une-technologie-qui-agit-en-arrière-plan-une-technologie-explicitement-paramétrable"><del>Une technologie qui agit en arrière-plan</del> / Une technologie explicitement paramétrable</a></li>
+<li><a href="#ne-pas-en-dire-trop-sur-comment-le-système-fonctionne-dire-clairement-comment-le-système-fonctionne"><del>Ne pas en dire trop sur comment le système fonctionne</del> =&gt; Dire clairement comment le système fonctionne</a></li>
+</ul></li>
+<li><a href="#design-invisible-design-visible">design invisible =&gt; design visible</a><ul>
+<li><a href="#tirer-parti-des-ordinateurs-plutôt-que-de-les-servir-sadapter-à-la-logique-computationnelle"><del>Tirer parti des ordinateurs plutôt que de les servir</del> =&gt; S’adapter à la logique computationnelle</a></li>
+<li><a href="#la-magie-de-linvisibilité-la-nécessité-de-visibilité"><del>La magie de l’invisibilité</del> =&gt; La nécessité de visibilité</a></li>
+</ul></li>
+<li><a href="#vers-de-nouvelles-formes-de-collaboration-humain-machine">Vers de nouvelles formes de collaboration humain-machine</a><ul>
+<li><a href="#la-technologie-en-tant-quoutil-créatif-dexpression-et-non-en-temps-quassistant">La technologie en tant qu’outil créatif d’expression et non en temps qu’assistant</a></li>
+<li><a href="#collaboration-humain-machine">Collaboration humain-machine</a></li>
+<li><a href="#des-logiciels-paramétrable-et-modulaires-le-modèle-des-extensions">Des logiciels paramétrable et modulaires : le modèle des extensions</a></li>
+<li><a href="#une-technologie-chili">Une technologie chili</a></li>
+<li><a href="#technologie-chili">Technologie chili</a></li>
+</ul></li>
+<li><a href="#annexe-et-si">Annexe : Et si… ?</a><ul>
+<li><a href="#coach-personnel-pour-les-relations-sociales">Coach personnel pour les relations sociales</a></li>
+<li><a href="#templates-de-conversation">Templates de conversation</a></li>
+<li><a href="#ecrire-dans-le-style-de">Ecrire dans le style de…</a></li>
+<li><a href="#gestionnaire-de-personnalité">Gestionnaire de personnalité</a></li>
+<li><a href="#gestionnaire-de-vocabulaire">Gestionnaire de vocabulaire</a></li>
+<li><a href="#différencier-les-mots-complétés">Différencier les mots complétés</a></li>
+<li><a href="#iconographie">Iconographie</a></li>
+</ul></li>
+<li><a href="#bibliographie">Bibliographie</a></li>
+</ul></li>
+</ul>
+</nav>
 <p><link rel="stylesheet" href="style.css"></link></p>
 <!-- Format de citation à générer -->
 
@@ -41,7 +89,7 @@
 <h2 id="sommaire">Sommaire</h2>
 
 <!-- ## Introduction -->
-
+<h2 id="introduction">Introduction</h2>
 <p><em>Regime of computation</em> <span class="citation" data-cites="Hayles2005">(Hayles 2005)</span>, <em>Age of the algorithm</em> <span class="citation" data-cites="Finn2017">(Finn 2017)</span>, ou encore <em>“logicialisation”</em> de la société <span class="citation" data-cites="Citton2015">(Citton 2015)</span>, autant de termes pour désigner un même phénomène : la place grandissante du logiciel [<em>software</em>] dans la société, à une échelle importante et dans des domaines variés : travail, finance, relations sociales etc. Une ère dominée par la figure de l’algorithme comme structure ontologique de compréhension de l’univers <span class="citation" data-cites="Finn2017">(Finn 2017, 21)</span>.</p>
 <p>Une incarnation du logiciel dans la vie quotidenne concerne la multiplication des assistants personnels ou de ce qu’on pourrait nommer des <em>machines sociales</em> <span class="citation" data-cites="Hendler2016">(Hendler and Mulvehill (auth.) 2016, 10)</span>, au sens d’ordinateurs qui ont la capacité d’interagir dans un espace social traditionnellement réservé aux humains. C’est le cas des applications de messagerie (email) ou de messagerie instantanée (Messenger, Whatsapp et autres) ou encore des assistants personnels (Siri, Alexa…). Plus que de simples intermédaires, ces services impliquent de nouvelles manières d’écrire, d’échanger, et au final, de converser. Ces nouvelles manières de s’exprimer sont permises entre autres par des fonctionnalités telles que l’autocomplétion.</p>
 <p>L’autocomplétion désigne la fonctionnalité informatique consistant à compléter les mots qu’un usager a commencé à saisir. C’est une fonctionnalité majeure sur le web et dans les applications de conversation à distance. Elle devient une caractéristique incontournable dans le design de l’expérience utilisateur, en témoignent la multiplication de widgets comme <a href="http://jqueryui.com/"><em>autocomplete</em></a> du populaire jQueryUI (collection d’outils à destination des développeurs pour faciliter la création de sites internet). Synonyme de <em>complètement</em>, <em>complètement automatique</em> ou encore <em>saisie intuitive</em> ou <em>saisie prédicitive</em>, le terme d’<em>autocomplétion</em> a été choisi ici pour sa proximité avec le terme anglais <em>autocomplete</em>, largement employé dans le monde de la programmation informatique.</p>
@@ -55,8 +103,8 @@ Parce que l’autocomplétion impacte notre manière de parler et d’échanger,
 <p>En premier lieu, il s’agira d’expliquer pourquoi l’évolution du fonctionnement technique des systèmes d’autocomplétion, notamment grâce aux algorithmes de <em>machine learning</em>, nécessitent de repenser la manière dont on les conçoit (partie 1). Ensuite, trois idées seront développées : celles d’un design visible, perturbant et qui pousse à l’inventivité (parties 2 à 4). Au centre de ces thématiques se trouvent deux grandes questions : comment le design d’interface peut rendre intelligible comment un système fonctionne ? Comment penser des formes de technologies qui ne sont pas juste auxiliaires, mais provocatrices, excitantes ? La dernière partie sera dédiée à un questionnement plus large sur la collaboration humain-machine, et à la définition de la notion de <em>technologie chili</em> comme alternative aux tendances évoquées dans les chapitres précédents (partie 5). Enfin, une annexe présentera des exemples d’application des principes évoqués au cours du mémoire, dans le cadre d’une application de messagerie fictionnelle.</p>
 <p>Ce mémoire n’est pas une contestation unilatérale des principes ou des mouvements évoqués, mais plutôt une invitation à sortir de la rhétorique de “l’invisibilité” ou de “l’intuitivité” qu’on attribue au design d’interaction. Ce changement de perspective est là pour réimaginer les interactions humain-machine dans une optique où l’humour, la provocation et l’excitation sont au centre des préoccupations.</p>
 
-
-<!-- ## Du système d'autocomplétion au système de recommandation -->
+<!-- \part{Du système d'autocomplétion au système de recommandation} -->
+<h2 id="du-système-dautocomplétion-au-système-de-recommandation">Du système d’autocomplétion au système de recommandation</h2>
 <h3 id="dune-aide-à-la-saisie-vers-une-aide-à-lécriture">D’une aide à la saisie vers une aide à l’écriture</h3>
 <p>Dans le champ de la téléphonie mobile, l’autocomplétion est présente depuis plusieurs années en tant qu’aide à la saisie. A la fin des années 90, la majorité des terminaux mobiles possèdent un clavier à 12 chiffres, proche de celui des cadrans téléphoniques. Il est conçu avant tout pour la saisie de numéros de téléphone et pas pour celle de textos. Pour pouvoir y saisir du texte, chaque touche possède plusieurs lettres associées (par exemple le ‘2’ sert aussi à saisir les lettres ‘a’, ‘b’ et ‘c’), ce qui implique un problème de désambiguïsation [<em>disambiguation</em>] lors de la saisie : comment savoir si l’usager a voulu taper un ‘a’, un ‘b’ ou un ‘c’ ? Les développeurs ont recours à des méthodes d’entrée pragmatiques, comme le <em>mutli-press</em> (presser une fois pour ‘a’, deux fois pour ‘b’, trois fois pour ‘c’) ou le <em>two-keys</em> (presser ‘abc’ puis ‘1’ pour ‘a’, ‘abc’ puis ‘2’ pour ‘b’, etc.)<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a>. De manière plus originale, des systèmes comme le T9<a href="#fn3" class="footnote-ref" id="fnref3"><sup>3</sup></a> adoptent une approche linguistique basée sur un dictionnaire comportant tous les mots de la langue <span class="citation" data-cites="Grover1998">(Grover, King, and Kushler 1998)</span>. Bien que plusieurs lettres soient associées à une même touche, une séquence de touches ne pourra produire qu’un petit nombre de mots<a href="#fn4" class="footnote-ref" id="fnref4"><sup>4</sup></a>. En combinant cela au fait que les mots ont des fréquences différentes (‘tu’ est beaucoup plus fréquent que ‘accordéon’), on obtient un système capable de <em>prédire</em> quel mot a le plus de chance d’être écrit. C’est d’ailleurs le terme de “texte prédictif” [<em>predictive text</em>] qui est adopté pour désigner cette technologie de complétion.</p>
 <p>Bien que visant à résoudre le problème d’ambiguïté de la saisie, le T9 introduit une méthode de saisie qui comporte des similarités avec les systèmes d’autocomplétion actuels, c’est-à-dire parier sur un mot en se basant sur des données (un dictionnaire) et des probabilités (les fréquences).</p>
@@ -71,7 +119,6 @@ Parce que l’autocomplétion impacte notre manière de parler et d’échanger,
 La seconde est celle qui vient suggérer des mots ou des phrases complètes, en se basant sur le début de notre phrase ou de celle de notre interlocuteur. Elle est plus proche d’une aide à l’écriture, dans la mesure où elle est plus envahissante. Ce type d’autocomplétion tente de prédire ce que l’on veut dire en se basant sur les mots déjà écrits, et sur les fréquences d’association des mots entre eux (par exemple une phrase qui commence par “Merci” a plus de chances d’être suivie de “beaucoup” que de “accordéon”). Ces fréquences sont calculées grâce à une approche statistique de la langue qui consiste à analyser des ensembles de milliers de textes appelés <em>corpus</em>.</p>
 <p>Recourir à des statistiques et des probabilités pour prédire ou anticiper les actions de quelqu’un, c’est l’idée au centre d’un champ d’étude de l’intelligence artificielle particulièrement en vogue, le <em>machine learning</em><a href="#fn5" class="footnote-ref" id="fnref5"><sup>5</sup></a>, qu’on peut traduire en français par <em>apprentissage automatique</em>. Ces algorithmes font fonctionner les assistants personnels comme Siri et produisent les recommandations personnalisées de Spotify ou d’Amazon. Ces programmes cherchent à prédire un comportement futur en se basant sur une analyse statistique des comportements passés. Ils apprenent du comportement de l’usager, et évoluent en fonction de ses habitudes. Le corollaire d’une telle technique consiste en une personnalisation grandissante de l’expérience utilisateur : le programme “s’adapte” à chaque individu.</p>
 <p>La place centrale qu’a pris la prédiction dans les systèmes d’autocomplétion fait qu’on peut les définir comme des <em>systèmes de recommandation pour l’écriture</em>. C’est-à-dire, des systèmes qui cherchent à prédire la préférence d’une personne pour un mot, une phrase, un emoji ou une idée.</p>
-<h5 id="répondre-sans-taper-dans-son-propre-style">“Répondre sans taper, dans son propre style”</h5>
 <figure>
 <img src="images/allo-your-style.png" title="Respond without typing, in your style" alt="Google Allo : “Répondre sans taper, dans son propre style”" /><figcaption>Google Allo : “Répondre sans taper, dans son propre style”</figcaption>
 </figure>
@@ -104,7 +151,8 @@ Mais on peut voir dans l’autocomplétion une opportunité pour justement élar
 <p>Alors que les possibilités offertes par ces nouveaux algorithmes sont collossales, on constate que toutes les applications de messagerie se ressemblent : elle semblent être des variations d’une même application. Les causes de ce problème sont inévitablement multiples : complexité des systèmes, problèmes liés à l’interdisciplinarité. Néanmoins, plusieurs hypothèses issues de l’histoire du design peuvent se réveler problématiques : le travail de designer se résumerait à la résolution d’un problème, la technologie ne devrait pas empiéter sur la vie “réelle”, le bon design est celui qui ne se verrait pas.</p>
 <p>Les trois prochains chapitres sont une relecture de ces trois caractéristiques.</p>
 
-
+<!-- \part{\sout{utilisabilité} => inventivité} -->
+<h2 id="utilisabilité-inventivité">utilisabilité =&gt; inventivité</h2>
 <p>L’<em>utilisabilité</em> peut se définir par la capacité d’un objet à être utilisé de manière efficace (atteindre le but prévu), efficiente (atteindre ce but avec un effort minimal) et générer une satisfaction de l’utilisateur (être agréable à utiliser)<a href="#fn10" class="footnote-ref" id="fnref10"><sup>10</sup></a>.</p>
 <p>C’est un concept central dans l’histoire du design : un bon objet est celui qui résoud un problème et la qualité d’un design se mesurerait à la l’efficacité avec laquelle il atteint ce but.</p>
 <p>Nous verrons d’abord pourquoi il faut se méfier de vouloir exploiter naïvement la technologie comme une réponse à des problèmes complexes, puis pourquoi cette quête de l’efficacité n’est pas pertinente dans le champ de la communication interpersonnelle.</p>
@@ -133,7 +181,8 @@ Mais on peut voir dans l’autocomplétion une opportunité pour justement élar
 <p>Comme l’explique Barthes, la notion même de clarté ou d’expressivité d’un discours n’est pas une propriété fondamentale du langage. C’est une propriété héritée de la rhétorique, qui occulte d’autres aspects de la communication, par exemple la spontanéité. La “bonne manière de parler” est simplement une convention, qu’il est souvent bon de connaitre, mais qui ne devrait pas être vue comme un but en soi. Ces applications ont aussi une tendance à induire une confusion entre la forme et le contenu. Elles présentent le contenu comme une matière maléable qui peut se mouler dans des formes préétablies<a href="#fn14" class="footnote-ref" id="fnref14"><sup>14</sup></a>.</p>
 <p>Si l’argument de la “communication efficace” n’est pas univoque, doit-on pour autant se désespérer de trouver un intérêt à la conversation assistée par ordinateur ? La réponse se trouve peut-être dans la capacité d’un logiciel à déranger les habitudes des usagers, et c’est ce nous allons voir dans le prochain chapitre.</p>
 
-
+<!-- \part{\sout{technologie calme} => technologie perturbante} -->
+<h2 id="technologie-calme-technologie-perturbante">technologie calme =&gt; technologie perturbante</h2>
 <p>La notion de “technologie calme” [<em>calm technology</em>] est introduite en 1995 par Mark Weiser et John Seely Brown dans le texte <em>Designing Calm Technology</em> <span class="citation" data-cites="Weiser1995">(Weiser and Brown 1995)</span>. Ces deux figures, occupant alors des postes à responsabilité au XEROX Parc, et notamment Weiser, considéré comme le père de l’informatique ubiquitaire, font le constat que les technologies de l’information sont de plus en plus invasives et accaparent trop l’attention. Contre cette tendance, ils expriment leur souhait d’une technologie calme, c’est-à-dire qui n’accapare pas explicitement l’attention de l’utilisateur, et se situe en périphérie de celui-ci.</p>
 <p>Mais les auteurs ne proposent pas tant de limiter la place des systèmes informatiques dans la vie quotidienne, ils proposent d’atténuer leur présence en les rendant moins perceptibles. Ils ne questionnent pas tant l’envahissement de la technologie, mais l’attention qu’elle recquière.</p>
 <p>Nous verrons tout d’abord pourquoi l’idée d’une technologie qui contraint l’usager peut être attrayante, puis nous remettrons en question l’idée de reléguer la technologie en arrière-plan. Enfin, nous verrons pourquoi ce n’est pas un problème de déranger l’usager avec des détails techniques.</p>
@@ -173,7 +222,8 @@ Mais on peut voir dans l’autocomplétion une opportunité pour justement élar
 ### ~~technologie familière~~ / technologie étrange
 
 \newpage -->
-
+<!-- \part{\sout{design invisible} => design visible} -->
+<h2 id="design-invisible-design-visible">design invisible =&gt; design visible</h2>
 <h4 id="la-meilleure-interface-est-pas-dinterface">“La meilleure interface est… pas d’interface”</h4>
 <p>Nous venons de voir les problèmes que peut soulever l’idée de calm technology, notamment dans le cadre de systèmes manipulant des données personnelles. Souvent affiliée sur le plan idéologique avec l’idée de “calm technology”, la notion de “design invisible” ou le mouvement <em>NoUI</em> (littéralement <em>pas d’interface utilisateur</em>), nouvellement popularisés par des ouvrages comme <em>The Best Interface is No Interface</em> <span class="citation" data-cites="Krishna2015">(Krishna 2015)</span>, sont plusieurs termes qui désignent une même tendance : celle selon laquelle le bon design est celui qui ne se voit pas, celui qui génère le moins de friction possible avec l’utilisateur<a href="#fn18" class="footnote-ref" id="fnref18"><sup>18</sup></a>. Ce mouvement considère l’interface graphique [<em>GUI, Graphical User Interface</em>] comme une couche additionnelle à l’expérience utilisateur, et qui est souvent superflue.</p>
 <p>Or, la multiplication des assistants personnels et la prolifération d’outils de <em>quantified self</em> oriente de manière significative nos prises de décisions. Ces assistants ne nous disent pas quoi faire, pas plus qu’ils ne décident à notre place, mais l’on se repose de plus en plus sur eux pour ordonner notre vie de tous jours. Pour cette raison, la compréhension du système par les usagers est primordiale et une interface visible est une étape clé dans l’élaboration de cette “médiation technique”.</p>
@@ -200,7 +250,8 @@ Cette étude se place dans le cadre de services de santé. Son but était de con
 </figure>
 <p>En ayant une visibilité sur comment les suggestions sont produites, on offre la possibilité de relativiser des résultats inappropriés, et d’élaborer des stratégies pour leur faire face.</p>
 
-
+<!-- \part{Vers de nouvelles formes de collaboration humain-machine} -->
+<h2 id="vers-de-nouvelles-formes-de-collaboration-humain-machine">Vers de nouvelles formes de collaboration humain-machine</h2>
 <p>Au cours des trois chapitres précédents, nous avons vu comment les logiciels changent, et pourraient changer notre manière d’interagir via la parole et l’écriture. Nous avons également vu quelles habitudes de conceptions instaurer pour tenir compte des spécificités des expériences basées sur des algorithmes. Ces habitudes s’articulent autour de trois points clés : en premier lieu, pousser à l’inventivité en priviliégiant une approche critique et en relativisant l’idée que le design a pour but la résolution d’un problème. En second lieu imaginer des expériences plus surprenantes en valorisant des usages insolites de la technologie et en la mettant au centre de l’attention plutôt qu’en périphérie. Et enfin, ne pas voir l’interface comme un acte de polissage mais comme un moyen de rendre visible fonctionnement du système.</p>
 <p>Dans cette dernière partie, qui sert de conclusion, nous élargirons le sujet sur la relation humain-machine en questionnant l’idée d’assistant personnel et en désignant la modularité et la paramétrabilité d’un logiciel comme des caractéristiques essentielles. Puis nous définirons l’idée de <em>technologie chili</em> comme une synthèse des points évoqués dans les chapitres précédents.</p>
 <h3 id="la-technologie-en-tant-quoutil-créatif-dexpression-et-non-en-temps-quassistant">La technologie en tant qu’outil créatif d’expression et non en temps qu’assistant</h3>
@@ -431,5 +482,7 @@ Je ne considère pas que le monde de l’art et du design manque de termes spéc
 <li id="fn25"><p>Voir <span class="citation" data-cites="Feron">(Feron, n.d.)</span>.<a href="#fnref25" class="footnote-back">↩</a></p></li>
 </ol>
 </section>
+
+<script src="js/sidenotes.js"></script>
 </body>
 </html>
