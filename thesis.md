@@ -1,8 +1,6 @@
-
 % Converser à l'ère de l'autocomplétion
 % Mathilde Buenerd, Tuteur: Nicolas Nova
 % Janvier 2018
-
 
 <link rel="stylesheet" href="style.css"></link>
 
@@ -123,24 +121,24 @@ Dans le cas de l'autocomplétion, on pourrait par exemple différencier un syst�
 
 Si l'on commence à désigner les systèmes d'autocomplétion comme des systèmes de recommandation pour l'écriture, alors on peut se poser la question de comment les problèmes qui se posent actuellement aux systèmes de recommandation peuvent les impacter. Sans en faire une liste exhaustive, on peut citer trois grandes questions : celle de la régularisation de la langue, du déterminisme qu'implique un système qui s'autoalimente et la gestion délicate des données personnelles.
 
-##### La régularisation de la langue
+#### La régularisation de la langue
 
 On adapte son langage quand on utilise des systèmes électroniques. Mais les apps de messagerie modèlent notre manière de parler en retour. Se basant sur une approche statistique de la langue, l'autocomplétion peut réduire sa richesse en poussant les usagers à employer les mots qui sont statistiquement les plus fréquents. Sans être en mesure de prouver une transformation générale de la langue par l'autocomplétion, on peut émettre l'hypothèse d'une tendance générale vers une expression linguistique plus régulière et moins idiomatique. Une expression qui défavoriserait des aspects comme les fautes d'orthographe, le registre de langue familier, ou les mots régionaux. C'est que Kaplan appelle le "capitalisme linguistique" [@Kaplan2014] : Google a un intérêt financier à ce que les requêtes des utilisateurs soient les plus compréhensibles. Sous cet angle, l'objectif et l'effet des outils de correction et d'autocomplétion est d'homogénéiser la langue.[^02ed] \
 Dans ce cas, la diversification de la langue par l'autocomplétion peut être vue comme un contrepied à cette uniformisation. Par exemple en ne sanctionnant pas systématiquement les fautes d'orthographe, ou en proposant des mots insolites.
 
-##### La "bulle de filtres"
+#### La "bulle de filtres"
 
 > But when algorithms cross the threshold from prediction to determination, from modeling to building cultural structures, we find ourselves revising reality to accommodate their discrepancies. [@Finn2017, 50]
 
 Plus on se fie à des recommandations, plus elles nous façonnent. Il y a toujours le risque que les algorithmes quittent le monde de la prédiction pour entrer dans celui de la détermination, en créant un système qui s'autoalimente. Le militant internet Eli Pariser alerte contre le risque que les recommandations créent ce qu'il appelle une "bulle de filtre" \[_filter bubble_] [@Pariser2011]. Selon lui, la personnalisation du web, c'est-à-dire l'emploi de l'historique de recherche et des données personnelles des usagers pour leur faire des suggestions, reviendrait à confiner chacun dans sa propre bulle culturelle et idéologique.\
 Mais on peut voir dans l'autocomplétion une opportunité pour justement élargir cette bulle culturelle. Si l'on imagine par exemple suggérer des mots désuets à des jeunes, ou bien des mots issus de l'argot des jeunes à des personnes âgées.
 
-##### La délicate gestion des données personnelles
+#### La délicate gestion des données personnelles
 
 Le revers de la personnalisation, c'est la collecte massive de données personnelles. Ces données sont récupérées, stockées, analysées. Elles sont utilisées pour prendre des décisions qui dépassent la réalité qu'elles nous laissent entrevoir, et parfois avec des conséquences dramatiques[^3c6c] [@Eubanks2018]. La question de la protection de la vie privée est donc centrale. Il faut garder du recul sur les informations perçue au travers de les profils et de les comportements, et garder à l'esprit qu'on ne peut pas rationnaliser la personnalité d'une personne aux données collectées sur elle. Donner aux gens accès aux données collectées sur eux, et la capacité de les modifier est donc essentiel.
 
 
-#### Vers de nouvelles manières de designer
+### Vers de nouvelles manières de designer
 
 Et si l'évolution technologique était telle qu'elle nécessite de penser différemment la manière dont on conçoit l'expérience des systèmes basés sur des algorithmes de machine learning ? Si les enjeux centraux n'était pas tant l'intuitivité ou la facilité d'usage, mais la capacité à permettre la découverte ou à dépasser ses limites ?[^258b]
 
@@ -152,7 +150,7 @@ Les trois prochains chapitres sont une relecture de ces trois caractéristiques.
 \newpage
 
 
-## ~~utilisabilité~~ => inventivité
+\part{\sout{utilisabilité} => inventivité}
 
 L'_utilisabilité_ peut se définir par la capacité d'un objet à être utilisé de manière efficace (atteindre le but prévu), efficiente (atteindre ce but avec un effort minimal) et générer une satisfaction de l'utilisateur (être agréable à utiliser)[^0f35].
 
@@ -164,7 +162,7 @@ Nous verrons d'abord pourquoi il faut se méfier de vouloir exploiter naïvement
 
 ### ~~Des expériences pleines de bonnes intentions~~ / Des expériences critiques
 
-#### _La prison des espérances homogènes_ [^12b9]
+#### La prison des espérances homogènes[^12b9]
 
 On voit apparaître dans la multiplicité des objets connectés, de nombreux produits qui se targuent de vouloir régler des problèmes sociétaux. Simples gadgets ou appareils complexes, leur point commun est que leurs auteurs sont pleins de bonnes intentions, ils viennent avec une sincère volonté de rendre le monde meilleur. Mais être bien intentionné n'est pas suffisant pour régler des problèmes complexes, et ces projets finissent souvent par être maladroits, embarassants, voir dangereux.[^5496]
 Pour illustrer cela, on peut comparer deux projets qui s'inscrivent dans le même champ d'action : l'assistance à la conversation.
@@ -202,7 +200,7 @@ Si l'argument de la "communication efficace" n'est pas univoque, doit-on pour au
 \newpage
 
 
-## ~~technologie calme~~ => technologie perturbante
+\part{\sout{technologie calme} => technologie perturbante}
 
 La notion de "technologie calme" \[_calm technology_] est introduite en 1995 par Mark Weiser et John Seely Brown dans le texte _Designing Calm Technology_ [@Weiser1995]. Ces deux figures, occupant alors des postes à responsabilité au XEROX Parc, et notamment Weiser, considéré comme le père de l'informatique ubiquitaire, font le constat que les technologies de l'information sont de plus en plus invasives et accaparent trop l'attention. Contre cette tendance, ils expriment leur souhait d'une technologie calme, c'est-à-dire qui n'accapare pas explicitement l'attention de l'utilisateur, et se situe en périphérie de celui-ci.
 
@@ -271,7 +269,7 @@ De ce point de vue, l'idée d'une technologie qui capte en arrière-plan des inf
 
 \newpage -->
 
-## ~~design invisible~~ => design visible
+\part{\sout{design invisible} => design visible}
 
 #### "La meilleure interface est... pas d'interface"
 
@@ -322,7 +320,7 @@ En ayant une visibilité sur comment les suggestions sont produites, on offre la
 \newpage
 
 
-## Vers de nouvelles formes de collaboration humain-machine
+\part{Vers de nouvelles formes de collaboration humain-machine}
 
 Au cours des trois chapitres précédents, nous avons vu comment les logiciels changent, et pourraient changer notre manière d'interagir via la parole et l'écriture. Nous avons également vu quelles habitudes de conceptions instaurer pour tenir compte des spécificités des expériences basées sur des algorithmes. Ces habitudes s'articulent autour de trois points clés : en premier lieu, pousser à l'inventivité en priviliégiant une approche critique et en relativisant l'idée que le design a pour but la résolution d'un problème. En second lieu imaginer des expériences plus surprenantes en valorisant des usages insolites de la technologie et en la mettant au centre de l'attention plutôt qu'en périphérie. Et enfin, ne pas voir l'interface comme un acte de polissage mais comme un moyen de rendre visible fonctionnement du système.
 
@@ -376,11 +374,6 @@ Un système automatisé n'agit pas en arrière-plan. Il pousse l'usager à se d�
 L'interface n'est ni une couche d'embellissement, ni une couche accessoire. Elle doit donner les clés de compréhension du fonctionnement du système.
 
 \newpage
-
-\newpage
-
-\newpage
-
 
 ## Annexe : Et si... ?
 

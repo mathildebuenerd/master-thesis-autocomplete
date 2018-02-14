@@ -1,0 +1,50 @@
+body {
+  width: 85%;
+  max-width: 600px;
+  margin: 50px auto;
+  font-family: "Roboto", "Work Sans", sans-serif;
+  text-align: justify;
+  line-height: 1.6;
+}
+
+img {
+  width: 100%;
+}
+
+a, a:visited {
+  color: blue;
+  text-decoration: none;
+  border-bottom: 1px dashed blue;
+}
+
+table, td, col {
+  border: 1px solid #eee;
+}
+
+h1 {
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5 {
+  margin: 25px 0 15px;
+  line-height: normal;
+}
+
+figcaption {
+  text-align: center;
+  color: #bbb;
+  /*font-family: serif;*/
+  font-style: italic;
+  font-size: 0.9em;
+}
+
+blockquote {
+  font-family: "Crimson", serif;
+  font-style: italic;
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+blockquote em {
+  /*font-style: normal;*/
+}

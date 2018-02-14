@@ -1,3 +1,4 @@
 *.pdf
-.idlk
+*.idlk
 tex2pdf.*
+html/images
