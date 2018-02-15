@@ -52,13 +52,12 @@ When you import the icml file in indesign, the text can be very easily styled, b
 
 ### Convert it
 
-[How to convert to icml](http://publicationstation.wdka.hro.nl/wiki/index.php/Research/Web-to-print/ICML)
+[How to simply convert to icml](http://publicationstation.wdka.hro.nl/wiki/index.php/Research/Web-to-print/ICML)
 
-+ Convert without bibliography
-`pandoc -s -f markdown -t icml -o thesis.icml thesis.md`
+`pandoc --lua-filter=page-break-for-indesign.lua -s -f markdown -t icml --bibliography citations-thesis.bib -o thesis.icml thesis.md`
 
-+ Convert with the bibliography
-`pandoc -s -f markdown -t icml --bibliography citations-thesis.bib -o thesis.icml thesis.md`
++ `--lua-filter=page-break-for-indesign.lua` is a filter intended to transform every `\newpage` commands into a page-break while placed in indesign. [More infos here](https://groups.google.com/forum/#!topic/pandoc-discuss/ogofOXIDJuI).
++ `--bibliography citations-thesis.bib` is for creating the bibliography automatically. If you don't use a bibtex file, just remove it.
 
 ### Import it in indesign
 
