@@ -9,6 +9,9 @@
 
 \newpage
 
+\newpage
+
+
 # Converser à l'ère de l'autocomplétion
 
 _Relecture critique des caractéristiques que l'on attribue au design d'interaction (*design invisible*, *technologie calme*, *utilisabilité*), dans le cadre des systèmes d'aide à l'écriture et à la conversation, et particulièrement de l'autocomplétion_
@@ -24,7 +27,11 @@ imprimé en février 2017
 
 \newpage
 
+\newpage
+
 ## Remerciements
+
+\newpage
 
 \newpage
 
@@ -33,11 +40,16 @@ imprimé en février 2017
 Les mots en italique entre \[_crochets_] sont utilisés pour clarifier la référence à des mots anglais pour lesquels un équivalent français n'est pas évident.
 
 
-\newpage
+<!-- \newpage -->
+
+\cleardoublepage
 
 ## Sommaire
 
-\newpage
+
+<!-- \newpage -->
+
+\cleardoublepage
 
 <!-- ## Introduction -->
 
@@ -76,7 +88,7 @@ Ce mémoire n'est pas une contestation unilatérale des principes ou des mouveme
 
 <!-- \part{Du système d'autocomplétion au système de recommandation} -->
 
-## Du système d'autocomplétion au système de recommandation
+## De l'autocomplétion au système de recommandation
 
 ### D'une aide à la saisie vers une aide à l'écriture
 
@@ -150,7 +162,7 @@ Les trois prochains chapitres sont une relecture de ces trois caractéristiques.
 
 
 <!-- \part{\sout{utilisabilité} => inventivité} -->
-## utilisabilité => inventivité
+## ~~utilisabilité~~ => inventivité
 
 L'_utilisabilité_ peut se définir par la capacité d'un objet à être utilisé de manière efficace (atteindre le but prévu), efficiente (atteindre ce but avec un effort minimal) et générer une satisfaction de l'utilisateur (être agréable à utiliser)[^0f35].
 
@@ -159,6 +171,7 @@ C'est un concept central dans l'histoire du design : un bon objet est celui qui 
 Nous verrons d'abord pourquoi il faut se méfier de vouloir exploiter naïvement la technologie comme une réponse à des problèmes complexes, puis pourquoi cette quête de l'efficacité n'est pas pertinente dans le champ de la communication interpersonnelle.
 
 \newpage
+
 
 ### ~~Des expériences pleines de bonnes intentions~~ / Des expériences critiques
 

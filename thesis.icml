@@ -171,6 +171,8 @@
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle='ParagraphStyle/Paragraph'><CharacterStyleRange AppliedCharacterStyle='CharacterStyle/Default' ParagraphBreakType='NextPage'><Br /></CharacterStyleRange></ParagraphStyleRange>
 <Br />
+<ParagraphStyleRange AppliedParagraphStyle='ParagraphStyle/Paragraph'><CharacterStyleRange AppliedCharacterStyle='CharacterStyle/Default' ParagraphBreakType='NextPage'><Br /></CharacterStyleRange></ParagraphStyleRange>
+<Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header1">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
     <Content>Converser à l’ère de l’autocomplétion</Content>
@@ -227,11 +229,15 @@
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle='ParagraphStyle/Paragraph'><CharacterStyleRange AppliedCharacterStyle='CharacterStyle/Default' ParagraphBreakType='NextPage'><Br /></CharacterStyleRange></ParagraphStyleRange>
 <Br />
+<ParagraphStyleRange AppliedParagraphStyle='ParagraphStyle/Paragraph'><CharacterStyleRange AppliedCharacterStyle='CharacterStyle/Default' ParagraphBreakType='NextPage'><Br /></CharacterStyleRange></ParagraphStyleRange>
+<Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header2">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
     <Content>Remerciements</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle='ParagraphStyle/Paragraph'><CharacterStyleRange AppliedCharacterStyle='CharacterStyle/Default' ParagraphBreakType='NextPage'><Br /></CharacterStyleRange></ParagraphStyleRange>
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle='ParagraphStyle/Paragraph'><CharacterStyleRange AppliedCharacterStyle='CharacterStyle/Default' ParagraphBreakType='NextPage'><Br /></CharacterStyleRange></ParagraphStyleRange>
 <Br />
@@ -253,7 +259,7 @@
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
-<ParagraphStyleRange AppliedParagraphStyle='ParagraphStyle/Paragraph'><CharacterStyleRange AppliedCharacterStyle='CharacterStyle/Default' ParagraphBreakType='NextPage'><Br /></CharacterStyleRange></ParagraphStyleRange>
+<ParagraphStyleRange AppliedParagraphStyle='ParagraphStyle/Paragraph'><CharacterStyleRange AppliedCharacterStyle='CharacterStyle/Default' ParagraphBreakType='NextOddPage'><Br /></CharacterStyleRange></ParagraphStyleRange>
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header2">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
@@ -261,7 +267,7 @@
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
-<ParagraphStyleRange AppliedParagraphStyle='ParagraphStyle/Paragraph'><CharacterStyleRange AppliedCharacterStyle='CharacterStyle/Default' ParagraphBreakType='NextPage'><Br /></CharacterStyleRange></ParagraphStyleRange>
+<ParagraphStyleRange AppliedParagraphStyle='ParagraphStyle/Paragraph'><CharacterStyleRange AppliedCharacterStyle='CharacterStyle/Default' ParagraphBreakType='NextOddPage'><Br /></CharacterStyleRange></ParagraphStyleRange>
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header2">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
@@ -607,7 +613,7 @@
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header2">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Du système d’autocomplétion au système de recommandation</Content>
+    <Content>De l’autocomplétion au système de recommandation</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
@@ -1700,8 +1706,11 @@
 <ParagraphStyleRange AppliedParagraphStyle='ParagraphStyle/Paragraph'><CharacterStyleRange AppliedCharacterStyle='CharacterStyle/Default' ParagraphBreakType='NextPage'><Br /></CharacterStyleRange></ParagraphStyleRange>
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header2">
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Strikeout">
+    <Content>utilisabilité</Content>
+  </CharacterStyleRange>
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>utilisabilité =&gt; inventivité</Content>
+    <Content> =&gt; inventivité</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
