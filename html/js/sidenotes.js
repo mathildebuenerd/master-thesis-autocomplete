@@ -28,7 +28,7 @@ window.addEventListener('scroll', (e) => {
 
     // if it equals -1, it means we are before the first h2, so we display the h1 instead
     if (currentChapterNumber === -1) {
-        currentChapter = 'test';
+        currentChapter = '';
     } else {
         currentChapter = chapters[currentChapterNumber].textContent;
         // console.log(currentContent[5]);
@@ -48,6 +48,18 @@ window.addEventListener('scroll', (e) => {
     let chapterBar = document.querySelector('#currentChapter');
     chapterBar.textContent = currentChapter;
 
+    // find at which percentage of the current chapter we are, in order to display it
+    let percentageBar = document.querySelector('#percentageBar');
+    let scrollPos = e.pageY;
+    let posChapt = chapters[currentChapterNumber].offsetTop;
+    let posNextChapt = '';
+    if (chapters[currentChapterNumber+1]) {
+        posNextChapt = chapters[currentChapterNumber+1].offsetTop;
+    } else {
+        posNextChapt = window.innerHeight;
+    }
+    let currentPercentage = (scrollPos-posChapt)*100/(posNextChapt-posChapt);
+    percentageBar.style.width = currentPercentage + 'vw';
 
 
 
@@ -94,14 +106,17 @@ function placeFootnotes() {
     }
 }
 
-
+// creates the html elements of the top nav bar
 function createTimeline() {
 
     let chapterBar = document.createElement('div');
     chapterBar.setAttribute('id', 'chapterBar');
     let currentChapter = document.createElement('p');
     currentChapter.setAttribute('id', 'currentChapter');
+    let percentageBar = document.createElement('div');
+    percentageBar.setAttribute('id', 'percentageBar')
     chapterBar.appendChild(currentChapter);
+    chapterBar.appendChild(percentageBar);
 
     document.body.appendChild(chapterBar);
 

@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond');
+
+
 /*******
 
     RESET CSS
@@ -14,7 +17,7 @@ a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
 b, u, i, center,
-dl, dt, dd, ol, ul, li,
+dl, dt, dd,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed,
@@ -32,10 +35,6 @@ footer, header, hgroup, menu, nav, section {
   display: block;
 }
 
-blockquote, q {
-  quotes: none;
-}
-
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -46,12 +45,11 @@ table {
 
 
 
-
-
 body {
   padding-top:80px; /* the body has to start just after de navigation top bar */
   width: 33%;
   max-width: 700px;
+  min-width: 500px;
   margin: 0 33%;
   font-family: "Fira Sans", sans-serif;
   text-align: justify;
@@ -90,10 +88,10 @@ figcaption {
 }
 
 blockquote {
-  font-family: "Crimson", serif;
-  font-style: italic;
+  font-family: "EB Garamond";
   font-size: 1em;
   line-height: 1.4;
+  margin: 20px 20px 25px 40px;
 }
 
 blockquote em {
@@ -221,12 +219,24 @@ sup {
   height: 80px;
   background-color: white;
   display: flex;
-  justify-content: flex-end;
-  align-items: center;
   border-bottom: solid 1px #eee;
+  flex-direction: column;
+  align-content: space-between;
 }
 
 #currentChapter {
-  transform: translate(-40px); /* on décale un peu parce que sinon ça dépasse */
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  margin-top: 20px;
+}
+
+#percentageBar {
+  background-color: lightgrey;
+  height: 3px;
+  /*width: 0;*/
+  position: absolute;
+  left: 0;
+  top: 77px;
 }
 
