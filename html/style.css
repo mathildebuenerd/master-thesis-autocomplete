@@ -24,8 +24,6 @@ time, mark, audio, video {
   margin: 0;
   padding: 0;
   border: 0;
-  font-size: 100%;
-  font: inherit;
   vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
@@ -33,20 +31,11 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
 }
-body {
-  line-height: 1;
-}
-ol, ul {
-  list-style: none;
-}
+
 blockquote, q {
   quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-  content: '';
-  content: none;
-}
+
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -60,10 +49,11 @@ table {
 
 
 body {
+  padding-top:80px; /* the body has to start just after de navigation top bar */
   width: 33%;
   max-width: 700px;
   margin: 0 33%;
-  font-family: "Roboto", "Work Sans", sans-serif;
+  font-family: "Fira Sans", sans-serif;
   text-align: justify;
   line-height: 1.6;
 }
@@ -139,7 +129,7 @@ header {
   max-width: 300px;
   left: 0;
   top: 300px;
-  padding-right: 30px;
+  padding: 0 30px;
   font-size: 90%;
   text-align: left;
 }
@@ -186,21 +176,32 @@ header {
   opacity: 1;
 }
 
+.current {
+  opacity:1 !important;
+}
+
 /******
 
     Footnotes
 
  ******/
 
+sup {
+  font-size: 60%;
+  position: relative;
+  top: -6px;
+}
+
 .footnotes li {
   box-sizing: border-box;
-  padding: 0 20px;
+  padding: 0 20px 0 0;
   font-size: 80%;
   line-height: 1.3;
   position: absolute;
   left:70%;
   width: 25%;
   max-width: 300px;
+  text-align: left;
 }
 
 
