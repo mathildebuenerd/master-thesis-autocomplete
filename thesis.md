@@ -25,15 +25,24 @@ Master HES-SO, Media design
 
 imprimé en février 2017
 
-\newpage
-
-\newpage
+\cleardoublepage
 
 ## Remerciements
 
-\newpage
 
-\newpage
+Je remercie en premier lieu Nicolas Nova, pour sa disponibilité et l'aide précieuse qu'il m'a accordée tout au long de ce processus de recherche et d'écriture.
+Merci à Anne-Catherie Sutermeister pour l'aide à la préparation de la présentation à Zürich de ce qui n'était encore qu'un embryon de mémoire.
+Merci à Isra pour sa relecture, à Fabien pour l'impulsion que mon stage a donné à ce mémoire.
+Merci à Anaëlle pour son aide à
+
+\cleardoublepage
+
+## Abstract
+
+Les systèmes d'autocomplétion sont de plus en plus envahissant, au point qu'on peut les voir comme des systèmes de recommandation pour l'écriture, et au final, pour les relations sociales. Mais est-ce que les concepts sur lesquels s'appuit le design de l'expérience utilisateur sont adaptés au design des systèmes d'autocomplétion ? à travers une revisite de trois tendance issues de l'histoire du design...
+
+
+\cleardoublepage
 
 #### Notes
 
@@ -82,8 +91,9 @@ Enfin, une annexe présentera des exemples d'application des principes évoqués
 
 Ce mémoire n'est pas une contestation unilatérale des principes ou des mouvements évoqués, mais plutôt une invitation à sortir de la rhétorique de "l'invisibilité" ou de "l'intuitivité" qu'on attribue au design d'interaction. Ce changement de perspective est là pour réimaginer les interactions humain-machine dans une optique où l'humour, la provocation et l'excitation sont au centre des préoccupations.
 
+<!-- \newpage -->
 
-\newpage
+\cleardoublepage
 
 
 <!-- \part{Du système d'autocomplétion au système de recommandation} -->
@@ -158,7 +168,7 @@ Alors que les possibilités offertes par ces nouveaux algorithmes sont collossal
 Les trois prochains chapitres sont une relecture de ces trois caractéristiques.
 
 
-\newpage
+\cleardoublepage
 
 
 <!-- \part{\sout{utilisabilité} => inventivité} -->
@@ -210,7 +220,7 @@ Comme l'explique Barthes, la notion même de clarté ou d'expressivité d'un dis
 Si l'argument de la "communication efficace" n'est pas univoque, doit-on pour autant se désespérer de trouver un intérêt à la conversation assistée par ordinateur ? La réponse se trouve peut-être dans la capacité d'un logiciel à déranger les habitudes des usagers, et c'est ce nous allons voir dans le prochain chapitre.
 
 
-\newpage
+\cleardoublepage
 
 
 <!-- \part{\sout{technologie calme} => technologie perturbante} -->
@@ -273,15 +283,9 @@ Un entreprise comme Google ne communique pas avec précision sur _comment_ elle 
 
 De ce point de vue, l'idée d'une technologie qui capte en arrière-plan des informations sur ses usagers est problématique.
 
-\newpage
+\cleardoublepage
 
 
-<!-- #### Principe : Une technologie qui nous pousse un petit peu
--> Image : Mots interdits / Par exemple interdiction d'utiliser des mots trops courants -->
-<!--
-### ~~technologie familière~~ / technologie étrange
-
-\newpage -->
 
 <!-- \part{\sout{design invisible} => design visible} -->
 ## design invisible => design visible
@@ -332,7 +336,7 @@ Dans un système d'autocomplétion basé sur du machine learning, une dérive po
 En ayant une visibilité sur comment les suggestions sont produites, on offre la possibilité de relativiser des résultats inappropriés, et d'élaborer des stratégies pour leur faire face.
 
 
-\newpage
+\cleardoublepage
 
 
 <!-- \part{Vers de nouvelles formes de collaboration humain-machine} -->
@@ -391,6 +395,9 @@ L'interface n'est ni une couche d'embellissement, ni une couche accessoire. Elle
 
 \newpage
 
+\cleardoublepage
+
+
 ## Annexe : Et si... ?
 
 Toute au long de ce mémoire, j'ai défendu plusieurs principes pour la conception de l'expérience et l'interface d'un système d'autocomplétion.
@@ -434,19 +441,7 @@ En parallèle, en temps que designer, il me paraissait important d'illustrer ces
 ![Et si... l'autocomplétion devenait tellement utilisée qu'il serait nécessaire de préciser quand quelqu'un écrit "réellement" ?](images/annexe/mockup-emphase-sur-l-autocompletion-2.png)
 
 
-
-\newpage
-
-
-
-Imprimé à la HEAD - Genève, avec le caractères typographique GT America.
-
-Ce texte est également disponible en ligne sur le site internet
-alternative.mathildebuenerd.fr/memoire
-
-
-
-\newpage
+\cleardoublepage
 
 
 ### Iconographie
@@ -464,7 +459,15 @@ Personnages : Par Freepik, www.flaticon.com
   + Photographies par www.unsplash.com
 
 
-\newpage
+\cleardoublepage
+
+
+
+Imprimé à la HEAD - Genève, avec le caractères typographique GT America.
+
+Ce texte est également disponible en ligne sur le site internet
+alternative.mathildebuenerd.fr/memoire
+
 
 ## Bibliographie
 
