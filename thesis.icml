@@ -130,24 +130,6 @@
 		<Font Self="di63bFontnGT America Mono Black" FontFamily="GT America Mono" Name="GT America Mono Black" PostScriptName="GTAmericaMono-Black" Status="Installed" FontStyleName="Black" FontType="OpenTypeTT" WritingScript="0" FullName="GT America Mono Black" FullNameNative="GT America Mono Black" FontStyleNameNative="Black" PlatformName="$ID/" Version="Version 2.001" TypekitID="$ID/" />
 		<Font Self="di63bFontnGT America Mono Black Italic" FontFamily="GT America Mono" Name="GT America Mono Black Italic" PostScriptName="GTAmericaMono-BlackItalic" Status="Installed" FontStyleName="Black Italic" FontType="OpenTypeTT" WritingScript="0" FullName="GT America Mono Black Italic" FullNameNative="GT America Mono Black Italic" FontStyleNameNative="Black Italic" PlatformName="$ID/" Version="Version 2.001" TypekitID="$ID/" />
 	</FontFamily>
-	<FontFamily Self="di1c0b" Name="Corbel">
-		<Font Self="di1c0bFontnCorbel Regular" FontFamily="Corbel" Name="Corbel Regular" PostScriptName="Corbel" Status="Installed" FontStyleName="Regular" FontType="OpenTypeTT" WritingScript="0" FullName="Corbel" FullNameNative="Corbel" FontStyleNameNative="Regular" PlatformName="$ID/" Version="Version 6.00" TypekitID="$ID/" />
-		<Font Self="di1c0bFontnCorbel Italic" FontFamily="Corbel" Name="Corbel Italic" PostScriptName="Corbel-Italic" Status="Installed" FontStyleName="Italic" FontType="OpenTypeTT" WritingScript="0" FullName="Corbel Italic" FullNameNative="Corbel Italic" FontStyleNameNative="Italic" PlatformName="$ID/" Version="Version 6.00" TypekitID="$ID/" />
-		<Font Self="di1c0bFontnCorbel Bold" FontFamily="Corbel" Name="Corbel Bold" PostScriptName="Corbel-Bold" Status="Installed" FontStyleName="Bold" FontType="OpenTypeTT" WritingScript="0" FullName="Corbel Bold" FullNameNative="Corbel Bold" FontStyleNameNative="Bold" PlatformName="$ID/" Version="Version 6.00" TypekitID="$ID/" />
-		<Font Self="di1c0bFontnCorbel Bold Italic" FontFamily="Corbel" Name="Corbel Bold Italic" PostScriptName="Corbel-BoldItalic" Status="Installed" FontStyleName="Bold Italic" FontType="OpenTypeTT" WritingScript="0" FullName="Corbel Bold Italic" FullNameNative="Corbel Bold Italic" FontStyleNameNative="Bold Italic" PlatformName="$ID/" Version="Version 6.00" TypekitID="$ID/" />
-	</FontFamily>
-	<FontFamily Self="di1c0c" Name="EB Garamond">
-		<Font Self="di1c0cFontnEB Garamond Regular" FontFamily="EB Garamond" Name="EB Garamond Regular" PostScriptName="EBGaramond-Regular" Status="Installed" FontStyleName="Regular" FontType="OpenTypeTT" WritingScript="0" FullName="EB Garamond Regular" FullNameNative="EB Garamond Regular" FontStyleNameNative="Regular" PlatformName="$ID/" Version="Version 1.000" TypekitID="$ID/" />
-		<Font Self="di1c0cFontnEB Garamond Italic" FontFamily="EB Garamond" Name="EB Garamond Italic" PostScriptName="EBGaramond-Italic" Status="Installed" FontStyleName="Italic" FontType="OpenTypeTT" WritingScript="0" FullName="EB Garamond Italic" FullNameNative="EB Garamond Italic" FontStyleNameNative="Italic" PlatformName="$ID/" Version="Version 1.000" TypekitID="$ID/" />
-		<Font Self="di1c0cFontnEB Garamond Medium" FontFamily="EB Garamond" Name="EB Garamond Medium" PostScriptName="EBGaramond-Medium" Status="Installed" FontStyleName="Medium" FontType="OpenTypeTT" WritingScript="0" FullName="EB Garamond Medium" FullNameNative="EB Garamond Medium" FontStyleNameNative="Medium" PlatformName="$ID/" Version="Version 1.000" TypekitID="$ID/" />
-		<Font Self="di1c0cFontnEB Garamond Medium Italic" FontFamily="EB Garamond" Name="EB Garamond Medium Italic" PostScriptName="EBGaramond-MediumItalic" Status="Installed" FontStyleName="Medium Italic" FontType="OpenTypeTT" WritingScript="0" FullName="EB Garamond Medium Italic" FullNameNative="EB Garamond Medium Italic" FontStyleNameNative="Medium Italic" PlatformName="$ID/" Version="Version 1.000" TypekitID="$ID/" />
-		<Font Self="di1c0cFontnEB Garamond SemiBold" FontFamily="EB Garamond" Name="EB Garamond SemiBold" PostScriptName="EBGaramond-SemiBold" Status="Installed" FontStyleName="SemiBold" FontType="OpenTypeTT" WritingScript="0" FullName="EB Garamond SemiBold" FullNameNative="EB Garamond SemiBold" FontStyleNameNative="SemiBold" PlatformName="$ID/" Version="Version 1.000" TypekitID="$ID/" />
-		<Font Self="di1c0cFontnEB Garamond SemiBold Italic" FontFamily="EB Garamond" Name="EB Garamond SemiBold Italic" PostScriptName="EBGaramond-SemiBoldItalic" Status="Installed" FontStyleName="SemiBold Italic" FontType="OpenTypeTT" WritingScript="0" FullName="EB Garamond SemiBold Italic" FullNameNative="EB Garamond SemiBold Italic" FontStyleNameNative="SemiBold Italic" PlatformName="$ID/" Version="Version 1.000" TypekitID="$ID/" />
-		<Font Self="di1c0cFontnEB Garamond Bold" FontFamily="EB Garamond" Name="EB Garamond Bold" PostScriptName="EBGaramond-Bold" Status="Installed" FontStyleName="Bold" FontType="OpenTypeTT" WritingScript="0" FullName="EB Garamond Bold" FullNameNative="EB Garamond Bold" FontStyleNameNative="Bold" PlatformName="$ID/" Version="Version 1.000" TypekitID="$ID/" />
-		<Font Self="di1c0cFontnEB Garamond Bold Italic" FontFamily="EB Garamond" Name="EB Garamond Bold Italic" PostScriptName="EBGaramond-BoldItalic" Status="Installed" FontStyleName="Bold Italic" FontType="OpenTypeTT" WritingScript="0" FullName="EB Garamond Bold Italic" FullNameNative="EB Garamond Bold Italic" FontStyleNameNative="Bold Italic" PlatformName="$ID/" Version="Version 1.000" TypekitID="$ID/" />
-		<Font Self="di1c0cFontnEB Garamond ExtraBold" FontFamily="EB Garamond" Name="EB Garamond ExtraBold" PostScriptName="EBGaramond-ExtraBold" Status="Installed" FontStyleName="ExtraBold" FontType="OpenTypeTT" WritingScript="0" FullName="EB Garamond ExtraBold" FullNameNative="EB Garamond ExtraBold" FontStyleNameNative="ExtraBold" PlatformName="$ID/" Version="Version 1.000" TypekitID="$ID/" />
-		<Font Self="di1c0cFontnEB Garamond ExtraBold Italic" FontFamily="EB Garamond" Name="EB Garamond ExtraBold Italic" PostScriptName="EBGaramond-ExtraBoldItalic" Status="Installed" FontStyleName="ExtraBold Italic" FontType="OpenTypeTT" WritingScript="0" FullName="EB Garamond ExtraBold Italic" FullNameNative="EB Garamond ExtraBold Italic" FontStyleNameNative="ExtraBold Italic" PlatformName="$ID/" Version="Version 1.000" TypekitID="$ID/" />
-	</FontFamily>
 	<CompositeFont Self="CompositeFont/$ID/[No composite font]" Name="$ID/[No composite font]">
 		<CompositeFontEntry Self="ua2" Name="$ID/Kanji" FontStyle="$ID/R" RelativeSize="100" HorizontalScale="100" VerticalScale="100" Locked="true" ScaleOption="true" BaselineShift="0">
 			<Properties>
@@ -237,7 +219,7 @@
 	</RootCharacterStyleGroup>
 	<NumberingList Self="NumberingList/$ID/[Default]" Name="$ID/[Default]" ContinueNumbersAcrossStories="false" ContinueNumbersAcrossDocuments="false" />
 	<RootParagraphStyleGroup Self="u77">
-		<ParagraphStyle Self="ParagraphStyle/Paragraph" Name="Paragraph" Imported="false" NextStyle="ParagraphStyle/Paragraph" SplitDocument="false" EmitCss="true" StyleUniqueId="69d44ef9-829a-48c0-b2af-3e245a05edb4" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" KeyboardShortcut="0 0" PointSize="8" SpaceAfter="5.669291338582678" MaximumWordSpacing="110.00000000000001" MinimumWordSpacing="90" MaximumLetterSpacing="3" MinimumLetterSpacing="-3" Justification="LeftJustified">
+		<ParagraphStyle Self="ParagraphStyle/Paragraph" Name="Paragraph" Imported="false" NextStyle="ParagraphStyle/Paragraph" SplitDocument="false" EmitCss="true" StyleUniqueId="ce907e83-becf-46bd-943e-71149489dde5" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" KeyboardShortcut="0 0" PointSize="8.5" SpaceAfter="5.669291338582678" MaximumWordSpacing="110.00000000000001" MinimumWordSpacing="90" MaximumLetterSpacing="3" MinimumLetterSpacing="-3" Justification="LeftJustified">
 			<Properties>
 				<BasedOn type="object">ParagraphStyle/$ID/NormalParagraphStyle</BasedOn>
 				<PreviewColor type="enumeration">Nothing</PreviewColor>
@@ -272,7 +254,7 @@
 				<TabList type="list">
 					<ListItem type="record">
 						<Alignment type="enumeration">LeftAlign</Alignment>
-						<AlignmentCharacter type="string">,</AlignmentCharacter>
+						<AlignmentCharacter type="string">.</AlignmentCharacter>
 						<Leader type="string"></Leader>
 						<Position type="unit">9</Position>
 					</ListItem>
@@ -319,7 +301,7 @@
 				<TabList type="list">
 					<ListItem type="record">
 						<Alignment type="enumeration">LeftAlign</Alignment>
-						<AlignmentCharacter type="string">,</AlignmentCharacter>
+						<AlignmentCharacter type="string">.</AlignmentCharacter>
 						<Leader type="string"></Leader>
 						<Position type="unit">10</Position>
 					</ListItem>
@@ -333,7 +315,7 @@
 				<TabList type="list">
 					<ListItem type="record">
 						<Alignment type="enumeration">LeftAlign</Alignment>
-						<AlignmentCharacter type="string">,</AlignmentCharacter>
+						<AlignmentCharacter type="string">.</AlignmentCharacter>
 						<Leader type="string"></Leader>
 						<Position type="unit">20</Position>
 					</ListItem>
@@ -347,7 +329,7 @@
 				<TabList type="list">
 					<ListItem type="record">
 						<Alignment type="enumeration">LeftAlign</Alignment>
-						<AlignmentCharacter type="string">,</AlignmentCharacter>
+						<AlignmentCharacter type="string">.</AlignmentCharacter>
 						<Leader type="string"></Leader>
 						<Position type="unit">20</Position>
 					</ListItem>
@@ -583,19 +565,19 @@
 		<StoryPreference OpticalMarginAlignment="true" OpticalMarginSize="12" FrameType="TextFrameType" StoryOrientation="Horizontal" StoryDirection="LeftToRightDirection" />
 		<InCopyExportOption IncludeGraphicProxies="true" IncludeAllResources="false" />
 		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout" FontStyle="Regular Italic">
 				<Br />
 			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout" ParagraphBreakType="NextPage">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout" FontStyle="Regular Italic" ParagraphBreakType="NextPage">
 				<Br />
 			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout" FontStyle="Regular Italic">
 				<Br />
 			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout" ParagraphBreakType="NextPage">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout" FontStyle="Regular Italic" ParagraphBreakType="NextPage">
 				<Br />
 			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout" FontStyle="Regular Italic">
 				<Br />
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
@@ -620,10 +602,10 @@
 				<Content>imprimé en février 2017</Content>
 				<Br />
 			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout" ParagraphBreakType="NextOddPage">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout" FontStyle="Regular Italic" ParagraphBreakType="NextOddPage">
 				<Br />
 			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout" FontStyle="Regular Italic">
 				<Br />
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
@@ -658,10 +640,10 @@
 				<Content>] sont utilisés pour clarifier la référence à des mots anglais pour lesquels un équivalent français n’est pas évident.</Content>
 				<Br />
 			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout" ParagraphBreakType="NextOddPage">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout" FontStyle="Regular Italic" ParagraphBreakType="NextOddPage">
 				<Br />
 			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout" FontStyle="Regular Italic">
 				<Br />
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
@@ -845,7 +827,7 @@
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" Position="Superscript">
 				<Footnote>
 					<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
-						<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout">
+						<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout" FontStyle="Regular Italic">
 							<Content><?ACE 4?></Content>
 						</CharacterStyleRange>
 						<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
@@ -910,10 +892,10 @@
 				<Content>Ce mémoire n’est pas une contestation unilatérale des principes ou des mouvements évoqués, mais plutôt une invitation à sortir de la rhétorique de “l’invisibilité” ou de “l’intuitivité” qu’on attribue au design d’interaction. Ce changement de perspective est là pour réimaginer les interactions humain-machine dans une optique où l’humour, la provocation et l’excitation sont au centre des préoccupations.</Content>
 				<Br />
 			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout" ParagraphBreakType="NextOddPage">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout" FontStyle="Regular Italic" ParagraphBreakType="NextOddPage">
 				<Br />
 			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout" FontStyle="Regular Italic">
 				<Br />
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
@@ -954,7 +936,7 @@
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" Position="Superscript">
 				<Footnote>
 					<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
-						<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout">
+						<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout" FontStyle="Regular Italic">
 							<Content><?ACE 4?></Content>
 						</CharacterStyleRange>
 						<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
@@ -975,7 +957,7 @@
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" Position="Superscript">
 				<Footnote>
 					<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
-						<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout">
+						<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout" FontStyle="Regular Italic">
 							<Content><?ACE 4?></Content>
 						</CharacterStyleRange>
 						<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
@@ -1002,7 +984,7 @@
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" Position="Superscript">
 				<Footnote>
 					<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
-						<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout">
+						<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout" FontStyle="Regular Italic">
 							<Content><?ACE 4?></Content>
 						</CharacterStyleRange>
 						<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
@@ -1082,7 +1064,7 @@
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" Position="Superscript">
 				<Footnote>
 					<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
-						<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout">
+						<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout" FontStyle="Regular Italic">
 							<Content><?ACE 4?></Content>
 						</CharacterStyleRange>
 						<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
@@ -1171,7 +1153,7 @@
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" Position="Superscript">
 				<Footnote>
 					<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
-						<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout">
+						<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout" FontStyle="Regular Italic">
 							<Content><?ACE 4?></Content>
 						</CharacterStyleRange>
 						<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
@@ -1233,7 +1215,7 @@
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" Position="Superscript">
 				<Footnote>
 					<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
-						<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout">
+						<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout" FontStyle="Regular Italic">
 							<Content><?ACE 4?></Content>
 						</CharacterStyleRange>
 						<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
@@ -1299,7 +1281,7 @@
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" Position="Superscript">
 				<Footnote>
 					<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
-						<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout">
+						<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout" FontStyle="Regular Italic">
 							<Content><?ACE 4?></Content>
 						</CharacterStyleRange>
 						<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
@@ -1332,7 +1314,7 @@
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" Position="Superscript">
 				<Footnote>
 					<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
-						<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout">
+						<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout" FontStyle="Regular Italic">
 							<Content><?ACE 4?></Content>
 						</CharacterStyleRange>
 						<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
@@ -1354,10 +1336,10 @@
 				<Content>Les trois prochains chapitres sont une relecture de ces trois caractéristiques.</Content>
 				<Br />
 			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout" ParagraphBreakType="NextOddPage">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout" FontStyle="Regular Italic" ParagraphBreakType="NextOddPage">
 				<Br />
 			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout" FontStyle="Regular Italic">
 				<Br />
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
@@ -1383,7 +1365,7 @@
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" Position="Superscript">
 				<Footnote>
 					<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
-						<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout">
+						<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout" FontStyle="Regular Italic">
 							<Content><?ACE 4?></Content>
 						</CharacterStyleRange>
 						<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
@@ -1400,10 +1382,10 @@
 				<Content>Nous verrons d’abord pourquoi il faut se méfier de vouloir exploiter naïvement la technologie comme une réponse à des problèmes complexes, puis pourquoi cette quête de l’efficacité n’est pas pertinente dans le champ de la communication interpersonnelle.</Content>
 				<Br />
 			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout" ParagraphBreakType="NextPage">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout" FontStyle="Regular Italic" ParagraphBreakType="NextPage">
 				<Br />
 			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout" FontStyle="Regular Italic">
 				<Br />
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
@@ -1423,7 +1405,7 @@
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" Position="Superscript">
 				<Footnote>
 					<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
-						<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout">
+						<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout" FontStyle="Regular Italic">
 							<Content><?ACE 4?></Content>
 						</CharacterStyleRange>
 						<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
@@ -1444,7 +1426,7 @@
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" Position="Superscript">
 				<Footnote>
 					<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
-						<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout">
+						<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout" FontStyle="Regular Italic">
 							<Content><?ACE 4?></Content>
 						</CharacterStyleRange>
 						<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
@@ -7798,7 +7780,7 @@ yrqGy2OxmYxEIaLdG99xY+OL7bNzE+OBJdRFnClgwSkmE8gjMSLQ+Qof8PQlikd2DNM8mAaEimfy
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" Position="Superscript">
 				<Footnote>
 					<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
-						<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout">
+						<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout" FontStyle="Regular Italic">
 							<Content><?ACE 4?></Content>
 						</CharacterStyleRange>
 						<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
@@ -7829,10 +7811,10 @@ yrqGy2OxmYxEIaLdG99xY+OL7bNzE+OBJdRFnClgwSkmE8gjMSLQ+Qof8PQlikd2DNM8mAaEimfy
 				<Content>.</Content>
 				<Br />
 			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout" ParagraphBreakType="NextPage">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout" FontStyle="Regular Italic" ParagraphBreakType="NextPage">
 				<Br />
 			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout" FontStyle="Regular Italic">
 				<Br />
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
@@ -7922,7 +7904,7 @@ yrqGy2OxmYxEIaLdG99xY+OL7bNzE+OBJdRFnClgwSkmE8gjMSLQ+Qof8PQlikd2DNM8mAaEimfy
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" Position="Superscript">
 				<Footnote>
 					<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
-						<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout">
+						<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout" FontStyle="Regular Italic">
 							<Content><?ACE 4?></Content>
 						</CharacterStyleRange>
 						<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
@@ -7943,10 +7925,10 @@ yrqGy2OxmYxEIaLdG99xY+OL7bNzE+OBJdRFnClgwSkmE8gjMSLQ+Qof8PQlikd2DNM8mAaEimfy
 				<Content>Si l’argument de la “communication efficace” n’est pas univoque, doit-on pour autant se désespérer de trouver un intérêt à la conversation assistée par ordinateur ? La réponse se trouve peut-être dans la capacité d’un logiciel à déranger les habitudes des usagers, et c’est ce nous allons voir dans le prochain chapitre.</Content>
 				<Br />
 			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout" ParagraphBreakType="NextOddPage">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout" FontStyle="Regular Italic" ParagraphBreakType="NextOddPage">
 				<Br />
 			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout" FontStyle="Regular Italic">
 				<Br />
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
@@ -7983,10 +7965,10 @@ yrqGy2OxmYxEIaLdG99xY+OL7bNzE+OBJdRFnClgwSkmE8gjMSLQ+Qof8PQlikd2DNM8mAaEimfy
 				<Content>Nous verrons tout d’abord pourquoi l’idée d’une technologie qui contraint l’usager peut être attrayante, puis nous remettrons en question l’idée de reléguer la technologie en arrière-plan. Enfin, nous verrons pourquoi ce n’est pas un problème de déranger l’usager avec des détails techniques.</Content>
 				<Br />
 			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout" ParagraphBreakType="NextPage">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout" FontStyle="Regular Italic" ParagraphBreakType="NextPage">
 				<Br />
 			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout" FontStyle="Regular Italic">
 				<Br />
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
@@ -7994,7 +7976,7 @@ yrqGy2OxmYxEIaLdG99xY+OL7bNzE+OBJdRFnClgwSkmE8gjMSLQ+Qof8PQlikd2DNM8mAaEimfy
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Strikeout">
 				<Content>Une technologie qui fait </Content>
 			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout" FontStyle="Regular Italic">
 				<Content>juste</Content>
 			</CharacterStyleRange>
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Strikeout">
@@ -8057,10 +8039,10 @@ yrqGy2OxmYxEIaLdG99xY+OL7bNzE+OBJdRFnClgwSkmE8gjMSLQ+Qof8PQlikd2DNM8mAaEimfy
 				<Content>Ces projets sont deux exemples d’outils d’écriture qui utilisent la contrainte comme prétexte pour encourager à écrire. Ce sont de petits projets, au sens qu’ils ne sont pas complexes techniquement et qu’ils ne peuvent servir que dans des situations particulières. Néanmoins, ils permettent d’entrevoir la pluralité des expériences que pourraient proposer des logiciels de traitement de texte revisités.</Content>
 				<Br />
 			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout" ParagraphBreakType="NextPage">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout" FontStyle="Regular Italic" ParagraphBreakType="NextPage">
 				<Br />
 			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout" FontStyle="Regular Italic">
 				<Br />
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
@@ -8086,7 +8068,7 @@ yrqGy2OxmYxEIaLdG99xY+OL7bNzE+OBJdRFnClgwSkmE8gjMSLQ+Qof8PQlikd2DNM8mAaEimfy
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" Position="Superscript">
 				<Footnote>
 					<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
-						<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout">
+						<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout" FontStyle="Regular Italic">
 							<Content><?ACE 4?></Content>
 						</CharacterStyleRange>
 						<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
@@ -8134,7 +8116,7 @@ yrqGy2OxmYxEIaLdG99xY+OL7bNzE+OBJdRFnClgwSkmE8gjMSLQ+Qof8PQlikd2DNM8mAaEimfy
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" Position="Superscript">
 				<Footnote>
 					<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
-						<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout">
+						<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout" FontStyle="Regular Italic">
 							<Content><?ACE 4?></Content>
 						</CharacterStyleRange>
 						<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
@@ -8155,10 +8137,10 @@ yrqGy2OxmYxEIaLdG99xY+OL7bNzE+OBJdRFnClgwSkmE8gjMSLQ+Qof8PQlikd2DNM8mAaEimfy
 				<Content>C’est pourquoi un point primordial à considérer est celui de concéder à l’usager le contrôle sur son identité. Cela impose de ne plus avoir une personnalisation autosuffisante, mais guidée par l’usager lui-même. Il s’agit donc de promouvoir des systèmes hybrides, qui combinent les données collectées avec les injonctions explicites de l’utilisateur final.</Content>
 				<Br />
 			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout" ParagraphBreakType="NextPage">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout" FontStyle="Regular Italic" ParagraphBreakType="NextPage">
 				<Br />
 			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout" FontStyle="Regular Italic">
 				<Br />
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
@@ -8180,7 +8162,7 @@ yrqGy2OxmYxEIaLdG99xY+OL7bNzE+OBJdRFnClgwSkmE8gjMSLQ+Qof8PQlikd2DNM8mAaEimfy
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" Position="Superscript">
 				<Footnote>
 					<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
-						<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout">
+						<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout" FontStyle="Regular Italic">
 							<Content><?ACE 4?></Content>
 						</CharacterStyleRange>
 						<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
@@ -8285,10 +8267,10 @@ yrqGy2OxmYxEIaLdG99xY+OL7bNzE+OBJdRFnClgwSkmE8gjMSLQ+Qof8PQlikd2DNM8mAaEimfy
 				<Content>De ce point de vue, l’idée d’une technologie qui capte en arrière-plan des informations sur ses usagers est problématique.</Content>
 				<Br />
 			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout" ParagraphBreakType="NextOddPage">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout" FontStyle="Regular Italic" ParagraphBreakType="NextOddPage">
 				<Br />
 			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout" FontStyle="Regular Italic">
 				<Br />
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
@@ -8335,7 +8317,7 @@ yrqGy2OxmYxEIaLdG99xY+OL7bNzE+OBJdRFnClgwSkmE8gjMSLQ+Qof8PQlikd2DNM8mAaEimfy
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" Position="Superscript">
 				<Footnote>
 					<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
-						<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout">
+						<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout" FontStyle="Regular Italic">
 							<Content><?ACE 4?></Content>
 						</CharacterStyleRange>
 						<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
@@ -8372,7 +8354,7 @@ yrqGy2OxmYxEIaLdG99xY+OL7bNzE+OBJdRFnClgwSkmE8gjMSLQ+Qof8PQlikd2DNM8mAaEimfy
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" Position="Superscript">
 				<Footnote>
 					<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
-						<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout">
+						<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout" FontStyle="Regular Italic">
 							<Content><?ACE 4?></Content>
 						</CharacterStyleRange>
 						<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
@@ -8393,7 +8375,7 @@ yrqGy2OxmYxEIaLdG99xY+OL7bNzE+OBJdRFnClgwSkmE8gjMSLQ+Qof8PQlikd2DNM8mAaEimfy
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" Position="Superscript">
 				<Footnote>
 					<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
-						<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout">
+						<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout" FontStyle="Regular Italic">
 							<Content><?ACE 4?></Content>
 						</CharacterStyleRange>
 						<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
@@ -8412,10 +8394,10 @@ yrqGy2OxmYxEIaLdG99xY+OL7bNzE+OBJdRFnClgwSkmE8gjMSLQ+Qof8PQlikd2DNM8mAaEimfy
 				<Content> pour les articles critiques qu’ils ont publiés à ce sujet. Ici, nous allons voir tout d’abord questionner un principe du mouvement NoUI “Tirer parti des ordinateurs au lieu de les servir”, en présentant les bénéfices d’une adaptation de l’usager à la logique computationnelle. Puis nous expliquerons pourquoi l’idée d’invisibilité est particulièrement problématique dans l’ère du machine learning.</Content>
 				<Br />
 			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout" ParagraphBreakType="NextPage">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout" FontStyle="Regular Italic" ParagraphBreakType="NextPage">
 				<Br />
 			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout" FontStyle="Regular Italic">
 				<Br />
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
@@ -8481,10 +8463,10 @@ yrqGy2OxmYxEIaLdG99xY+OL7bNzE+OBJdRFnClgwSkmE8gjMSLQ+Qof8PQlikd2DNM8mAaEimfy
 				<Content>.</Content>
 				<Br />
 			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout" ParagraphBreakType="NextPage">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout" FontStyle="Regular Italic" ParagraphBreakType="NextPage">
 				<Br />
 			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout" FontStyle="Regular Italic">
 				<Br />
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
@@ -8527,7 +8509,7 @@ yrqGy2OxmYxEIaLdG99xY+OL7bNzE+OBJdRFnClgwSkmE8gjMSLQ+Qof8PQlikd2DNM8mAaEimfy
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" Position="Superscript">
 				<Footnote>
 					<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
-						<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout">
+						<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout" FontStyle="Regular Italic">
 							<Content><?ACE 4?></Content>
 						</CharacterStyleRange>
 						<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
@@ -8554,7 +8536,7 @@ yrqGy2OxmYxEIaLdG99xY+OL7bNzE+OBJdRFnClgwSkmE8gjMSLQ+Qof8PQlikd2DNM8mAaEimfy
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" Position="Superscript">
 				<Footnote>
 					<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
-						<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout">
+						<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout" FontStyle="Regular Italic">
 							<Content><?ACE 4?></Content>
 						</CharacterStyleRange>
 						<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
@@ -8575,7 +8557,7 @@ yrqGy2OxmYxEIaLdG99xY+OL7bNzE+OBJdRFnClgwSkmE8gjMSLQ+Qof8PQlikd2DNM8mAaEimfy
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" Position="Superscript">
 				<Footnote>
 					<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
-						<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout">
+						<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout" FontStyle="Regular Italic">
 							<Content><?ACE 4?></Content>
 						</CharacterStyleRange>
 						<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
@@ -8632,10 +8614,10 @@ yrqGy2OxmYxEIaLdG99xY+OL7bNzE+OBJdRFnClgwSkmE8gjMSLQ+Qof8PQlikd2DNM8mAaEimfy
 				<Content>En ayant une visibilité sur comment les suggestions sont produites, on offre la possibilité de relativiser des résultats inappropriés, et d’élaborer des stratégies pour leur faire face.</Content>
 				<Br />
 			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout" ParagraphBreakType="NextOddPage">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout" FontStyle="Regular Italic" ParagraphBreakType="NextOddPage">
 				<Br />
 			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout" FontStyle="Regular Italic">
 				<Br />
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
@@ -8748,7 +8730,7 @@ yrqGy2OxmYxEIaLdG99xY+OL7bNzE+OBJdRFnClgwSkmE8gjMSLQ+Qof8PQlikd2DNM8mAaEimfy
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" Position="Superscript">
 				<Footnote>
 					<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
-						<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout">
+						<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout" FontStyle="Regular Italic">
 							<Content><?ACE 4?></Content>
 						</CharacterStyleRange>
 						<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
@@ -8804,7 +8786,7 @@ yrqGy2OxmYxEIaLdG99xY+OL7bNzE+OBJdRFnClgwSkmE8gjMSLQ+Qof8PQlikd2DNM8mAaEimfy
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" Position="Superscript">
 				<Footnote>
 					<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
-						<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout">
+						<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout" FontStyle="Regular Italic">
 							<Content><?ACE 4?></Content>
 						</CharacterStyleRange>
 						<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
@@ -8855,10 +8837,10 @@ yrqGy2OxmYxEIaLdG99xY+OL7bNzE+OBJdRFnClgwSkmE8gjMSLQ+Qof8PQlikd2DNM8mAaEimfy
 				<Content>Il définit ce type de technologie par sa capacité à être un peu excitante, à surprendre et à faire naître des situations inattendues. Une forme de technologie qui ne viendrait pas seulement résoudre un problème, mais agrémenter la vie de tous les jours. C’est autour de cette base et des principes évoqués dans les chapitres précédents que se définissent les principes suivants.</Content>
 				<Br />
 			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout" ParagraphBreakType="NextPage">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout" FontStyle="Regular Italic" ParagraphBreakType="NextPage">
 				<Br />
 			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout" FontStyle="Regular Italic">
 				<Br />
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
@@ -8903,10 +8885,10 @@ yrqGy2OxmYxEIaLdG99xY+OL7bNzE+OBJdRFnClgwSkmE8gjMSLQ+Qof8PQlikd2DNM8mAaEimfy
 				<Content>L’interface n’est ni une couche d’embellissement, ni une couche accessoire. Elle doit donner les clés de compréhension du fonctionnement du système.</Content>
 				<Br />
 			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout" ParagraphBreakType="NextOddPage">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout" FontStyle="Regular Italic" ParagraphBreakType="NextOddPage">
 				<Br />
 			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout" FontStyle="Regular Italic">
 				<Br />
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
@@ -8923,10 +8905,10 @@ yrqGy2OxmYxEIaLdG99xY+OL7bNzE+OBJdRFnClgwSkmE8gjMSLQ+Qof8PQlikd2DNM8mAaEimfy
 				<Content>En parallèle, en temps que designer, il me paraissait important d’illustrer ces principes par des exemples d’application. Cette annexe présente une petite collection d’interfaces fictionnelles, qui tirent parti des algorithmes de machine learning, en se plaçant dans la lignée de la technologie chili.</Content>
 				<Br />
 			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout" ParagraphBreakType="NextPage">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout" FontStyle="Regular Italic" ParagraphBreakType="NextPage">
 				<Br />
 			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout" FontStyle="Regular Italic">
 				<Br />
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
