@@ -127,6 +127,9 @@
 		<Font Self="di48e5FontnGT America Mono Black" FontFamily="GT America Mono" Name="GT America Mono Black" PostScriptName="GTAmericaMono-Black" Status="Installed" FontStyleName="Black" FontType="OpenTypeTT" WritingScript="0" FullName="GT America Mono Black" FullNameNative="GT America Mono Black" FontStyleNameNative="Black" PlatformName="$ID/" Version="Version 2.001" TypekitID="$ID/" />
 		<Font Self="di48e5FontnGT America Mono Black Italic" FontFamily="GT America Mono" Name="GT America Mono Black Italic" PostScriptName="GTAmericaMono-BlackItalic" Status="Installed" FontStyleName="Black Italic" FontType="OpenTypeTT" WritingScript="0" FullName="GT America Mono Black Italic" FullNameNative="GT America Mono Black Italic" FontStyleNameNative="Black Italic" PlatformName="$ID/" Version="Version 2.001" TypekitID="$ID/" />
 	</FontFamily>
+	<FontFamily Self="di56fd" Name="Wingdings 3">
+		<Font Self="di56fdFontnWingdings 3 Regular" FontFamily="Wingdings 3" Name="Wingdings 3 Regular" PostScriptName="Wingdings3" Status="Installed" FontStyleName="Regular" FontType="OpenTypeTT" WritingScript="0" FullName="Wingdings 3" FullNameNative="Wingdings 3" FontStyleNameNative="Regular" PlatformName="$ID/" Version="Version 1.55" TypekitID="$ID/" />
+	</FontFamily>
 	<CompositeFont Self="CompositeFont/$ID/[No composite font]" Name="$ID/[No composite font]">
 		<CompositeFontEntry Self="ua2" Name="$ID/Kanji" FontStyle="$ID/R" RelativeSize="100" HorizontalScale="100" VerticalScale="100" Locked="true" ScaleOption="true" BaselineShift="0">
 			<Properties>
@@ -186,14 +189,14 @@
 					<PreviewColor type="enumeration">Nothing</PreviewColor>
 				</Properties>
 			</CharacterStyle>
-			<CharacterStyle Self="CharacterStyle/Mes styles%3aurl" Imported="false" SplitDocument="false" EmitCss="true" StyleUniqueId="1716f9cb-51ad-4ce4-b8f9-6e9e512f9608" KeyboardShortcut="0 0" Name="Mes styles:url" FontStyle="Regular" PointSize="8">
+			<CharacterStyle Self="CharacterStyle/Mes styles%3aurl" Imported="false" SplitDocument="false" EmitCss="true" StyleUniqueId="427ec869-242f-41c3-a77f-6d00dc5b7a7a" KeyboardShortcut="0 0" Name="Mes styles:url" FontStyle="Extended Regular" PointSize="8" Tracking="0">
 				<Properties>
 					<BasedOn type="object">CharacterStyle/Default</BasedOn>
 					<PreviewColor type="enumeration">Nothing</PreviewColor>
-					<AppliedFont type="string">GT America Mono</AppliedFont>
+					<AppliedFont type="string">GT America</AppliedFont>
 				</Properties>
 			</CharacterStyle>
-			<CharacterStyle Self="CharacterStyle/Mes styles%3aHeader3 barré" Imported="false" SplitDocument="false" EmitCss="true" StyleUniqueId="4a459e04-8750-4b39-8139-a2857e0f5c8d" KeyboardShortcut="0 0" Name="Mes styles:Header3 barré" StrikeThroughOffset="5" StrikeThroughWeight="4">
+			<CharacterStyle Self="CharacterStyle/Mes styles%3aHeader2 barré" Imported="false" SplitDocument="false" EmitCss="true" StyleUniqueId="23ef6c56-596b-4a9a-ac84-e2fbc9c4990d" KeyboardShortcut="0 0" Name="Mes styles:Header2 barré" StrikeThroughOffset="5" StrikeThroughWeight="3">
 				<Properties>
 					<BasedOn type="object">CharacterStyle/Strikeout</BasedOn>
 					<PreviewColor type="enumeration">Nothing</PreviewColor>
@@ -223,17 +226,11 @@
 		</CharacterStyle>
 	</RootCharacterStyleGroup>
 	<RootParagraphStyleGroup Self="u77">
-		<ParagraphStyle Self="ParagraphStyle/Paragraph" Name="Paragraph" Imported="false" NextStyle="ParagraphStyle/Paragraph" SplitDocument="false" EmitCss="true" StyleUniqueId="70e76029-4173-4b56-bc6f-e0822ffa9147" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" KeyboardShortcut="0 0" PointSize="8.5" SpaceAfter="11.2" MaximumWordSpacing="110.00000000000001" MinimumWordSpacing="90" MaximumLetterSpacing="3" MinimumLetterSpacing="-3" Justification="LeftJustified">
+		<ParagraphStyle Self="ParagraphStyle/Paragraph" Name="Paragraph" Imported="false" NextStyle="ParagraphStyle/Paragraph" SplitDocument="false" EmitCss="true" StyleUniqueId="d85a2da0-e876-4b31-add0-a115418c56d9" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" KeyboardShortcut="0 0" PointSize="8.5" HyphenateWordsLongerThan="6" SpaceAfter="11.2" MaximumWordSpacing="110.00000000000001" MinimumWordSpacing="90" MaximumLetterSpacing="3" MinimumLetterSpacing="-3" HyphenateLastWord="false" Justification="LeftJustified" HyphenWeight="7">
 			<Properties>
 				<BasedOn type="object">ParagraphStyle/$ID/NormalParagraphStyle</BasedOn>
 				<PreviewColor type="enumeration">Nothing</PreviewColor>
 				<Leading type="unit">11.2</Leading>
-			</Properties>
-		</ParagraphStyle>
-		<ParagraphStyle Self="ParagraphStyle/Tuteur" Name="Tuteur" Imported="false" NextStyle="ParagraphStyle/Tuteur" SplitDocument="false" EmitCss="true" StyleUniqueId="3156bbc8-c71b-4621-8763-605fdb16b73f" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" KeyboardShortcut="0 0" SpaceAfter="0">
-			<Properties>
-				<BasedOn type="object">ParagraphStyle/Paragraph</BasedOn>
-				<PreviewColor type="enumeration">Nothing</PreviewColor>
 			</Properties>
 		</ParagraphStyle>
 		<ParagraphStyle Self="ParagraphStyle/Header4" Name="Header4" Imported="false" NextStyle="ParagraphStyle/Header4" SplitDocument="false" EmitCss="true" StyleUniqueId="daf2b760-97af-42e3-b254-b2e5a9d6a302" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" KeyboardShortcut="0 0" PointSize="8.5" SpaceAfter="0">
@@ -242,7 +239,7 @@
 				<PreviewColor type="enumeration">Nothing</PreviewColor>
 			</Properties>
 		</ParagraphStyle>
-		<ParagraphStyle Self="ParagraphStyle/Header2" Name="Header2" Imported="false" NextStyle="ParagraphStyle/Header2" SplitDocument="false" EmitCss="true" StyleUniqueId="d8e386bd-7bc8-406c-824d-54d4645c2b59" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" KeyboardShortcut="0 0" FontStyle="Bold" PointSize="20">
+		<ParagraphStyle Self="ParagraphStyle/Header2" Name="Header2" Imported="false" NextStyle="ParagraphStyle/Header2" SplitDocument="false" EmitCss="true" StyleUniqueId="cfe35bc3-5be7-4372-b853-7c48f93ede19" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" KeyboardShortcut="0 0" FontStyle="Bold" PointSize="20">
 			<Properties>
 				<BasedOn type="object">ParagraphStyle/$ID/NormalParagraphStyle</BasedOn>
 				<PreviewColor type="enumeration">Nothing</PreviewColor>
@@ -278,7 +275,20 @@
 				<Leading type="unit">11.2</Leading>
 			</Properties>
 		</ParagraphStyle>
-		<ParagraphStyle Self="ParagraphStyle/Chili - détails" Name="Chili - détails" Imported="false" NextStyle="ParagraphStyle/Chili - détails" SplitDocument="false" EmitCss="true" StyleUniqueId="91211730-d75b-4a24-abb7-6963f94415f4" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" KeyboardShortcut="0 0" FontStyle="Light Italic" PointSize="8" SpaceAfter="22.4">
+		<ParagraphStyle Self="ParagraphStyle/Chili - détails" Name="Chili - détails" Imported="false" NextStyle="ParagraphStyle/Chili - détails" SplitDocument="false" EmitCss="true" StyleUniqueId="63e379a9-8195-4156-bd11-1c58e3629491" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" KeyboardShortcut="0 0" FontStyle="Light Italic" PointSize="7.5" SpaceAfter="22.4">
+			<Properties>
+				<BasedOn type="object">ParagraphStyle/Paragraph</BasedOn>
+				<PreviewColor type="enumeration">Nothing</PreviewColor>
+				<Leading type="enumeration">Auto</Leading>
+			</Properties>
+		</ParagraphStyle>
+		<ParagraphStyle Self="ParagraphStyle/Annexe - Nom app" Name="Annexe - Nom app" Imported="false" NextStyle="ParagraphStyle/Annexe - Nom app" SplitDocument="false" EmitCss="true" StyleUniqueId="89fd1c8e-c432-4c6e-9ec0-6f1bc879e028" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" KeyboardShortcut="0 0" SpaceBefore="14.173228346456694" Justification="CenterAlign">
+			<Properties>
+				<BasedOn type="object">ParagraphStyle/Header3</BasedOn>
+				<PreviewColor type="enumeration">Nothing</PreviewColor>
+			</Properties>
+		</ParagraphStyle>
+		<ParagraphStyle Self="ParagraphStyle/Bibliographie" Name="Bibliographie" Imported="false" NextStyle="ParagraphStyle/Bibliographie" SplitDocument="false" EmitCss="true" StyleUniqueId="625f1152-e83d-4c3b-bf0b-cec2a81e9746" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" KeyboardShortcut="0 0" PointSize="7" SpaceAfter="4.251968503937008">
 			<Properties>
 				<BasedOn type="object">ParagraphStyle/Paragraph</BasedOn>
 				<PreviewColor type="enumeration">Nothing</PreviewColor>
@@ -334,13 +344,7 @@
 				</TabList>
 			</Properties>
 		</ParagraphStyle>
-		<ParagraphStyle Self="ParagraphStyle/Sommaire - Sous-titres" Name="Sommaire - Sous-titres" Imported="false" NextStyle="ParagraphStyle/Sommaire - Sous-titres" SplitDocument="false" EmitCss="true" StyleUniqueId="c8eb1586-1fe7-424b-91e0-c9ebf2200d12" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" KeyboardShortcut="0 0" LeftIndent="28.34645669291339">
-			<Properties>
-				<BasedOn type="object">ParagraphStyle/$ID/NormalParagraphStyle</BasedOn>
-				<PreviewColor type="enumeration">Nothing</PreviewColor>
-			</Properties>
-		</ParagraphStyle>
-		<ParagraphStyle Self="ParagraphStyle/$ID/NormalParagraphStyle" Name="$ID/NormalParagraphStyle" Imported="false" NextStyle="ParagraphStyle/$ID/NormalParagraphStyle" SplitDocument="false" EmitCss="true" StyleUniqueId="54521e63-ee57-4fc2-87c0-e30a73b5343a" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" KeyboardShortcut="0 0" PointSize="9">
+		<ParagraphStyle Self="ParagraphStyle/$ID/NormalParagraphStyle" Name="$ID/NormalParagraphStyle" Imported="false" NextStyle="ParagraphStyle/$ID/NormalParagraphStyle" SplitDocument="false" EmitCss="true" StyleUniqueId="197b2f36-22d3-4128-b0c9-2b3170beb192" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" KeyboardShortcut="0 0" PointSize="9" Justification="LeftJustified">
 			<Properties>
 				<BasedOn type="string">$ID/[No paragraph style]</BasedOn>
 				<PreviewColor type="enumeration">Nothing</PreviewColor>
@@ -418,15 +422,16 @@
 		</ParagraphStyleRange>
 		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
-				<Content>Relecture critique des caractéristiques que l’on attribue au design d’interaction (utilisabilité, technologie calme, design invisible), dans le cadre des systèmes d’aide à l’écriture et à la conversation, et particulièrement de l’autocomplétion.</Content>
+				<Content>Analyse des enjeux de l&apos;autocomplétion par la relecture critique de trois aspects du design d’interaction : l&apos;utilisabilité, la « technologie calme » et </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic" NoBreak="true">
+				<Content>le « design invisible ».</Content>
 				<Br />
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
-		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Tuteur">
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph" Justification="LeftAlign">
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Content>Tutoré par Nicolas Nova</Content>
-				<Br />
-				<Content>HEAD Genève, 2018</Content>
+				<Content>Tutoré par Nicolas Nova HEAD Genève, 2018</Content>
 				<Br />
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
@@ -447,18 +452,12 @@
 				<Content>Les mots en italique entre </Content>
 			</CharacterStyleRange>
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Mes styles%3aMot original anglais">
-				<Content>(</Content>
-			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Mes styles%3aMot original anglais">
-				<Content>parenthèses</Content>
-			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Mes styles%3aMot original anglais">
-				<Content>)</Content>
+				<Content>(parenthèses)</Content>
 			</CharacterStyleRange>
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
 				<Content> sont utilisés pour clarifier la référence à des mots anglais pour lesquels un équivalent français n’est pas évident.</Content>
 				<Br />
-				<Content>Ce texte est consultable en ligne à l’adresse :</Content>
+				<Content>Ce texte est disponible au format numérique à l’adresse suivante :</Content>
 				<Br />
 			</CharacterStyleRange>
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Mes styles%3aurl">
@@ -692,16 +691,7 @@
 				<Content>Le design de tels systèmes, c’est-à-dire les décisions relatives à leur aspect et à l’interaction avec l’usager, se place dans le champ du design d’expérience et d’interface </Content>
 			</CharacterStyleRange>
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Mes styles%3aMot original anglais">
-				<Content>(</Content>
-			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Mes styles%3aMot original anglais">
-				<Content>user experience</Content>
-			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Mes styles%3aMot original anglais">
-				<Content>, </Content>
-			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Mes styles%3aMot original anglais">
-				<Content>user interface</Content>
+				<Content>(user experience, user interface</Content>
 			</CharacterStyleRange>
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Mes styles%3aMot original anglais">
 				<Content>)</Content>
@@ -752,7 +742,7 @@
 				<Br />
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
-		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header2">
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header2" Justification="LeftAlign">
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
 				<Content>De l’autocomplétion au </Content>
 			</CharacterStyleRange>
@@ -868,13 +858,7 @@
 				<Content> quel mot a le plus de chance d’être écrit. C’est d’ailleurs le terme de « texte prédictif » </Content>
 			</CharacterStyleRange>
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Mes styles%3aMot original anglais">
-				<Content>(</Content>
-			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Mes styles%3aMot original anglais">
-				<Content>predictive text</Content>
-			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Mes styles%3aMot original anglais">
-				<Content>)</Content>
+				<Content>(predictive text)</Content>
 			</CharacterStyleRange>
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
 				<Content> qui est adopté pour désigner cette technologie de complétion.</Content>
@@ -937,8 +921,15 @@
 				<Content>apprentissage automatique</Content>
 			</CharacterStyleRange>
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Content>. Ces algorithmes font fonctionner les assistants personnels comme Siri et produisent les recommandations personnalisées de Spotify ou d’Amazon. Ce sont des programmes qui cherchent à prédire un comportement futur en se basant sur une analyse statistique des comportements passés. Ils apprennent du comportement de l’usager, et évoluent en fonction de ses habitudes. Le corollaire d’une telle technique consiste en une personnalisation grandissante de l’expérience utilisateur : le programme « s’adapte » à chaque individu.</Content>
+				<Content>. Ces algorithmes font fonctionner les assistants personnels comme Siri et produisent les recommandations personnalisées de Spotify ou d’Amazon. Ce sont des programmes qui cherchent à prédire un comportement futur en se basant sur une analyse statistique des comportements passés. Ils apprennent du comportement de l’usager, et évoluent en fonction de ses habitudes. </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" Tracking="-4">
+				<Content>Le corollaire d’une telle technique consiste en une personnalisation grandissante de l’expérience utilisateur : le programme « s’adapte » à chaque individu.</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" Tracking="-2">
 				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
 				<Content>La place centrale qu’a pris la prédiction dans les systèmes d’autocomplétion fait qu’on peut les définir comme des </Content>
 			</CharacterStyleRange>
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
@@ -1123,19 +1114,34 @@
 				<Br />
 			</CharacterStyleRange>
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Content>Aujourd’hui, les applications de messagerie (Whatsapp, Messenger, Telegram…) proposent une interface et une expérience standardisée, elles se ressemblent tant qu’elles semblent être des variations d’une même application. Les causes de ce problème sont inévitablement multiples : complexité des systèmes, problèmes liés à l’interdisciplinarité. Néanmoins, plusieurs hypothèses issues de l’histoire du design peuvent se révéler problématiques : le travail de designer se résumerait à la résolution d’un problème (notion d’utilisabilité), la technologie ne devrait pas empiéter sur la vie « réelle » (technologie calme), le bon design est celui qui ne se verrait pas (design invisible). Les trois prochains chapitres sont une relecture de ces trois caractéristiques.</Content>
+				<Content>Aujourd’hui, les applications de messagerie (Whatsapp, Messenger, Telegram…) proposent une interface et une expérience standardisée, elles se ressemblent tant qu’elles semblent être des variations d’une même application. Les causes de ce problème sont inévitablement multiples : complexité des systèmes, problèmes liés à l’interdisciplinarité. Néanmoins, plusieurs hypothèses issues de l’histoire du design peuvent se révéler problématiques : le travail de designer se résumerait à la résolution d’un problème (notion d’utilisabilité), la technologie ne devrait pas empiéter sur la vie « réelle » (technologie calme), le bon design est celui qui ne se verrait pas (design invisible). Chacun des chapitres suivants est la relecture d&apos;une de ces trois caractéristiques.</Content>
 				<Br />
 			</CharacterStyleRange>
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout" ParagraphBreakType="NextOddPage">
 				<Br />
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
-		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header2">
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Mes styles%3aHeader3 barré">
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header2" Justification="LeftAlign">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Mes styles%3aHeader2 barré">
 				<Content>Utilisabilité</Content>
 			</CharacterStyleRange>
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Content> =&gt; Inventivité</Content>
+				<Content> </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" Ligatures="false" Capitalization="AllCaps" OTFContextualAlternate="false">
+				<Properties>
+					<AppliedFont type="string">GT America Mono</AppliedFont>
+					<OpenTypeFeatures type="list">
+						<ListItem type="list">
+							<ListItem type="string">$ID/aalt</ListItem>
+							<ListItem type="long">2</ListItem>
+						</ListItem>
+					</OpenTypeFeatures>
+				</Properties>
+				<Content>→</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
+				<Content> Inventivité</Content>
 				<Br />
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
@@ -1173,12 +1179,27 @@
 				<Br />
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
-		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header3">
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header3" SpaceAfter="8.78740157480315" Justification="LeftAlign">
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Strikeout">
 				<Content>Des expériences pleines de bonnes intentions</Content>
 			</CharacterStyleRange>
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Content> / Des expériences critiques</Content>
+				<Content> </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" Ligatures="false" Capitalization="AllCaps" NoBreak="true" OTFContextualAlternate="false">
+				<Properties>
+					<AppliedFont type="string">GT America Mono</AppliedFont>
+					<OpenTypeFeatures type="list">
+						<ListItem type="list">
+							<ListItem type="string">$ID/aalt</ListItem>
+							<ListItem type="long">2</ListItem>
+						</ListItem>
+					</OpenTypeFeatures>
+				</Properties>
+				<Content>→</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" NoBreak="true">
+				<Content> Des expériences critiques</Content>
 				<Br />
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
@@ -1343,12 +1364,12 @@
 				<Br />
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
-		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header3">
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header3" SpaceAfter="8.78740157480315" Justification="LeftAlign">
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Strikeout">
 				<Content>La quête de l’efficacité</Content>
 			</CharacterStyleRange>
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Content> / La quête de la singularité</Content>
+				<Content> La quête de la singularité</Content>
 				<Br />
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
@@ -1463,13 +1484,28 @@
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout" ParagraphBreakType="NextOddPage">
 				<Br />
 			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout">
-				<Br />
-			</CharacterStyleRange>
 		</ParagraphStyleRange>
-		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header2">
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header2" Justification="LeftAlign">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Mes styles%3aHeader2 barré">
+				<Content>Technologie calme</Content>
+			</CharacterStyleRange>
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Content>technologie calme =&gt; technologie perturbante</Content>
+				<Content>  </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" Ligatures="false" Capitalization="AllCaps" NoBreak="true" OTFContextualAlternate="false">
+				<Properties>
+					<AppliedFont type="string">GT America Mono</AppliedFont>
+					<OpenTypeFeatures type="list">
+						<ListItem type="list">
+							<ListItem type="string">$ID/aalt</ListItem>
+							<ListItem type="long">2</ListItem>
+						</ListItem>
+					</OpenTypeFeatures>
+				</Properties>
+				<Content>→</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" NoBreak="true">
+				<Content> Technologie perturbante</Content>
 				<Br />
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
@@ -1506,16 +1542,28 @@
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout" ParagraphBreakType="NextPage">
 				<Br />
 			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout">
-				<Br />
-			</CharacterStyleRange>
 		</ParagraphStyleRange>
-		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header3">
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header3" SpaceAfter="8.78740157480315" Justification="LeftAlign">
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Strikeout">
 				<Content>Une technologie qui fait juste ce qu’on lui demande</Content>
 			</CharacterStyleRange>
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Content> / Une technologie qui agit là où on ne l’attend pas</Content>
+				<Content> </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" Ligatures="false" Capitalization="AllCaps" OTFContextualAlternate="false">
+				<Properties>
+					<AppliedFont type="string">GT America Mono</AppliedFont>
+					<OpenTypeFeatures type="list">
+						<ListItem type="list">
+							<ListItem type="string">$ID/aalt</ListItem>
+							<ListItem type="long">2</ListItem>
+						</ListItem>
+					</OpenTypeFeatures>
+				</Properties>
+				<Content>→</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
+				<Content> Une technologie qui agit là où on ne l’attend pas</Content>
 				<Br />
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
@@ -1575,18 +1623,27 @@
 				<Br />
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
-		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header3">
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header3" SpaceAfter="8.78740157480315" Justification="LeftAlign">
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Strikeout">
 				<Content>Une technologie qui agit en arrière-plan</Content>
 			</CharacterStyleRange>
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Content> / Une </Content>
+				<Content> </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" Ligatures="false" Capitalization="AllCaps" NoBreak="true" OTFContextualAlternate="false">
+				<Properties>
+					<AppliedFont type="string">GT America Mono</AppliedFont>
+					<OpenTypeFeatures type="list">
+						<ListItem type="list">
+							<ListItem type="string">$ID/aalt</ListItem>
+							<ListItem type="long">2</ListItem>
+						</ListItem>
+					</OpenTypeFeatures>
+				</Properties>
+				<Content>→</Content>
 			</CharacterStyleRange>
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" NoBreak="true">
-				<Content>technologie</Content>
-			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Content> explicitement paramétrable</Content>
+				<Content> Une technologie explicitement paramétrable</Content>
 				<Br />
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
@@ -1688,12 +1745,27 @@
 				<Br />
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
-		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header3">
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header3" SpaceAfter="8.78740157480315" Justification="LeftAlign">
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Strikeout">
-				<Content>Ne pas en dire trop sur comment le système fonctionne</Content>
+				<Content>Cacher comment le système fonctionne</Content>
 			</CharacterStyleRange>
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Content> =&gt; Dire clairement comment le système fonctionne</Content>
+				<Content> </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" Ligatures="false" Capitalization="AllCaps" NoBreak="true" OTFContextualAlternate="false">
+				<Properties>
+					<AppliedFont type="string">GT America Mono</AppliedFont>
+					<OpenTypeFeatures type="list">
+						<ListItem type="list">
+							<ListItem type="string">$ID/aalt</ListItem>
+							<ListItem type="long">2</ListItem>
+						</ListItem>
+					</OpenTypeFeatures>
+				</Properties>
+				<Content>→</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" NoBreak="true">
+				<Content> Dire clairement comment le système fonctionne</Content>
 				<Br />
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
@@ -1744,7 +1816,7 @@
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
 				<Content>, et ainsi être de précieuses ressources pour rapporter de l’argent à l’entreprise grâce à la vente d’espace publicitaires. Ces conclusions ne sont pas directement vérifiables, et pourtant elles sont loin d’être improbables. En effet, je suis plus réceptive à une annonce pour des cadeaux à l’approche de l’anniversaire d’un ami. Et un publicitaire est prêt à payer plus cher pour une campagne qui va être vue par mille personnes qui s’apprêtent à dépenser que par mille personnes prises au hasard.</Content>
 				<Br />
-				<Content>Dès lors, on peut interpréter de la même manière les fonctions de réponse automatique (que l’on peut considérer comme une forme d’autocomplétion) inclues dans Gmail. Dans la situation (réelle) présentée ici, quelle différence de sens y a-t-il entre « I don’t have it. » et « I don’t, sorry.</Content>
+				<Content>Dès lors, on peut interpréter de la même manière les fonctions de réponse automatique (que l’on peut considérer comme une forme d’autocomplétion) inclues dans Gmail. Dans la situation (réelle) présentée ci-contre, quelle différence de sens y a-t-il entre « I don’t have it. » et « I don’t, sorry.</Content>
 			</CharacterStyleRange>
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Cite">
 				<Content> »</Content>
@@ -1775,27 +1847,28 @@
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout" ParagraphBreakType="NextOddPage">
 				<Br />
 			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout">
-				<Br />
-			</CharacterStyleRange>
 		</ParagraphStyleRange>
-		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header2">
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Strikeout">
-				<Content>design invisible</Content>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header2" Justification="LeftAlign">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Mes styles%3aHeader2 barré">
+				<Content>Design invisible</Content>
 			</CharacterStyleRange>
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Content> =&gt; </Content>
+				<Content> </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" Ligatures="false" Capitalization="AllCaps" NoBreak="true" OTFContextualAlternate="false">
+				<Properties>
+					<AppliedFont type="string">GT America Mono</AppliedFont>
+					<OpenTypeFeatures type="list">
+						<ListItem type="list">
+							<ListItem type="string">$ID/aalt</ListItem>
+							<ListItem type="long">2</ListItem>
+						</ListItem>
+					</OpenTypeFeatures>
+				</Properties>
+				<Content>→</Content>
 			</CharacterStyleRange>
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" NoBreak="true">
-				<Content>design</Content>
-			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Content> </Content>
-			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" NoBreak="true">
-				<Content>visible</Content>
-			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
+				<Content> Design visible</Content>
 				<Br />
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
@@ -1907,16 +1980,28 @@
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout" ParagraphBreakType="NextPage">
 				<Br />
 			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout">
-				<Br />
-			</CharacterStyleRange>
 		</ParagraphStyleRange>
-		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header3">
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header3" SpaceAfter="8.78740157480315" Justification="LeftAlign">
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Strikeout">
 				<Content>Tirer parti des ordinateurs plutôt que de les servir</Content>
 			</CharacterStyleRange>
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Content> =&gt; S’adapter à la logique computationnelle</Content>
+				<Content>  </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" Ligatures="false" Capitalization="AllCaps" NoBreak="true" OTFContextualAlternate="false">
+				<Properties>
+					<AppliedFont type="string">GT America Mono</AppliedFont>
+					<OpenTypeFeatures type="list">
+						<ListItem type="list">
+							<ListItem type="string">$ID/aalt</ListItem>
+							<ListItem type="long">2</ListItem>
+						</ListItem>
+					</OpenTypeFeatures>
+				</Properties>
+				<Content>→</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" NoBreak="true">
+				<Content> S’adapter à la logique computationnelle</Content>
 				<Br />
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
@@ -1982,16 +2067,30 @@
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout" ParagraphBreakType="NextPage">
 				<Br />
 			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout">
-				<Br />
-			</CharacterStyleRange>
 		</ParagraphStyleRange>
-		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header3">
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header3" SpaceAfter="8.78740157480315" Justification="LeftAlign">
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Strikeout">
-				<Content>La magie de l’invisibilité</Content>
+				<Content>La magie de l’invisibilité </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" Ligatures="false" Capitalization="AllCaps" OTFContextualAlternate="false">
+				<Properties>
+					<AppliedFont type="string">GT America Mono</AppliedFont>
+					<OpenTypeFeatures type="list">
+						<ListItem type="list">
+							<ListItem type="string">$ID/aalt</ListItem>
+							<ListItem type="long">2</ListItem>
+						</ListItem>
+					</OpenTypeFeatures>
+				</Properties>
+				<Content>→</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
+				<Content> </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" NoBreak="true">
+				<Content>La nécessité de visibilité</Content>
 			</CharacterStyleRange>
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Content> =&gt; La nécessité de visibilité</Content>
 				<Br />
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
@@ -2130,6 +2229,11 @@
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
 		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header2">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header2" Justification="LeftAlign">
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
 				<Content>Vers de nouvelles formes de collaboration </Content>
 			</CharacterStyleRange>
@@ -2368,16 +2472,16 @@
 		</ParagraphStyleRange>
 		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Content>Il définit ce type de technologie par sa capacité à être un peu excitante, à surprendre et à faire naître des situations inattendues. Une forme de technologie qui ne viendrait pas seulement résoudre un problème, mais agrémenter la vie de tous les jours. C’est autour de cette base et des idées évoquées dans les chapitres précédents que j’ai défini les principes suivants.</Content>
+				<Content>Il définit ce type de technologie par sa capacité à être un peu excitante, à surprendre et à faire naître des situations inattendues. Une forme de technologie qui ne viendrait pas seulement résoudre un problème, mais agrémenter la vie de tous les jours. C’est à partir de cette base et autour des idées évoquées dans les chapitres précédents que j’ai défini les principes suivants.</Content>
 				<Br />
 			</CharacterStyleRange>
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout" ParagraphBreakType="NextPage">
 				<Br />
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
-		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header3" Justification="CenterAlign">
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header3">
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Content>Technologie pimentée</Content>
+				<Content>« Technologie pimentée »</Content>
 				<Br />
 				<Br />
 			</CharacterStyleRange>
@@ -2396,7 +2500,7 @@
 		</ParagraphStyleRange>
 		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Chili - détails">
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Content>On peut par exemple imaginer une application permettant d’écrire dans le style de quelqu’un d’autre (voir page ?). Cela pourrait à la fois créer des conversations drôles et surprenantes, mais aussi faire découvrir du vocabulaire désuet.</Content>
+				<Content>On peut par exemple imaginer une application permettant d’écrire dans le style de quelqu’un d’autre (voir page 54). Cela pourrait à la fois créer des conversations drôles et surprenantes, mais aussi faire découvrir du vocabulaire désuet.</Content>
 				<Br />
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
@@ -2414,7 +2518,7 @@
 		</ParagraphStyleRange>
 		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Chili - détails">
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Content>On peut par exemple imaginer de laisser à l’usager la possibilité de gérer sa personnalité en fonction de son humeur, plutôt que de dépendre d’une personnalisation automatique (voir page ?).</Content>
+				<Content>On peut par exemple imaginer de laisser à l’usager la possibilité de gérer sa personnalité en fonction de son humeur, plutôt que de dépendre d’une personnalisation automatique (voir page 55).</Content>
 				<Br />
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
@@ -2432,7 +2536,7 @@
 		</ParagraphStyleRange>
 		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Chili - détails">
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Content>On peut par exemple imaginer une interface qui permet de consulter les mots qu’on utilise le plus, ou bien de supprimer les mots qu’on ne souhaite plus se voir proposer (voir page ?).</Content>
+				<Content>On peut par exemple imaginer une interface qui permet de consulter les mots qu’on utilise le plus, ou bien de supprimer les mots qu’on ne souhaite plus se voir proposer (voir page 56).</Content>
 				<Br />
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
@@ -2446,9 +2550,6 @@
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout" ParagraphBreakType="NextOddPage">
 				<Br />
 			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout">
-				<Br />
-			</CharacterStyleRange>
 		</ParagraphStyleRange>
 		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header2">
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
@@ -2458,7 +2559,7 @@
 		</ParagraphStyleRange>
 		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Content>Toute au long de ce mémoire, j’ai défendu plusieurs principes pour la conception de l’expérience et l’interface d’un système d’autocomplétion.</Content>
+				<Content>Tout au long de ce mémoire, j’ai défendu plusieurs principes pour la conception de l’expérience et l’interface d’un système d’autocomplétion.</Content>
 				<Br />
 				<Content>En parallèle, en tant que designer, il me paraissait important d’illustrer ces principes par des exemples d’application. Cette annexe présente une petite collection d’interfaces fictionnelles, qui tirent parti des algorithmes de machine learning, en se plaçant dans la lignée de la technologie pimentée.</Content>
 				<Br />
@@ -2467,23 +2568,15 @@
 				<Br />
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
-		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header3">
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Annexe - Nom app" Justification="LeftJustified">
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
 				<Content>Coach personnel pour les relations sociales</Content>
 			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" FontStyle="Light" PointSize="8">
-				<Properties>
-					<Leading type="enumeration">Auto</Leading>
-				</Properties>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" FontStyle="Regular" PointSize="8.5" ParagraphBreakType="NextPage">
 				<Br />
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
-		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" ParagraphBreakType="NextPage">
-				<Br />
-			</CharacterStyleRange>
-		</ParagraphStyleRange>
-		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header3">
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Annexe - Nom app" Justification="RightAlign">
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
 				<Content>Templates de conversation</Content>
 			</CharacterStyleRange>
@@ -2491,142 +2584,35 @@
 				<Br />
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
-		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header3">
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Annexe - Nom app" Justification="LeftJustified">
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
 				<Content>Écrire dans le style de…</Content>
 			</CharacterStyleRange>
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" FontStyle="Regular" PointSize="8.5" ParagraphBreakType="NextPage">
 				<Br />
 			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Annexe - Nom app" Justification="RightAlign">
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
 				<Content>Gestionnaire de personnalité</Content>
 			</CharacterStyleRange>
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" FontStyle="Regular" PointSize="8.5" ParagraphBreakType="NextPage">
 				<Br />
 			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Annexe - Nom app" Justification="LeftJustified">
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
 				<Content>Gestionnaire de vocabulaire</Content>
 			</CharacterStyleRange>
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" FontStyle="Regular" PointSize="8.5" ParagraphBreakType="NextPage">
 				<Br />
 			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Annexe - Nom app" Justification="RightAlign">
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
 				<Content>Différencier les mots complétés</Content>
 			</CharacterStyleRange>
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" FontStyle="Regular" PointSize="8.5" ParagraphBreakType="NextOddPage">
-				<Br />
-			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Content>Iconographie</Content>
-				<Br />
-			</CharacterStyleRange>
-		</ParagraphStyleRange>
-		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header4">
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Content>MACH</Content>
-				<Br />
-			</CharacterStyleRange>
-		</ParagraphStyleRange>
-		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Content>Photo par Manohar Srikanth, http ://hoques.com/MACH.htm</Content>
-				<Br />
-			</CharacterStyleRange>
-		</ParagraphStyleRange>
-		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header4">
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Content>us+</Content>
-				<Br />
-			</CharacterStyleRange>
-		</ParagraphStyleRange>
-		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Content>Projet par Lauren McCarthy et Kyle McDonald. Screenshot extrait de la vidéo : https ://vimeo.com/81903116</Content>
-				<Br />
-			</CharacterStyleRange>
-		</ParagraphStyleRange>
-		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header4">
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Content>Grammarly</Content>
-				<Br />
-			</CharacterStyleRange>
-		</ParagraphStyleRange>
-		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Content>Screenshot extrait de https ://www.grammarly.com/</Content>
-				<Br />
-			</CharacterStyleRange>
-		</ParagraphStyleRange>
-		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header4">
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Content>Sheboard</Content>
-				<Br />
-			</CharacterStyleRange>
-		</ParagraphStyleRange>
-		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Content>Visuel extrait du site officiel de l’application : https ://sheboard.com/</Content>
-				<Br />
-			</CharacterStyleRange>
-		</ParagraphStyleRange>
-		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header4">
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Content>Schéma filtrage collaboratif / filtrage basé sur le contenu</Content>
-				<Br />
-			</CharacterStyleRange>
-		</ParagraphStyleRange>
-		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Content>Schéma inspiré de : http ://i65.tinypic.com/2ebah6c.png Emojis : Par Twitter, www.flaticon.com Personnages : Par Freepik, www.flaticon.com</Content>
-				<Br />
-			</CharacterStyleRange>
-		</ParagraphStyleRange>
-		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header4">
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Content>Annexe</Content>
-				<Br />
-			</CharacterStyleRange>
-		</ParagraphStyleRange>
-		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/BulList &gt; first" NumberingContinue="false">
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Content>Mock-up téléphone : par Vexels.com</Content>
-				<Br />
-			</CharacterStyleRange>
-		</ParagraphStyleRange>
-		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/BulList">
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Content>Interfaces :</Content>
-				<Br />
-			</CharacterStyleRange>
-		</ParagraphStyleRange>
-		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/BulList &gt; BulList &gt; first" NumberingContinue="false">
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Content>Design par Mathilde Buenerd</Content>
-				<Br />
-			</CharacterStyleRange>
-		</ParagraphStyleRange>
-		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/BulList &gt; BulList">
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Content>Emojis par Twitter ou Freepik, www.flaticon.com</Content>
-				<Br />
-				<Content>Photographies par www.unsplash.com</Content>
-				<Br />
-			</CharacterStyleRange>
-		</ParagraphStyleRange>
-		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" ParagraphBreakType="NextOddPage">
-				<Br />
-			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Content>Imprimé à la HEAD – Genève, avec le caractère typographique GT America.</Content>
-				<Br />
-				<Content>Ce texte est également disponible en ligne sur le site internet alternative.mathildebuenerd.fr/memoire</Content>
-				<Br />
-				<Content>Mémoire de fin d’études</Content>
-				<Br />
-				<Content>Master of Arts HES-SO en Design, orientation Media design Haute École d’Art et de Design (HEAD), Genève</Content>
-				<Br />
-				<Content>imprimé en février 2018</Content>
 				<Br />
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
@@ -2636,7 +2622,7 @@
 				<Br />
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
-		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Bibliographie">
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
 				<Content>« A Mobile Keyboard by Plan International Boosts Girls’ Confidence. » n.d. https ://www.sheboard.com.</Content>
 				<Br />
@@ -2665,7 +2651,7 @@
 				<Content> 355 (January) :389–91. </Content>
 			</CharacterStyleRange>
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
-				<HyperlinkTextSource Self="u3b19" Name="Hyperlien 16" Hidden="false" AppliedCharacterStyle="n">
+				<HyperlinkTextSource Self="u4c51" Name="Hyperlien 16" Hidden="false" AppliedCharacterStyle="n">
 					<Content>https ://doi.org/10.1126/science.aah6524</Content>
 				</HyperlinkTextSource>
 			</CharacterStyleRange>
@@ -2681,7 +2667,7 @@
 				<Content>, 1721–30. KDD ’15. New York, NY, USA : ACM. </Content>
 			</CharacterStyleRange>
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
-				<HyperlinkTextSource Self="u3b1a" Name="Hyperlien 17" Hidden="false" AppliedCharacterStyle="n">
+				<HyperlinkTextSource Self="u4c52" Name="Hyperlien 17" Hidden="false" AppliedCharacterStyle="n">
 					<Content>https ://doi.org/10.1145/2783258.2788613</Content>
 				</HyperlinkTextSource>
 			</CharacterStyleRange>
@@ -2765,7 +2751,7 @@
 				<Content>, no. 52 (June) :17–30. </Content>
 			</CharacterStyleRange>
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
-				<HyperlinkTextSource Self="u3b1d" Name="Hyperlien 18" Hidden="false" AppliedCharacterStyle="n">
+				<HyperlinkTextSource Self="u4c50" Name="Hyperlien 18" Hidden="false" AppliedCharacterStyle="n">
 					<Content>https ://doi.org/10.4000/linx.170</Content>
 				</HyperlinkTextSource>
 			</CharacterStyleRange>
@@ -2789,7 +2775,7 @@
 				<Content> 127 (1) :57–63. </Content>
 			</CharacterStyleRange>
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
-				<HyperlinkTextSource Self="u3b1f" Name="Hyperlien 19" Hidden="false" AppliedCharacterStyle="n">
+				<HyperlinkTextSource Self="u4c53" Name="Hyperlien 19" Hidden="false" AppliedCharacterStyle="n">
 					<Content>https ://doi.org/10.1525/rep.2014.127.1.57</Content>
 				</HyperlinkTextSource>
 			</CharacterStyleRange>
@@ -2823,7 +2809,7 @@
 				<Content>, no. 62 (April) :87–96. </Content>
 			</CharacterStyleRange>
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
-				<HyperlinkTextSource Self="u3b20" Name="Hyperlien 20" Hidden="false" AppliedCharacterStyle="n">
+				<HyperlinkTextSource Self="u4c4e" Name="Hyperlien 20" Hidden="false" AppliedCharacterStyle="n">
 					<Content>https ://doi.org/10.3917/mult.062.0087</Content>
 				</HyperlinkTextSource>
 			</CharacterStyleRange>
@@ -2849,7 +2835,7 @@
 				<Content>, August, 1–20. </Content>
 			</CharacterStyleRange>
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
-				<HyperlinkTextSource Self="u3b21" Name="Hyperlien 21" Hidden="false" AppliedCharacterStyle="n">
+				<HyperlinkTextSource Self="u4c4f" Name="Hyperlien 21" Hidden="false" AppliedCharacterStyle="n">
 					<Content>https ://doi.org/10.1007/s13347-017-0273-3</Content>
 				</HyperlinkTextSource>
 			</CharacterStyleRange>
@@ -2866,7 +2852,7 @@
 				<Br />
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
-		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Bibliographie">
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
 				<Content>Pariser, Eli. 2011. </Content>
 			</CharacterStyleRange>
@@ -2885,7 +2871,7 @@
 				<Content>, 192–201. UbiComp ’08. New York, NY, USA : ACM. </Content>
 			</CharacterStyleRange>
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
-				<HyperlinkTextSource Self="u3b23" Name="Hyperlien 22" Hidden="false" AppliedCharacterStyle="n">
+				<HyperlinkTextSource Self="u4c4c" Name="Hyperlien 22" Hidden="false" AppliedCharacterStyle="n">
 					<Content>https ://doi.org/10.1145/1409635.1409662</Content>
 				</HyperlinkTextSource>
 			</CharacterStyleRange>
@@ -2917,7 +2903,7 @@
 				<Content>, 9–16. CHI ’00. New York, NY, USA : ACM. </Content>
 			</CharacterStyleRange>
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
-				<HyperlinkTextSource Self="u3b24" Name="Hyperlien 23" Hidden="false" AppliedCharacterStyle="n">
+				<HyperlinkTextSource Self="u4c4d" Name="Hyperlien 23" Hidden="false" AppliedCharacterStyle="n">
 					<Content>https ://doi.org/10.1145/332040.332044</Content>
 				</HyperlinkTextSource>
 			</CharacterStyleRange>
@@ -2962,24 +2948,270 @@
 				<Br />
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
-		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header2">
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header3">
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
 				<Br />
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
-		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Sommaire - Sous-titres">
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header2">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
+				<Content>Iconographie</Content>
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
+				<Properties>
+					<Leading type="unit">18</Leading>
+				</Properties>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header4">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" PointSize="7">
+				<Properties>
+					<Leading type="enumeration">Auto</Leading>
+				</Properties>
+				<Content>MACH</Content>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" PointSize="7">
+				<Properties>
+					<Leading type="enumeration">Auto</Leading>
+				</Properties>
+				<Content>Photo par Manohar Srikanth, http ://hoques.com/MACH.htm</Content>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header4">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" PointSize="7">
+				<Properties>
+					<Leading type="enumeration">Auto</Leading>
+				</Properties>
+				<Content>us+</Content>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" PointSize="7">
+				<Properties>
+					<Leading type="enumeration">Auto</Leading>
+				</Properties>
+				<Content>Projet par Lauren McCarthy et Kyle McDonald. Screenshot extrait de la vidéo : https ://vimeo.com/81903116</Content>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header4">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" PointSize="7">
+				<Properties>
+					<Leading type="enumeration">Auto</Leading>
+				</Properties>
+				<Content>Grammarly</Content>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" PointSize="7">
+				<Properties>
+					<Leading type="enumeration">Auto</Leading>
+				</Properties>
+				<Content>Screenshot extrait de https ://www.grammarly.com/</Content>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header4">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" PointSize="7">
+				<Properties>
+					<Leading type="enumeration">Auto</Leading>
+				</Properties>
+				<Content>Sheboard</Content>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" PointSize="7">
+				<Properties>
+					<Leading type="enumeration">Auto</Leading>
+				</Properties>
+				<Content>Visuel extrait du site officiel de l’application : https ://sheboard.com/</Content>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header4">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" PointSize="7">
+				<Properties>
+					<Leading type="enumeration">Auto</Leading>
+				</Properties>
+				<Content>Schéma filtrage collaboratif / filtrage basé sur le contenu</Content>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" PointSize="7">
+				<Properties>
+					<Leading type="enumeration">Auto</Leading>
+				</Properties>
+				<Content>Schéma inspiré de : http ://i65.tinypic.com/2ebah6c.png   Emojis : Par Twitter, www.flaticon.com   Personnages : Par Freepik, www.flaticon.com</Content>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header4">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" PointSize="7">
+				<Properties>
+					<Leading type="enumeration">Auto</Leading>
+				</Properties>
+				<Content>Annexe</Content>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/BulList &gt; first" NumberingContinue="false">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" PointSize="7">
+				<Content>Mock-up téléphone : par Vexels.com</Content>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/BulList">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" PointSize="7">
+				<Content>Interfaces :</Content>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/BulList &gt; BulList &gt; first" NumberingContinue="false">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" PointSize="7">
+				<Content>Design par Mathilde Buenerd</Content>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/BulList &gt; BulList">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" PointSize="7">
+				<Content>Emojis par Twitter ou Freepik, www.flaticon.com</Content>
+				<Br />
+				<Content>Photographies par www.unsplash.com</Content>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" ParagraphBreakType="NextOddPage">
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header2">
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
 				<Content>Remerciements</Content>
 				<Br />
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
-		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph" Justification="LeftAlign">
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Content>Merci à Nicolas Nova pour sa disponibilité, ses remarques et ses conseils, qui ont rendu ce travail d’écriture aussi plaisant que passionnant.</Content>
+				<Content>Merci à Nicolas Nova pour sa disponibilité, ses remarques et ses conseils, qui ont rendu ce travail d’écriture aussi plaisant que  passionnant.</Content>
 				<Br />
-				<Content>Merci à Fabien Girardin, pour l’impulsion que mon stage a donné à ce mémoire.</Content>
+				<Content>Merci à Fabien Girardin, pour l’impulsion que mon stage a donné à  ce mémoire.</Content>
 				<Br />
-				<Content>Merci à Douglas pour l’écoute attentive qu’il m’a accordée à de nombreuses reprises.</Content>
+				<Content>Merci à Douglas Edric Stanley, pour l’écoute attentive qu’il m’a accordée à de nombreuses reprises.</Content>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph" SpaceAfter="0" Justification="LeftAlign">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" PointSize="7">
+				<Properties>
+					<Leading type="enumeration">Auto</Leading>
+				</Properties>
+				<Content>Mémoire de fin d’études, Master of Arts HES-SO en Design, orientation Media design - Haute École d’Art et de Design (HEAD), Genève</Content>
+				<Br />
+				<Br />
+				<Content>Imprimé en février 2018 à la HEAD – Genève.</Content>
+				<Br />
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph" Justification="LeftAlign">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" PointSize="7">
+				<Properties>
+					<Leading type="enumeration">Auto</Leading>
+				</Properties>
+				<Content>Ce texte est disponible au format numérique à l’adresse suivante : </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Mes styles%3aurl">
+				<Properties>
+					<Leading type="enumeration">Auto</Leading>
+				</Properties>
+				<Content>alternative.mathildebuenerd.fr/memoire</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" PointSize="7">
+				<Properties>
+					<Leading type="enumeration">Auto</Leading>
+				</Properties>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph" SpaceAfter="0" Justification="LeftAlign">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" PointSize="7">
+				<Properties>
+					<Leading type="enumeration">Auto</Leading>
+				</Properties>
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" FontStyle="Medium" PointSize="7">
+				<Properties>
+					<Leading type="enumeration">Auto</Leading>
+				</Properties>
+				<Content>Caractère typographique</Content>
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" PointSize="7">
+				<Properties>
+					<Leading type="enumeration">Auto</Leading>
+				</Properties>
+				<Content>GT America [Grilli Type]</Content>
+				<Br />
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph" SpaceAfter="0">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" FontStyle="Medium" PointSize="7">
+				<Properties>
+					<Leading type="enumeration">Auto</Leading>
+				</Properties>
+				<Content>Papiers</Content>
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" PointSize="7">
+				<Properties>
+					<Leading type="enumeration">Auto</Leading>
+				</Properties>
+				<Content>Intérieur : Lessebo Smooth white 100g/m</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" PointSize="7" Ligatures="false" Position="OTSuperscript" OTFContextualAlternate="false">
+				<Properties>
+					<Leading type="enumeration">Auto</Leading>
+				</Properties>
+				<Content>2</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" PointSize="7">
+				<Properties>
+					<Leading type="enumeration">Auto</Leading>
+				</Properties>
+				<Br />
+				<Content>Annexe : Digi Finesse gloss 130g/m</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" PointSize="7" Ligatures="false" Position="OTSuperscript" OTFContextualAlternate="false">
+				<Properties>
+					<Leading type="enumeration">Auto</Leading>
+				</Properties>
+				<Content>2</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" PointSize="7">
+				<Properties>
+					<Leading type="enumeration">Auto</Leading>
+				</Properties>
+				<Br />
+				<Content>Couverture : Digi Finesse gloss 300g/m</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" PointSize="7" Ligatures="false" Position="OTSuperscript" OTFContextualAlternate="false">
+				<Properties>
+					<Leading type="enumeration">Auto</Leading>
+				</Properties>
+				<Content>2</Content>
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
 	</Story>
@@ -3606,49 +3838,49 @@
 			<Destination type="object">HyperlinkURLDestination/URL 536</Destination>
 		</Properties>
 	</Hyperlink>
-	<Hyperlink Self="u3b34" Name="https://doi.org/10.1126/science.aah6524" Source="u3b19" Visible="true" Highlight="None" Width="Thin" BorderStyle="Solid" Hidden="false" DestinationUniqueKey="838">
+	<Hyperlink Self="u4c5c" Name="https://doi.org/10.1126/science.aah6524" Source="u4c51" Visible="true" Highlight="None" Width="Thin" BorderStyle="Solid" Hidden="false" DestinationUniqueKey="838">
 		<Properties>
 			<BorderColor type="enumeration">Black</BorderColor>
 			<Destination type="object">HyperlinkURLDestination/URL 535</Destination>
 		</Properties>
 	</Hyperlink>
-	<Hyperlink Self="u3b32" Name="https://doi.org/10.1145/2783258.2788613" Source="u3b1a" Visible="true" Highlight="None" Width="Thin" BorderStyle="Solid" Hidden="false" DestinationUniqueKey="837">
+	<Hyperlink Self="u4c5b" Name="https://doi.org/10.1145/2783258.2788613" Source="u4c52" Visible="true" Highlight="None" Width="Thin" BorderStyle="Solid" Hidden="false" DestinationUniqueKey="837">
 		<Properties>
 			<BorderColor type="enumeration">Black</BorderColor>
 			<Destination type="object">HyperlinkURLDestination/URL 534</Destination>
 		</Properties>
 	</Hyperlink>
-	<Hyperlink Self="u3b30" Name="https://doi.org/10.4000/linx.170" Source="u3b1d" Visible="true" Highlight="None" Width="Thin" BorderStyle="Solid" Hidden="false" DestinationUniqueKey="836">
+	<Hyperlink Self="u4c5d" Name="https://doi.org/10.4000/linx.170" Source="u4c50" Visible="true" Highlight="None" Width="Thin" BorderStyle="Solid" Hidden="false" DestinationUniqueKey="836">
 		<Properties>
 			<BorderColor type="enumeration">Black</BorderColor>
 			<Destination type="object">HyperlinkURLDestination/URL 533</Destination>
 		</Properties>
 	</Hyperlink>
-	<Hyperlink Self="u3b2e" Name="https://doi.org/10.1525/rep.2014.127.1.57" Source="u3b1f" Visible="true" Highlight="None" Width="Thin" BorderStyle="Solid" Hidden="false" DestinationUniqueKey="835">
+	<Hyperlink Self="u4c5a" Name="https://doi.org/10.1525/rep.2014.127.1.57" Source="u4c53" Visible="true" Highlight="None" Width="Thin" BorderStyle="Solid" Hidden="false" DestinationUniqueKey="835">
 		<Properties>
 			<BorderColor type="enumeration">Black</BorderColor>
 			<Destination type="object">HyperlinkURLDestination/URL 532</Destination>
 		</Properties>
 	</Hyperlink>
-	<Hyperlink Self="u3b2c" Name="https://doi.org/10.3917/mult.062.0087" Source="u3b20" Visible="true" Highlight="None" Width="Thin" BorderStyle="Solid" Hidden="false" DestinationUniqueKey="834">
+	<Hyperlink Self="u4c5f" Name="https://doi.org/10.3917/mult.062.0087" Source="u4c4e" Visible="true" Highlight="None" Width="Thin" BorderStyle="Solid" Hidden="false" DestinationUniqueKey="834">
 		<Properties>
 			<BorderColor type="enumeration">Black</BorderColor>
 			<Destination type="object">HyperlinkURLDestination/URL 531</Destination>
 		</Properties>
 	</Hyperlink>
-	<Hyperlink Self="u3b2a" Name="https://doi.org/10.1007/s13347-017-0273-3" Source="u3b21" Visible="true" Highlight="None" Width="Thin" BorderStyle="Solid" Hidden="false" DestinationUniqueKey="833">
+	<Hyperlink Self="u4c5e" Name="https://doi.org/10.1007/s13347-017-0273-3" Source="u4c4f" Visible="true" Highlight="None" Width="Thin" BorderStyle="Solid" Hidden="false" DestinationUniqueKey="833">
 		<Properties>
 			<BorderColor type="enumeration">Black</BorderColor>
 			<Destination type="object">HyperlinkURLDestination/URL 530</Destination>
 		</Properties>
 	</Hyperlink>
-	<Hyperlink Self="u3b28" Name="https://doi.org/10.1145/1409635.1409662" Source="u3b23" Visible="true" Highlight="None" Width="Thin" BorderStyle="Solid" Hidden="false" DestinationUniqueKey="832">
+	<Hyperlink Self="u4c61" Name="https://doi.org/10.1145/1409635.1409662" Source="u4c4c" Visible="true" Highlight="None" Width="Thin" BorderStyle="Solid" Hidden="false" DestinationUniqueKey="832">
 		<Properties>
 			<BorderColor type="enumeration">Black</BorderColor>
 			<Destination type="object">HyperlinkURLDestination/URL 529</Destination>
 		</Properties>
 	</Hyperlink>
-	<Hyperlink Self="u3b26" Name="https://doi.org/10.1145/332040.332044" Source="u3b24" Visible="true" Highlight="None" Width="Thin" BorderStyle="Solid" Hidden="false" DestinationUniqueKey="1">
+	<Hyperlink Self="u4c60" Name="https://doi.org/10.1145/332040.332044" Source="u4c4d" Visible="true" Highlight="None" Width="Thin" BorderStyle="Solid" Hidden="false" DestinationUniqueKey="1">
 		<Properties>
 			<BorderColor type="enumeration">Black</BorderColor>
 			<Destination type="object">HyperlinkURLDestination/link</Destination>

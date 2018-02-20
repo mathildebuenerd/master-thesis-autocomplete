@@ -166,11 +166,11 @@ De la même manière, est-ce qu'une personne qui utilise régulièrement des ter
 Le revers de la personnalisation, c'est la collecte massive de données personnelles. Ces données sont récupérées, stockées, analysées. Elles sont utilisées pour prendre des décisions qui dépassent la réalité qu'elles nous laissent entrevoir, et parfois avec des conséquences dramatiques. Par exemple, Virginia Eubanks dénonçait récemment des systèmes automatisés aux États-Unis ayant pour tâche de répartir l'aide sociale ou évaluer un risque d'être victime d'abus sexuels [@Eubanks2018]. La question de la protection de la vie privée est donc centrale. Il faut garder du recul sur les informations perçue au travers de les profils et de les comportements, et garder à l'esprit qu'on ne peut pas rationaliser la personnalité d'une personne aux données collectées sur elle. Donner aux gens accès aux données collectées sur eux, et la capacité de les modifier est donc essentiel.
 
 
-### Vers de nouvelles manières de designer
+### De nouvelles manières de concevoir
 
-Et si l'évolution technologique était telle qu'elle nécessite de penser différemment la manière dont on conçoit l'expérience des systèmes basés sur des algorithmes de machine learning ? Si les enjeux centraux n'était pas tant l'intuitivité ou la facilité d'usage, mais la capacité à permettre la découverte ou à dépasser ses limites ?[^258b]
+Et si l'évolution technologique était telle qu'elle nécessite de penser différemment la manière dont on conçoit l'expérience des systèmes basés sur des algorithmes de machine learning ? Si les enjeux centraux n'étaient pas tant l'intuitivité ou la facilité d'usage, mais la capacité à permettre la découverte ou à dépasser ses limites ?[^258b]
 
-Aujourd'hui, les applications de messagerie (Whatsapp, Messenger, Telegram...) proposent une interface et une expérience standardisée, elles se ressemblent tant qu'elles semblent être des variations d'une même application. Les causes de ce problème sont inévitablement multiples : complexité des systèmes, problèmes liés à l'interdisciplinarité. Néanmoins, plusieurs hypothèses issues de l'histoire du design peuvent se révéler problématiques : le travail de designer se résumerait à la résolution d'un problème (notion d'utilisabilité), la technologie ne devrait pas empiéter sur la vie "réelle" (technologie calme), le bon design est celui qui ne se verrait pas (design invisible). Les trois prochains chapitres sont une relecture de ces trois caractéristiques.
+Aujourd'hui, les applications de messagerie (Whatsapp, Messenger, Telegram...) proposent une interface et une expérience standardisée, elles se ressemblent tant qu'elles semblent être des variations d'une même application. Les causes de ce problème sont inévitablement multiples : complexité des systèmes, problèmes liés à l'interdisciplinarité. Néanmoins, plusieurs hypothèses issues de l'histoire du design peuvent se révéler problématiques : le travail de designer se résumerait à la résolution d'un problème (notion d'utilisabilité), la technologie ne devrait pas empiéter sur la vie "réelle" (technologie calme), le bon design est celui qui ne se verrait pas (design invisible). Chacun des chapitres suivants est la relecture d'une de ces trois caractéristiques.
 
 
 \cleardoublepage
@@ -353,7 +353,7 @@ Dans cette dernière partie, qui sert de conclusion, nous élargirons le sujet s
 
 
 
-### La technologie en tant qu'outil créatif d'expression plutôt qu'assistant
+### La technologie comme outil créatif d'expression plutôt qu'assistant
 
 Les principes évoqués précédemment doivent nous amener à regarder les objets électroniques sous un regard qui n'est peut-être pas celui d'un _assistant_. Est-on obligé de penser l'assistance sous l'angle d'une visée utilitariste ? N'y aurait-il pas des alternatives ?
 
@@ -410,7 +410,7 @@ On peut par exemple imaginer une interface qui permet de consulter les mots qu'o
 
 ## Annexe : Et si... ?
 
-Toute au long de ce mémoire, j'ai défendu plusieurs principes pour la conception de l'expérience et l'interface d'un système d'autocomplétion.
+Tout au long de ce mémoire, j'ai défendu plusieurs principes pour la conception de l'expérience et l'interface d'un système d'autocomplétion.
 
 En parallèle, en tant que designer, il me paraissait important d'illustrer ces principes par des exemples d'application. Cette annexe présente une petite collection d'interfaces fictionnelles, qui tirent parti des algorithmes de machine learning, en se plaçant dans la lignée de la technologie pimentée.
 
