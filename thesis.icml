@@ -2,6 +2,7 @@
 <?aid style="50" type="snippet" readerVersion="6.0" featureSet="257" product="12.1(56)" ?>
 <?aid SnippetType="InCopyInterchange"?>
 <Document DOMVersion="12.1" Self="d">
+	<Color Self="Color/Black" Model="Process" Space="CMYK" ColorValue="0 0 0 100" ColorOverride="Specialblack" AlternateSpace="NoAlternateColor" AlternateColorValue="" Name="Black" ColorEditable="false" ColorRemovable="false" Visible="true" SwatchCreatorID="7937" SwatchColorGroupReference="u18ColorGroupSwatch3" />
 	<Ink Self="Ink/$ID/Process Cyan" Name="$ID/Process Cyan" Angle="71.5651" ConvertToProcess="false" Frequency="63.2456" NeutralDensity="0.61" PrintInk="true" TrapOrder="1" InkType="Normal" />
 	<Ink Self="Ink/$ID/Process Magenta" Name="$ID/Process Magenta" Angle="18.4349" ConvertToProcess="false" Frequency="63.2456" NeutralDensity="0.76" PrintInk="true" TrapOrder="2" InkType="Normal" />
 	<Ink Self="Ink/$ID/Process Yellow" Name="$ID/Process Yellow" Angle="0" ConvertToProcess="false" Frequency="66.6667" NeutralDensity="0.16" PrintInk="true" TrapOrder="3" InkType="Normal" />
@@ -110,21 +111,21 @@
 		<Font Self="di3e8FontnGT America Expanded Black" FontFamily="GT America" Name="GT America Expanded Black" PostScriptName="GTAmerica-ExpandedBlack" Status="Installed" FontStyleName="Expanded Black" FontType="OpenTypeTT" WritingScript="0" FullName="GT America Expanded Black" FullNameNative="GT America Expanded Black" FontStyleNameNative="Expanded Black" PlatformName="$ID/" Version="Version 5.001" TypekitID="$ID/" />
 		<Font Self="di3e8FontnGT America Expanded Black Italic" FontFamily="GT America" Name="GT America Expanded Black Italic" PostScriptName="GTAmerica-ExpandedBlackItalic" Status="Installed" FontStyleName="Expanded Black Italic" FontType="OpenTypeTT" WritingScript="0" FullName="GT America Expanded Black Italic" FullNameNative="GT America Expanded Black Italic" FontStyleNameNative="Expanded Black Italic" PlatformName="$ID/" Version="Version 4.001" TypekitID="$ID/" />
 	</FontFamily>
-	<FontFamily Self="di63b" Name="GT America Mono">
-		<Font Self="di63bFontnGT America Mono Ultra Light" FontFamily="GT America Mono" Name="GT America Mono Ultra Light" PostScriptName="GTAmericaMono-UltraLight" Status="Installed" FontStyleName="Ultra Light" FontType="OpenTypeTT" WritingScript="0" FullName="GT America Mono Ultra Light" FullNameNative="GT America Mono Ultra Light" FontStyleNameNative="Ultra Light" PlatformName="$ID/" Version="Version 2.001" TypekitID="$ID/" />
-		<Font Self="di63bFontnGT America Mono Ultra Light Italic" FontFamily="GT America Mono" Name="GT America Mono Ultra Light Italic" PostScriptName="GTAmericaMono-UltraLightItalic" Status="Installed" FontStyleName="Ultra Light Italic" FontType="OpenTypeTT" WritingScript="0" FullName="GT America Mono Ultra Light Italic" FullNameNative="GT America Mono Ultra Light Italic" FontStyleNameNative="Ultra Light Italic" PlatformName="$ID/" Version="Version 2.001" TypekitID="$ID/" />
-		<Font Self="di63bFontnGT America Mono Thin" FontFamily="GT America Mono" Name="GT America Mono Thin" PostScriptName="GTAmericaMono-Thin" Status="Installed" FontStyleName="Thin" FontType="OpenTypeTT" WritingScript="0" FullName="GT America Mono Thin" FullNameNative="GT America Mono Thin" FontStyleNameNative="Thin" PlatformName="$ID/" Version="Version 2.001" TypekitID="$ID/" />
-		<Font Self="di63bFontnGT America Mono Thin Italic" FontFamily="GT America Mono" Name="GT America Mono Thin Italic" PostScriptName="GTAmericaMono-ThinItalic" Status="Installed" FontStyleName="Thin Italic" FontType="OpenTypeTT" WritingScript="0" FullName="GT America Mono Thin Italic" FullNameNative="GT America Mono Thin Italic" FontStyleNameNative="Thin Italic" PlatformName="$ID/" Version="Version 2.001" TypekitID="$ID/" />
-		<Font Self="di63bFontnGT America Mono Light" FontFamily="GT America Mono" Name="GT America Mono Light" PostScriptName="GTAmericaMono-Light" Status="Installed" FontStyleName="Light" FontType="OpenTypeTT" WritingScript="0" FullName="GT America Mono Light" FullNameNative="GT America Mono Light" FontStyleNameNative="Light" PlatformName="$ID/" Version="Version 2.001" TypekitID="$ID/" />
-		<Font Self="di63bFontnGT America Mono Light Italic" FontFamily="GT America Mono" Name="GT America Mono Light Italic" PostScriptName="GTAmericaMono-LightItalic" Status="Installed" FontStyleName="Light Italic" FontType="OpenTypeTT" WritingScript="0" FullName="GT America Mono Light Italic" FullNameNative="GT America Mono Light Italic" FontStyleNameNative="Light Italic" PlatformName="$ID/" Version="Version 2.001" TypekitID="$ID/" />
-		<Font Self="di63bFontnGT America Mono Regular" FontFamily="GT America Mono" Name="GT America Mono Regular" PostScriptName="GTAmericaMono-Regular" Status="Installed" FontStyleName="Regular" FontType="OpenTypeTT" WritingScript="0" FullName="GT America Mono Regular" FullNameNative="GT America Mono Regular" FontStyleNameNative="Regular" PlatformName="$ID/" Version="Version 2.001" TypekitID="$ID/" />
-		<Font Self="di63bFontnGT America Mono Regular Italic" FontFamily="GT America Mono" Name="GT America Mono Regular Italic" PostScriptName="GTAmericaMono-RegularItalic" Status="Installed" FontStyleName="Regular Italic" FontType="OpenTypeTT" WritingScript="0" FullName="GT America Mono Regular Italic" FullNameNative="GT America Mono Regular Italic" FontStyleNameNative="Regular Italic" PlatformName="$ID/" Version="Version 2.001" TypekitID="$ID/" />
-		<Font Self="di63bFontnGT America Mono Medium" FontFamily="GT America Mono" Name="GT America Mono Medium" PostScriptName="GTAmericaMono-Medium" Status="Installed" FontStyleName="Medium" FontType="OpenTypeTT" WritingScript="0" FullName="GT America Mono Medium" FullNameNative="GT America Mono Medium" FontStyleNameNative="Medium" PlatformName="$ID/" Version="Version 2.001" TypekitID="$ID/" />
-		<Font Self="di63bFontnGT America Mono Medium Italic" FontFamily="GT America Mono" Name="GT America Mono Medium Italic" PostScriptName="GTAmericaMono-MediumItalic" Status="Installed" FontStyleName="Medium Italic" FontType="OpenTypeTT" WritingScript="0" FullName="GT America Mono Medium Italic" FullNameNative="GT America Mono Medium Italic" FontStyleNameNative="Medium Italic" PlatformName="$ID/" Version="Version 2.001" TypekitID="$ID/" />
-		<Font Self="di63bFontnGT America Mono Bold" FontFamily="GT America Mono" Name="GT America Mono Bold" PostScriptName="GTAmericaMono-Bold" Status="Installed" FontStyleName="Bold" FontType="OpenTypeTT" WritingScript="0" FullName="GT America Mono Bold" FullNameNative="GT America Mono Bold" FontStyleNameNative="Bold" PlatformName="$ID/" Version="Version 2.001" TypekitID="$ID/" />
-		<Font Self="di63bFontnGT America Mono Bold Italic" FontFamily="GT America Mono" Name="GT America Mono Bold Italic" PostScriptName="GTAmericaMono-BoldItalic" Status="Installed" FontStyleName="Bold Italic" FontType="OpenTypeTT" WritingScript="0" FullName="GT America Mono Bold Italic" FullNameNative="GT America Mono Bold Italic" FontStyleNameNative="Bold Italic" PlatformName="$ID/" Version="Version 2.001" TypekitID="$ID/" />
-		<Font Self="di63bFontnGT America Mono Black" FontFamily="GT America Mono" Name="GT America Mono Black" PostScriptName="GTAmericaMono-Black" Status="Installed" FontStyleName="Black" FontType="OpenTypeTT" WritingScript="0" FullName="GT America Mono Black" FullNameNative="GT America Mono Black" FontStyleNameNative="Black" PlatformName="$ID/" Version="Version 2.001" TypekitID="$ID/" />
-		<Font Self="di63bFontnGT America Mono Black Italic" FontFamily="GT America Mono" Name="GT America Mono Black Italic" PostScriptName="GTAmericaMono-BlackItalic" Status="Installed" FontStyleName="Black Italic" FontType="OpenTypeTT" WritingScript="0" FullName="GT America Mono Black Italic" FullNameNative="GT America Mono Black Italic" FontStyleNameNative="Black Italic" PlatformName="$ID/" Version="Version 2.001" TypekitID="$ID/" />
+	<FontFamily Self="di48e5" Name="GT America Mono">
+		<Font Self="di48e5FontnGT America Mono Ultra Light" FontFamily="GT America Mono" Name="GT America Mono Ultra Light" PostScriptName="GTAmericaMono-UltraLight" Status="Installed" FontStyleName="Ultra Light" FontType="OpenTypeTT" WritingScript="0" FullName="GT America Mono Ultra Light" FullNameNative="GT America Mono Ultra Light" FontStyleNameNative="Ultra Light" PlatformName="$ID/" Version="Version 2.001" TypekitID="$ID/" />
+		<Font Self="di48e5FontnGT America Mono Ultra Light Italic" FontFamily="GT America Mono" Name="GT America Mono Ultra Light Italic" PostScriptName="GTAmericaMono-UltraLightItalic" Status="Installed" FontStyleName="Ultra Light Italic" FontType="OpenTypeTT" WritingScript="0" FullName="GT America Mono Ultra Light Italic" FullNameNative="GT America Mono Ultra Light Italic" FontStyleNameNative="Ultra Light Italic" PlatformName="$ID/" Version="Version 2.001" TypekitID="$ID/" />
+		<Font Self="di48e5FontnGT America Mono Thin" FontFamily="GT America Mono" Name="GT America Mono Thin" PostScriptName="GTAmericaMono-Thin" Status="Installed" FontStyleName="Thin" FontType="OpenTypeTT" WritingScript="0" FullName="GT America Mono Thin" FullNameNative="GT America Mono Thin" FontStyleNameNative="Thin" PlatformName="$ID/" Version="Version 2.001" TypekitID="$ID/" />
+		<Font Self="di48e5FontnGT America Mono Thin Italic" FontFamily="GT America Mono" Name="GT America Mono Thin Italic" PostScriptName="GTAmericaMono-ThinItalic" Status="Installed" FontStyleName="Thin Italic" FontType="OpenTypeTT" WritingScript="0" FullName="GT America Mono Thin Italic" FullNameNative="GT America Mono Thin Italic" FontStyleNameNative="Thin Italic" PlatformName="$ID/" Version="Version 2.001" TypekitID="$ID/" />
+		<Font Self="di48e5FontnGT America Mono Light" FontFamily="GT America Mono" Name="GT America Mono Light" PostScriptName="GTAmericaMono-Light" Status="Installed" FontStyleName="Light" FontType="OpenTypeTT" WritingScript="0" FullName="GT America Mono Light" FullNameNative="GT America Mono Light" FontStyleNameNative="Light" PlatformName="$ID/" Version="Version 2.001" TypekitID="$ID/" />
+		<Font Self="di48e5FontnGT America Mono Light Italic" FontFamily="GT America Mono" Name="GT America Mono Light Italic" PostScriptName="GTAmericaMono-LightItalic" Status="Installed" FontStyleName="Light Italic" FontType="OpenTypeTT" WritingScript="0" FullName="GT America Mono Light Italic" FullNameNative="GT America Mono Light Italic" FontStyleNameNative="Light Italic" PlatformName="$ID/" Version="Version 2.001" TypekitID="$ID/" />
+		<Font Self="di48e5FontnGT America Mono Regular" FontFamily="GT America Mono" Name="GT America Mono Regular" PostScriptName="GTAmericaMono-Regular" Status="Installed" FontStyleName="Regular" FontType="OpenTypeTT" WritingScript="0" FullName="GT America Mono Regular" FullNameNative="GT America Mono Regular" FontStyleNameNative="Regular" PlatformName="$ID/" Version="Version 2.001" TypekitID="$ID/" />
+		<Font Self="di48e5FontnGT America Mono Regular Italic" FontFamily="GT America Mono" Name="GT America Mono Regular Italic" PostScriptName="GTAmericaMono-RegularItalic" Status="Installed" FontStyleName="Regular Italic" FontType="OpenTypeTT" WritingScript="0" FullName="GT America Mono Regular Italic" FullNameNative="GT America Mono Regular Italic" FontStyleNameNative="Regular Italic" PlatformName="$ID/" Version="Version 2.001" TypekitID="$ID/" />
+		<Font Self="di48e5FontnGT America Mono Medium" FontFamily="GT America Mono" Name="GT America Mono Medium" PostScriptName="GTAmericaMono-Medium" Status="Installed" FontStyleName="Medium" FontType="OpenTypeTT" WritingScript="0" FullName="GT America Mono Medium" FullNameNative="GT America Mono Medium" FontStyleNameNative="Medium" PlatformName="$ID/" Version="Version 2.001" TypekitID="$ID/" />
+		<Font Self="di48e5FontnGT America Mono Medium Italic" FontFamily="GT America Mono" Name="GT America Mono Medium Italic" PostScriptName="GTAmericaMono-MediumItalic" Status="Installed" FontStyleName="Medium Italic" FontType="OpenTypeTT" WritingScript="0" FullName="GT America Mono Medium Italic" FullNameNative="GT America Mono Medium Italic" FontStyleNameNative="Medium Italic" PlatformName="$ID/" Version="Version 2.001" TypekitID="$ID/" />
+		<Font Self="di48e5FontnGT America Mono Bold" FontFamily="GT America Mono" Name="GT America Mono Bold" PostScriptName="GTAmericaMono-Bold" Status="Installed" FontStyleName="Bold" FontType="OpenTypeTT" WritingScript="0" FullName="GT America Mono Bold" FullNameNative="GT America Mono Bold" FontStyleNameNative="Bold" PlatformName="$ID/" Version="Version 2.001" TypekitID="$ID/" />
+		<Font Self="di48e5FontnGT America Mono Bold Italic" FontFamily="GT America Mono" Name="GT America Mono Bold Italic" PostScriptName="GTAmericaMono-BoldItalic" Status="Installed" FontStyleName="Bold Italic" FontType="OpenTypeTT" WritingScript="0" FullName="GT America Mono Bold Italic" FullNameNative="GT America Mono Bold Italic" FontStyleNameNative="Bold Italic" PlatformName="$ID/" Version="Version 2.001" TypekitID="$ID/" />
+		<Font Self="di48e5FontnGT America Mono Black" FontFamily="GT America Mono" Name="GT America Mono Black" PostScriptName="GTAmericaMono-Black" Status="Installed" FontStyleName="Black" FontType="OpenTypeTT" WritingScript="0" FullName="GT America Mono Black" FullNameNative="GT America Mono Black" FontStyleNameNative="Black" PlatformName="$ID/" Version="Version 2.001" TypekitID="$ID/" />
+		<Font Self="di48e5FontnGT America Mono Black Italic" FontFamily="GT America Mono" Name="GT America Mono Black Italic" PostScriptName="GTAmericaMono-BlackItalic" Status="Installed" FontStyleName="Black Italic" FontType="OpenTypeTT" WritingScript="0" FullName="GT America Mono Black Italic" FullNameNative="GT America Mono Black Italic" FontStyleNameNative="Black Italic" PlatformName="$ID/" Version="Version 2.001" TypekitID="$ID/" />
 	</FontFamily>
 	<CompositeFont Self="CompositeFont/$ID/[No composite font]" Name="$ID/[No composite font]">
 		<CompositeFontEntry Self="ua2" Name="$ID/Kanji" FontStyle="$ID/R" RelativeSize="100" HorizontalScale="100" VerticalScale="100" Locked="true" ScaleOption="true" BaselineShift="0">
@@ -161,13 +162,7 @@
 	<RootCharacterStyleGroup Self="u78">
 		<CharacterStyle Self="CharacterStyle/Italic Strikeout" Imported="false" SplitDocument="false" EmitCss="true" StyleUniqueId="2e26ed6c-8062-4da8-a3bb-095d10cf5786" KeyboardShortcut="0 0" Name="Italic Strikeout">
 			<Properties>
-				<BasedOn type="object">CharacterStyle/Page numbers (Italic Strikeout)</BasedOn>
-				<PreviewColor type="enumeration">Nothing</PreviewColor>
-			</Properties>
-		</CharacterStyle>
-		<CharacterStyle Self="CharacterStyle/Default" Imported="false" SplitDocument="false" EmitCss="true" StyleUniqueId="28db6f5f-1044-4b47-9979-8d4546de1580" KeyboardShortcut="0 0" Name="Default">
-			<Properties>
-				<BasedOn type="string">$ID/[No character style]</BasedOn>
+				<BasedOn type="object">CharacterStyle/Mes styles%3aPage numbers (Italic Strikeout)</BasedOn>
 				<PreviewColor type="enumeration">Nothing</PreviewColor>
 			</Properties>
 		</CharacterStyle>
@@ -178,6 +173,40 @@
 				<AppliedFont type="string">GT America</AppliedFont>
 			</Properties>
 		</CharacterStyle>
+		<CharacterStyle Self="CharacterStyle/Default" Imported="false" SplitDocument="false" EmitCss="true" StyleUniqueId="28db6f5f-1044-4b47-9979-8d4546de1580" KeyboardShortcut="0 0" Name="Default">
+			<Properties>
+				<BasedOn type="string">$ID/[No character style]</BasedOn>
+				<PreviewColor type="enumeration">Nothing</PreviewColor>
+			</Properties>
+		</CharacterStyle>
+		<CharacterStyleGroup Self="CharacterStyleGroup/$ID/Mes styles" Name="$ID/Mes styles">
+			<CharacterStyle Self="CharacterStyle/Mes styles%3aMot original anglais" Imported="false" SplitDocument="false" EmitCss="true" StyleUniqueId="9923d655-0526-4009-ba5c-0fc5ea273335" KeyboardShortcut="0 0" Name="Mes styles:Mot original anglais" FillColor="Color/Black" FillTint="50">
+				<Properties>
+					<BasedOn type="object">CharacterStyle/Italic</BasedOn>
+					<PreviewColor type="enumeration">Nothing</PreviewColor>
+				</Properties>
+			</CharacterStyle>
+			<CharacterStyle Self="CharacterStyle/Mes styles%3aurl" Imported="false" SplitDocument="false" EmitCss="true" StyleUniqueId="1716f9cb-51ad-4ce4-b8f9-6e9e512f9608" KeyboardShortcut="0 0" Name="Mes styles:url" FontStyle="Regular" PointSize="8">
+				<Properties>
+					<BasedOn type="object">CharacterStyle/Default</BasedOn>
+					<PreviewColor type="enumeration">Nothing</PreviewColor>
+					<AppliedFont type="string">GT America Mono</AppliedFont>
+				</Properties>
+			</CharacterStyle>
+			<CharacterStyle Self="CharacterStyle/Mes styles%3aHeader3 barré" Imported="false" SplitDocument="false" EmitCss="true" StyleUniqueId="4a459e04-8750-4b39-8139-a2857e0f5c8d" KeyboardShortcut="0 0" Name="Mes styles:Header3 barré" StrikeThroughOffset="5" StrikeThroughWeight="4">
+				<Properties>
+					<BasedOn type="object">CharacterStyle/Strikeout</BasedOn>
+					<PreviewColor type="enumeration">Nothing</PreviewColor>
+				</Properties>
+			</CharacterStyle>
+			<CharacterStyle Self="CharacterStyle/Mes styles%3aPage numbers (Italic Strikeout)" Imported="false" SplitDocument="false" EmitCss="true" StyleUniqueId="9ee64891-f472-48ba-a002-86bd54be5aba" KeyboardShortcut="0 0" Name="Mes styles:Page numbers (Italic Strikeout)" FontStyle="Regular Italic" PointSize="5" BaselineShift="0.3" StrikeThru="false">
+				<Properties>
+					<BasedOn type="object">CharacterStyle/Default</BasedOn>
+					<PreviewColor type="enumeration">Nothing</PreviewColor>
+					<AppliedFont type="string">GT America</AppliedFont>
+				</Properties>
+			</CharacterStyle>
+		</CharacterStyleGroup>
 		<CharacterStyle Self="CharacterStyle/Cite" Imported="false" SplitDocument="false" EmitCss="true" StyleUniqueId="48729d93-aea4-4a46-8cc0-b4aa54ba65b7" KeyboardShortcut="0 0" Name="Cite">
 			<Properties>
 				<BasedOn type="object">CharacterStyle/Default</BasedOn>
@@ -192,12 +221,6 @@
 				<UnderlineColor type="string">Text Color</UnderlineColor>
 			</Properties>
 		</CharacterStyle>
-		<CharacterStyle Self="CharacterStyle/Page numbers (Italic Strikeout)" Imported="false" SplitDocument="false" EmitCss="true" StyleUniqueId="b7337afc-3c30-4a08-8b73-792e3058015e" KeyboardShortcut="0 0" Name="Page numbers (Italic Strikeout)" FontStyle="Italic" PointSize="5" BaselineShift="0.3" StrikeThru="false">
-			<Properties>
-				<BasedOn type="object">CharacterStyle/Default</BasedOn>
-				<PreviewColor type="enumeration">Nothing</PreviewColor>
-			</Properties>
-		</CharacterStyle>
 	</RootCharacterStyleGroup>
 	<RootParagraphStyleGroup Self="u77">
 		<ParagraphStyle Self="ParagraphStyle/Paragraph" Name="Paragraph" Imported="false" NextStyle="ParagraphStyle/Paragraph" SplitDocument="false" EmitCss="true" StyleUniqueId="70e76029-4173-4b56-bc6f-e0822ffa9147" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" KeyboardShortcut="0 0" PointSize="8.5" SpaceAfter="11.2" MaximumWordSpacing="110.00000000000001" MinimumWordSpacing="90" MaximumLetterSpacing="3" MinimumLetterSpacing="-3" Justification="LeftJustified">
@@ -207,24 +230,23 @@
 				<Leading type="unit">11.2</Leading>
 			</Properties>
 		</ParagraphStyle>
-		<ParagraphStyle Self="ParagraphStyle/Header1" Name="Header1" Imported="false" NextStyle="ParagraphStyle/Header1" SplitDocument="false" EmitCss="true" StyleUniqueId="2080e2fd-949d-466f-8718-36b18b85ed69" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" KeyboardShortcut="0 0" PointSize="36">
+		<ParagraphStyle Self="ParagraphStyle/Tuteur" Name="Tuteur" Imported="false" NextStyle="ParagraphStyle/Tuteur" SplitDocument="false" EmitCss="true" StyleUniqueId="3156bbc8-c71b-4621-8763-605fdb16b73f" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" KeyboardShortcut="0 0" SpaceAfter="0">
 			<Properties>
-				<BasedOn type="object">ParagraphStyle/$ID/NormalParagraphStyle</BasedOn>
+				<BasedOn type="object">ParagraphStyle/Paragraph</BasedOn>
 				<PreviewColor type="enumeration">Nothing</PreviewColor>
-				<Leading type="enumeration">Auto</Leading>
 			</Properties>
 		</ParagraphStyle>
-		<ParagraphStyle Self="ParagraphStyle/Header2" Name="Header2" Imported="false" NextStyle="ParagraphStyle/Header2" SplitDocument="false" EmitCss="true" StyleUniqueId="4f5757e2-2ae9-485a-b396-b2e223198c4d" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" KeyboardShortcut="0 0" FontStyle="Bold" PointSize="20" SpaceBefore="70.86614173228347" SpaceAfter="14.173228346456694">
-			<Properties>
-				<BasedOn type="object">ParagraphStyle/$ID/NormalParagraphStyle</BasedOn>
-				<PreviewColor type="enumeration">Nothing</PreviewColor>
-				<Leading type="enumeration">Auto</Leading>
-			</Properties>
-		</ParagraphStyle>
-		<ParagraphStyle Self="ParagraphStyle/Header4" Name="Header4" Imported="false" NextStyle="ParagraphStyle/Header4" SplitDocument="false" EmitCss="true" StyleUniqueId="026a2f74-d96c-4b2c-a3dc-05ac58299947" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" KeyboardShortcut="0 0" PointSize="9">
+		<ParagraphStyle Self="ParagraphStyle/Header4" Name="Header4" Imported="false" NextStyle="ParagraphStyle/Header4" SplitDocument="false" EmitCss="true" StyleUniqueId="daf2b760-97af-42e3-b254-b2e5a9d6a302" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" KeyboardShortcut="0 0" PointSize="8.5" SpaceAfter="0">
 			<Properties>
 				<BasedOn type="object">ParagraphStyle/Header3</BasedOn>
 				<PreviewColor type="enumeration">Nothing</PreviewColor>
+			</Properties>
+		</ParagraphStyle>
+		<ParagraphStyle Self="ParagraphStyle/Header2" Name="Header2" Imported="false" NextStyle="ParagraphStyle/Header2" SplitDocument="false" EmitCss="true" StyleUniqueId="d8e386bd-7bc8-406c-824d-54d4645c2b59" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" KeyboardShortcut="0 0" FontStyle="Bold" PointSize="20">
+			<Properties>
+				<BasedOn type="object">ParagraphStyle/$ID/NormalParagraphStyle</BasedOn>
+				<PreviewColor type="enumeration">Nothing</PreviewColor>
+				<Leading type="enumeration">Auto</Leading>
 			</Properties>
 		</ParagraphStyle>
 		<ParagraphStyle Self="ParagraphStyle/Footnote &gt; Paragraph" Name="Footnote &gt; Paragraph" Imported="false" NextStyle="ParagraphStyle/Footnote &gt; Paragraph" SplitDocument="false" EmitCss="true" StyleUniqueId="f82564bc-6da3-4e37-9e9e-ec0162c31334" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" KeyboardShortcut="0 0" FontStyle="Light" PointSize="6.5" HyphenWeight="7">
@@ -242,30 +264,25 @@
 				</TabList>
 			</Properties>
 		</ParagraphStyle>
-		<ParagraphStyle Self="ParagraphStyle/Header3" Name="Header3" Imported="false" NextStyle="ParagraphStyle/Header3" SplitDocument="false" EmitCss="true" StyleUniqueId="7f150958-67ae-49ec-a4e0-b23e4bdb0f9f" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" KeyboardShortcut="0 0" FontStyle="Bold" PointSize="16">
+		<ParagraphStyle Self="ParagraphStyle/Blockquote &gt; Paragraph" Name="Blockquote &gt; Paragraph" Imported="false" NextStyle="ParagraphStyle/Blockquote &gt; Paragraph" SplitDocument="false" EmitCss="true" StyleUniqueId="0e00d9e8-a427-4769-8b77-39d5a7853cea" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" KeyboardShortcut="0 0" FontStyle="Thin" PointSize="7.5" LeftIndent="14.173228346456694" RightIndent="5.669291338582678" SpaceAfter="11.2">
 			<Properties>
 				<BasedOn type="object">ParagraphStyle/$ID/NormalParagraphStyle</BasedOn>
 				<PreviewColor type="enumeration">Nothing</PreviewColor>
-				<Leading type="unit">19.2</Leading>
+				<Leading type="unit">11.2</Leading>
 			</Properties>
 		</ParagraphStyle>
-		<ParagraphStyle Self="ParagraphStyle/Figure" Name="Figure" Imported="false" NextStyle="ParagraphStyle/Figure" SplitDocument="false" EmitCss="true" StyleUniqueId="9d417921-a473-45ad-9267-765e82fb3145" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" KeyboardShortcut="0 0">
+		<ParagraphStyle Self="ParagraphStyle/Header3" Name="Header3" Imported="false" NextStyle="ParagraphStyle/Header3" SplitDocument="false" EmitCss="true" StyleUniqueId="6f860d5f-96ae-4220-8b28-a0200cfd6060" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" KeyboardShortcut="0 0" FontStyle="Bold" PointSize="11.2" SpaceAfter="11.2">
 			<Properties>
 				<BasedOn type="object">ParagraphStyle/$ID/NormalParagraphStyle</BasedOn>
 				<PreviewColor type="enumeration">Nothing</PreviewColor>
+				<Leading type="unit">11.2</Leading>
 			</Properties>
 		</ParagraphStyle>
-		<ParagraphStyle Self="ParagraphStyle/Caption" Name="Caption" Imported="false" NextStyle="ParagraphStyle/Caption" SplitDocument="false" EmitCss="true" StyleUniqueId="dbb93802-0954-4984-a52a-6635b5334b70" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" KeyboardShortcut="0 0" FontStyle="Light Italic" PointSize="8" SpaceAfter="5.669291338582678">
+		<ParagraphStyle Self="ParagraphStyle/Chili - détails" Name="Chili - détails" Imported="false" NextStyle="ParagraphStyle/Chili - détails" SplitDocument="false" EmitCss="true" StyleUniqueId="91211730-d75b-4a24-abb7-6963f94415f4" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" KeyboardShortcut="0 0" FontStyle="Light Italic" PointSize="8" SpaceAfter="22.4">
 			<Properties>
-				<BasedOn type="object">ParagraphStyle/$ID/NormalParagraphStyle</BasedOn>
+				<BasedOn type="object">ParagraphStyle/Paragraph</BasedOn>
 				<PreviewColor type="enumeration">Nothing</PreviewColor>
-			</Properties>
-		</ParagraphStyle>
-		<ParagraphStyle Self="ParagraphStyle/Blockquote &gt; Paragraph" Name="Blockquote &gt; Paragraph" Imported="false" NextStyle="ParagraphStyle/Blockquote &gt; Paragraph" SplitDocument="false" EmitCss="true" StyleUniqueId="105f0ca7-308b-4457-bdc9-446bc946f7d0" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" KeyboardShortcut="0 0" FontStyle="Thin" PointSize="7.5" LeftIndent="14.173228346456694" RightIndent="5.669291338582678" SpaceBefore="5.6" SpaceAfter="5.6">
-			<Properties>
-				<BasedOn type="object">ParagraphStyle/$ID/NormalParagraphStyle</BasedOn>
-				<PreviewColor type="enumeration">Nothing</PreviewColor>
-				<Leading type="unit">11</Leading>
+				<Leading type="enumeration">Auto</Leading>
 			</Properties>
 		</ParagraphStyle>
 		<ParagraphStyle Self="ParagraphStyle/BulList &gt; first" Name="BulList &gt; first" Imported="false" NextStyle="ParagraphStyle/BulList &gt; first" SplitDocument="false" EmitCss="true" StyleUniqueId="5a9f3330-c044-49e7-b838-f93cba1e868e" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" KeyboardShortcut="0 0">
@@ -315,6 +332,12 @@
 						<Position type="unit">20</Position>
 					</ListItem>
 				</TabList>
+			</Properties>
+		</ParagraphStyle>
+		<ParagraphStyle Self="ParagraphStyle/Sommaire - Sous-titres" Name="Sommaire - Sous-titres" Imported="false" NextStyle="ParagraphStyle/Sommaire - Sous-titres" SplitDocument="false" EmitCss="true" StyleUniqueId="c8eb1586-1fe7-424b-91e0-c9ebf2200d12" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" KeyboardShortcut="0 0" LeftIndent="28.34645669291339">
+			<Properties>
+				<BasedOn type="object">ParagraphStyle/$ID/NormalParagraphStyle</BasedOn>
+				<PreviewColor type="enumeration">Nothing</PreviewColor>
 			</Properties>
 		</ParagraphStyle>
 		<ParagraphStyle Self="ParagraphStyle/$ID/NormalParagraphStyle" Name="$ID/NormalParagraphStyle" Imported="false" NextStyle="ParagraphStyle/$ID/NormalParagraphStyle" SplitDocument="false" EmitCss="true" StyleUniqueId="54521e63-ee57-4fc2-87c0-e30a73b5343a" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" KeyboardShortcut="0 0" PointSize="9">
@@ -392,75 +415,23 @@
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout" ParagraphBreakType="NextPage">
 				<Br />
 			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout">
-				<Br />
-			</CharacterStyleRange>
-		</ParagraphStyleRange>
-		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header1">
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Content>Converser à l’ère de l’autocomplétion</Content>
-				<Br />
-			</CharacterStyleRange>
 		</ParagraphStyleRange>
 		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
-				<Content>Relecture critique des caractéristiques que l’on attribue au design d’interaction (design invisible, technologie calme, utilisabilité), dans le cadre des systèmes d’aide à l’écriture et à la conversation, et particulièrement de l’autocomplétion</Content>
-				<Br />
-			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Content>Mathilde Buenerd Tuteur : Nicolas Nova</Content>
-				<Br />
-				<Content>Mémoire de fin d’études</Content>
-				<Br />
-				<Content>Master of Arts HES-SO en Design, orientation Media design Haute École d’Art et de Design (HEAD), Genève</Content>
-				<Br />
-				<Content>imprimé en février 2018</Content>
-				<Br />
-			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout" ParagraphBreakType="NextOddPage">
-				<Br />
-			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout">
+				<Content>Relecture critique des caractéristiques que l’on attribue au design d’interaction (utilisabilité, technologie calme, design invisible), dans le cadre des systèmes d’aide à l’écriture et à la conversation, et particulièrement de l’autocomplétion.</Content>
 				<Br />
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
-		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header2">
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Tuteur">
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Content>Remerciements</Content>
+				<Content>Tutoré par Nicolas Nova</Content>
+				<Br />
+				<Content>HEAD Genève, 2018</Content>
 				<Br />
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
 		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Content>Merci à Nicolas Nova pour sa disponibilité, ses remarques et ses conseils, qui ont rendu ce travail d’écriture aussi plaisant que passionnant.</Content>
-				<Br />
-				<Content>Merci à Fabien Girardin, pour l’impulsion que mon stage a donné à ce mémoire.</Content>
-				<Br />
-				<Content>Merci à Douglas pour l’écoute attentive qu’il m’a accordée à de nombreuses reprises.</Content>
-				<Br />
-			</CharacterStyleRange>
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout" ParagraphBreakType="NextOddPage">
-				<Br />
-			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout">
-				<Br />
-			</CharacterStyleRange>
-		</ParagraphStyleRange>
-		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header2">
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Content>Abstract</Content>
-				<Br />
-			</CharacterStyleRange>
-		</ParagraphStyleRange>
-		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Content>Les systèmes d’autocomplétion sont de plus en plus envahissant, au point qu’on peut les voir comme des systèmes de recommandation pour l’écriture, et au final, pour les relations sociales. Mais est-ce que les concepts sur lesquels s’appuie le design de l’expérience utilisateur sont adaptés au design des systèmes d’autocomplétion ? à travers une revisite de trois tendance issues de l’histoire du design…</Content>
-				<Br />
-			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout" ParagraphBreakType="NextOddPage">
-				<Br />
-			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout">
 				<Br />
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
@@ -468,37 +439,48 @@
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
 				<Content>Notes</Content>
 				<Br />
+				<Br />
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
 		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Content>Les mots en italique entre [</Content>
+				<Content>Les mots en italique entre </Content>
 			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
-				<Content>crochets</Content>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Mes styles%3aMot original anglais">
+				<Content>(</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Mes styles%3aMot original anglais">
+				<Content>parenthèses</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Mes styles%3aMot original anglais">
+				<Content>)</Content>
 			</CharacterStyleRange>
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Content>] sont utilisés pour clarifier la référence à des mots anglais pour lesquels un équivalent français n’est pas évident.</Content>
+				<Content> sont utilisés pour clarifier la référence à des mots anglais pour lesquels un équivalent français n’est pas évident.</Content>
+				<Br />
+				<Content>Ce texte est consultable en ligne à l’adresse :</Content>
 				<Br />
 			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout" ParagraphBreakType="NextOddPage">
-				<Br />
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Mes styles%3aurl">
+				<Properties>
+					<Leading type="unit">2</Leading>
+				</Properties>
+				<Content>http://alternative.mathildebuenerd.fr/memoire/</Content>
 			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
+				<Properties>
+					<Leading type="unit">2</Leading>
+				</Properties>
 				<Br />
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
 		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header2">
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Content>Sommaire</Content>
 				<Br />
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
 		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" ParagraphBreakType="NextOddPage">
-				<Br />
-			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
 				<Br />
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
@@ -543,13 +525,13 @@
 				<Content>(Citton 2015)</Content>
 			</CharacterStyleRange>
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Content>, autant de termes pour désigner un même phénomène : la place grandissante du logiciel [</Content>
+				<Content>, autant de termes pour désigner un même phénomène : la place grandissante du logiciel </Content>
 			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
-				<Content>software</Content>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Mes styles%3aMot original anglais">
+				<Content>(software) </Content>
 			</CharacterStyleRange>
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Content>] dans la société, à une échelle importante et dans des domaines variés : travail, finance, relations sociales etc. Une ère dominée par la figure de l’algorithme comme structure ontologique de compréhension de l’univers </Content>
+				<Content>dans la société, à une échelle importante et dans des domaines variés : travail, finance, relations sociales etc. Une ère dominée par la figure de l’algorithme comme structure ontologique de compréhension de l’univers </Content>
 			</CharacterStyleRange>
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Cite">
 				<Content>(Finn 2017, 21)</Content>
@@ -668,13 +650,13 @@
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
 				<Content>, construire des chatbots ou des robots capables de discuter de manière autonome semble plus populaire que se pencher sur l’emprise croissante des algorithmes sur le langage des humains. Pourtant, il y a à cette intersection un enjeu qu’on peut placer dans le champ du design d’expérience et d’interface.</Content>
 				<Br />
-				<Content>Que ce soit de manière fortuite ou délibérée, les outils numériques modèlent notre manière de parler. Pour prendre un exemple récent, Tarleton Gillespie parle de l’instauration d’une « négociation tacite » [</Content>
+				<Content>Que ce soit de manière fortuite ou délibérée, les outils numériques modèlent notre manière de parler. Pour prendre un exemple récent, Tarleton Gillespie parle de l’instauration d’une « négociation tacite » </Content>
 			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
-				<Content>tacit negociation</Content>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Mes styles%3aMot original anglais">
+				<Content>(tacit negociation)</Content>
 			</CharacterStyleRange>
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Content>] </Content>
+				<Content> </Content>
 			</CharacterStyleRange>
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Cite">
 				<Content>(Gillespie, 2014, 184)</Content>
@@ -699,7 +681,7 @@
 				<Br />
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
-		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header3">
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header4">
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
 				<Content>Présentation du mémoire</Content>
 				<Br />
@@ -707,41 +689,47 @@
 		</ParagraphStyleRange>
 		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Content>Le design de tels systèmes, c’est-à-dire les décisions relatives à leur aspect et à l’interaction avec l’usager, se place dans le champ du design d’expérience et d’interface [</Content>
+				<Content>Le design de tels systèmes, c’est-à-dire les décisions relatives à leur aspect et à l’interaction avec l’usager, se place dans le champ du design d’expérience et d’interface </Content>
 			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Mes styles%3aMot original anglais">
+				<Content>(</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Mes styles%3aMot original anglais">
 				<Content>user experience</Content>
 			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Mes styles%3aMot original anglais">
 				<Content>, </Content>
 			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Mes styles%3aMot original anglais">
 				<Content>user interface</Content>
 			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Mes styles%3aMot original anglais">
+				<Content>)</Content>
+			</CharacterStyleRange>
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Content>]. Mais est-ce que les concepts sur lesquels s’appuie le design de l’expérience utilisateur sont adaptés au design des systèmes d’autocomplétion ?</Content>
+				<Content>. Mais est-ce que les concepts sur lesquels s’appuie le design de l’expérience utilisateur sont adaptés au design des systèmes d’autocomplétion ?</Content>
 				<Br />
 				<Content>En premier lieu, le design de tels systèmes n’est pas directement centrer sur la résolution d’un problème : nous savons écrire sans autocomplétion. On peut se dire qu’elle est un outil pour nous aider à écrire mieux ou plus vite, mais peut-être pas seulement. En second lieu, c’est une technologie utilisée quotidiennement et qui empiète sur un aspect personnel de nos vies, les conversations avec nos proches. Cette relation particulière implique que l’usager perçoive les effets de cette technologie sur ses actions : il doit remarquer qu’il utilise un système automatisé. Enfin, l’expérience que propose un système d’autocomplétion est étroitement liée à la complexité de son fonctionnement. Or la complexité est souvent vue comme un obstacle à une expérience utilisateur réussie.</Content>
 				<Br />
-				<Content>Ces trois caractéristiques s’accordent difficilement avec trois notions fréquemment associées au design d’interaction : l’utilisabilité [</Content>
+				<Content>Ces trois caractéristiques s’accordent difficilement avec trois notions fréquemment associées au design d’interaction : l’utilisabilité</Content>
 			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
-				<Content>usability</Content>
-			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Content>], l’idée de technologie calme [</Content>
-			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
-				<Content>calm technology</Content>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Mes styles%3aMot original anglais">
+				<Content> (usability)</Content>
 			</CharacterStyleRange>
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Content>] et celle de design invisible [</Content>
+				<Content>, l’idée de technologie calme </Content>
 			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
-				<Content>invisible design</Content>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Mes styles%3aMot original anglais">
+				<Content>(calm technology)</Content>
 			</CharacterStyleRange>
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Content>]. C’est pourquoi pour analyser les enjeux de l’autocomplétion, ce mémoire vise à faire une relecture critique de ces trois notions.</Content>
+				<Content> et celle de design invisible </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Mes styles%3aMot original anglais">
+				<Content>(invisible design)</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
+				<Content>. C’est pourquoi pour analyser les enjeux de l’autocomplétion, ce mémoire vise à faire une relecture critique de ces trois notions.</Content>
 				<Br />
 				<Content>Tout d’abord, j’expliquerai pourquoi l’évolution du fonctionnement technique des systèmes d’autocomplétion, notamment grâce aux algorithmes de </Content>
 			</CharacterStyleRange>
@@ -755,13 +743,7 @@
 				<Content>technologie pimentée</Content>
 			</CharacterStyleRange>
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Content> [</Content>
-			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
-				<Content>chili technology</Content>
-			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Content>] comme alternative aux tendances évoquées dans les parties précédentes (partie 5). Enfin, une annexe présentera des exemples d’application des principes évoqués au cours du mémoire, dans le cadre d’une application de messagerie fictionnelle.</Content>
+				<Content> comme alternative aux tendances évoquées dans les parties précédentes (partie 5). Enfin, une annexe présentera des exemples d’application des principes évoqués au cours du mémoire, dans le cadre d’une application de messagerie fictionnelle.</Content>
 				<Br />
 				<Content>Ce mémoire n’est pas une contestation unilatérale des principes ou des mouvements évoqués, mais plutôt une invitation à sortir de la rhétorique de « l’invisibilité » ou de « l’intuitivité » qu’on attribue au design d’interaction. Ce changement de perspective est là pour réimaginer les interactions humain-machine dans une optique où l’humour, la provocation et l’excitation sont au centre des préoccupations.</Content>
 				<Br />
@@ -769,17 +751,20 @@
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout" ParagraphBreakType="NextOddPage">
 				<Br />
 			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout">
-				<Br />
-			</CharacterStyleRange>
 		</ParagraphStyleRange>
 		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header2">
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Content>De l’autocomplétion au système de recommandation</Content>
+				<Content>De l’autocomplétion au </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" NoBreak="true">
+				<Content>système</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
+				<Content> de recommandation</Content>
 				<Br />
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
-		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header3">
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header4">
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
 				<Content>D’une aide à la saisie vers une aide à l’écriture</Content>
 				<Br />
@@ -787,13 +772,13 @@
 		</ParagraphStyleRange>
 		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Content>Dans le champ de la téléphonie mobile, l’autocomplétion est présente depuis plusieurs années en tant qu’aide à la saisie. À la fin des années 90, la majorité des terminaux mobiles possèdent un clavier à 12 chiffres, proche de celui des cadrans téléphoniques. Il est conçu avant tout pour la saisie de numéros de téléphone et pas pour celle de textos. Pour pouvoir y saisir du texte, chaque touche possède plusieurs lettres associées (par exemple le ‘2’ sert aussi à saisir les lettres ‘a’, ‘b’ et ‘c’), ce qui implique un problème de désambiguïsation [</Content>
+				<Content>Dans le champ de la téléphonie mobile, l’autocomplétion est présente depuis plusieurs années en tant qu’aide à la saisie. À la fin des années 90, la majorité des terminaux mobiles possèdent un clavier à 12 chiffres, proche de celui des cadrans téléphoniques. Il est conçu avant tout pour la saisie de numéros de téléphone et pas pour celle de textos. Pour pouvoir y saisir du texte, chaque touche possède plusieurs lettres associées (par exemple le ‘2’ sert aussi à saisir les lettres ‘a’, ‘b’ et ‘c’), ce qui implique un problème de désambiguïsation </Content>
 			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
-				<Content>disambiguation</Content>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Mes styles%3aMot original anglais">
+				<Content>(disambiguation)</Content>
 			</CharacterStyleRange>
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Content>] lors de la saisie : comment savoir si l’usager a voulu taper un ‘a’, un ‘b’ ou un ‘c’ ? Les développeurs ont recours à des méthodes d’entrée pragmatiques, comme le </Content>
+				<Content> lors de la saisie : comment savoir si l’usager a voulu taper un ‘a’, un ‘b’ ou un ‘c’ ? Les développeurs ont recours à des méthodes d’entrée pragmatiques, comme le </Content>
 			</CharacterStyleRange>
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
 				<Content>multi-press</Content>
@@ -880,65 +865,33 @@
 				<Content>prédire</Content>
 			</CharacterStyleRange>
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Content> quel mot a le plus de chance d’être écrit. C’est d’ailleurs le terme de « texte prédictif » [</Content>
+				<Content> quel mot a le plus de chance d’être écrit. C’est d’ailleurs le terme de « texte prédictif » </Content>
 			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Mes styles%3aMot original anglais">
+				<Content>(</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Mes styles%3aMot original anglais">
 				<Content>predictive text</Content>
 			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Mes styles%3aMot original anglais">
+				<Content>)</Content>
+			</CharacterStyleRange>
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Content>] qui est adopté pour désigner cette technologie de complétion.</Content>
+				<Content> qui est adopté pour désigner cette technologie de complétion.</Content>
 				<Br />
 				<Content>Bien que visant à résoudre le problème d’ambiguïté de la saisie, le T9 introduit une méthode de saisie qui comporte des similarités avec les systèmes d’autocomplétion actuels, c’est-à-dire parier sur un mot en se basant sur des données (un dictionnaire) et des probabilités (les fréquences).</Content>
 				<Br />
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
-		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header3">
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header4">
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
 				<Content>L’autocomplétion aujourd’hui</Content>
 				<Br />
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
-		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Figure">
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Br />
-			</CharacterStyleRange>
-		</ParagraphStyleRange>
-		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Caption">
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Content>Type 1 : Le système cherche à trouver la fin du mot qui commence par « comm</Content>
-			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" FontStyle="Regular" PointSize="8.5">
-				<Properties>
-					<Leading type="unit">11.2</Leading>
-				</Properties>
-				<Content> »</Content>
-			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Br />
-			</CharacterStyleRange>
-		</ParagraphStyleRange>
-		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Figure">
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Br />
-			</CharacterStyleRange>
-		</ParagraphStyleRange>
-		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Caption">
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Content>Type 2 : Le système cherche à trouver le mot qui suit le mot « comment</Content>
-			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" FontStyle="Regular" PointSize="8.5">
-				<Properties>
-					<Leading type="unit">11.2</Leading>
-				</Properties>
-				<Content> »</Content>
-			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Br />
-			</CharacterStyleRange>
-		</ParagraphStyleRange>
 		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Content>Aujourd’hui, on peut distinguer deux types d’autocomplétion. La première est celle qui vient compléter les mots que l’on a commencé à saisir. C’est la descendante directe de systèmes comme le T9 et des correcteurs orthographiques. Elle est plutôt une aide à la saisie, corrige les fautes d’orthographe et augmente la vitesse d’écriture. La seconde est celle qui vient suggérer des mots ou des phrases complètes, en se basant sur le début de notre phrase ou de celle de notre interlocuteur. Elle est plus proche d’une aide à l’écriture, dans la mesure où elle est plus envahissante. Ce type d’autocomplétion tente de prédire ce que l’on veut dire en se basant sur les mots déjà écrits, et sur les fréquences d’association des mots entre eux (par exemple une phrase qui commence par « Merci » a plus de chances d’être suivie de « beaucoup » que de « accordéon »). Ces fréquences sont calculées grâce à une approche statistique de la langue qui consiste à analyser des ensembles de milliers de textes appelés </Content>
+				<Content>Aujourd’hui, on peut distinguer deux types d’autocomplétion (images ci-contre). La première est celle qui vient compléter les mots que l’on a commencé à saisir. C’est la descendante directe de systèmes comme le T9 et des correcteurs orthographiques. Elle est plutôt une aide à la saisie, corrige les fautes d’orthographe et augmente la vitesse d’écriture. La seconde est celle qui vient suggérer des mots ou des phrases complètes, en se basant sur le début de notre phrase ou de celle de notre interlocuteur. Elle est plus proche d’une aide à l’écriture, dans la mesure où elle est plus envahissante. Ce type d’autocomplétion tente de prédire ce que l’on veut dire en se basant sur les mots déjà écrits, et sur les fréquences d’association des mots entre eux (par exemple une phrase qui commence par « Merci » a plus de chances d’être suivie de « beaucoup » que de « accordéon »). Ces fréquences sont calculées grâce à une approche statistique de la langue qui consiste à analyser des ensembles de milliers de textes appelés </Content>
 			</CharacterStyleRange>
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
 				<Content>corpus</Content>
@@ -958,13 +911,13 @@
 							<Content><?ACE 4?></Content>
 						</CharacterStyleRange>
 						<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-							<Content>	En 2017, « machine learning » et « deep learning » (une méthode spécifique d’application du machine learning) étaient tout en haut du « pic des attentes exagérées » [</Content>
+							<Content>	En 2017, « machine learning » et « deep learning » (une méthode spécifique d’application du machine learning) étaient tout en haut du « pic des attentes exagérées » (</Content>
 						</CharacterStyleRange>
 						<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
 							<Content>peak of inflated expectations</Content>
 						</CharacterStyleRange>
 						<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-							<Content>] du </Content>
+							<Content>) du </Content>
 						</CharacterStyleRange>
 						<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
 							<HyperlinkTextSource Self="u3a35" Name="Hyperlien 2" Hidden="false" AppliedCharacterStyle="n">
@@ -994,37 +947,13 @@
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
 				<Content>. C’est-à-dire, des systèmes qui cherchent à prédire la préférence d’une personne pour un mot, une phrase, un emoji ou une idée.</Content>
 				<Br />
-			</CharacterStyleRange>
-		</ParagraphStyleRange>
-		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Figure">
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
+				<Content>Un exemple-type de système de recommandation pour l’écriture, est l’application de messagerie instantanée développée par Google, Google Allo. Cette application de messagerie « intelligente » suggère des réponses-type en fonction des habitudes d’écriture. Elle retient par exemple si vous êtes une personne plutôt « dac » ou « ok », et intègre des suggestions à l’intérieur même des conversations grâce à un assistant semblable à Siri. Google Allo n’est pas la seule application à aller jusqu’à suggérer des mots ou des réponses préétablies. La messagerie en ligne Gmail et Facebook les utilisent aussi (image ci-contre).</Content>
 				<Br />
-			</CharacterStyleRange>
-		</ParagraphStyleRange>
-		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Content>Un exemple-type de système de recommandation pour l’écriture, est l’application de messagerie instantanée développée par Google, Google Allo. Cette application de messagerie « intelligente » suggère des réponses-type en fonction des habitudes d’écriture. Elle retient par exemple si vous êtes une personne plutôt « dac » ou « ok », et intègre des suggestions à l’intérieur même des conversations grâce à un assistant semblable à Siri. Google Allo n’est pas la seule application à aller jusqu’à suggérer des mots ou des réponses préétablies. La messagerie en ligne Gmail et Facebook les utilisent aussi.</Content>
-				<Br />
-			</CharacterStyleRange>
-		</ParagraphStyleRange>
-		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Figure">
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Br />
-			</CharacterStyleRange>
-		</ParagraphStyleRange>
-		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Caption">
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Content>Réponses automatiques sur Google Allo, Gmail et Facebook</Content>
-				<Br />
-			</CharacterStyleRange>
-		</ParagraphStyleRange>
-		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
 				<Content>Dans le cas de ces deux dernières applications, les suggestions sont basées sur une analyse statistique des réponses écrites non pas par l’usager lui-même mais par les usagers en général. S’il est difficile de savoir exactement comment ces réponses sont produites, il est probable qu’elles ne résultent pas d’un algorithme autonome, car elles ne sont présentes que dans le cas de situations standardisées, par exemple « Merci » ou « Bien reçu ». Néanmoins, on peut voir dans ces nouvelles fonctionnalités une porte ouverte vers l’usage d’algorithmes de machine learning pour faire de la recommandation conversationnelle.</Content>
 				<Br />
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
-		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header3">
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header4">
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
 				<Content>Fonctionnement d’un système de recommandation</Content>
 				<Br />
@@ -1032,7 +961,7 @@
 		</ParagraphStyleRange>
 		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Content>Comprendre les grands principes de fonctionnement d’un système de recommandation permet de mieux apprécier leurs spécificités, leurs contraintes et leurs avantages, et ainsi de pouvoir les concevoir d’un point de vue de design d’expérience. Sans entrer le détail, on peut distinguer deux grandes catégories de système de recommandation : ceux basés sur le contenu et ceux dit « collaboratifs »</Content>
+				<Content>Comprendre les grands principes de fonctionnement d’un système de recommandation permet de mieux apprécier leurs spécificités, leurs contraintes et leurs avantages, et ainsi de pouvoir les concevoir d’un point de vue de design d’expérience. Sans entrer le détail, on peut distinguer deux grandes catégories de système de recommandation</Content>
 			</CharacterStyleRange>
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" Position="Superscript">
 				<Footnote>
@@ -1047,28 +976,20 @@
 				</Footnote>
 			</CharacterStyleRange>
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Content>. Le schéma ci-dessous donner un aperçu de leurs caractéristiques.</Content>
+				<Content> : ceux basés sur le contenu et ceux dit « collaboratifs » (voir image ci-après). </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" FontStyle="Light" PointSize="8">
+				<Properties>
+					<Leading type="enumeration">Auto</Leading>
+				</Properties>
 				<Br />
 			</CharacterStyleRange>
-		</ParagraphStyleRange>
-		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Figure">
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Br />
-			</CharacterStyleRange>
-		</ParagraphStyleRange>
-		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Caption">
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Content>Deux types de systèmes de recommandation</Content>
-				<Br />
-			</CharacterStyleRange>
-		</ParagraphStyleRange>
-		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
 				<Content>Dans le cas de l’autocomplétion, on pourrait par exemple différencier un système basé sur le contenu, qui recommanderait des mots liés par une relation de sens ou de syntaxe (par exemple un synonyme connu grâce à un dictionnaire) et des mots liés par un comportement collectif (par exemple des mots souvent associés par l’ensemble des usagers).</Content>
 				<Br />
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
-		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header3">
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header4">
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
 				<Content>Design d’un système d’un système de recommandation</Content>
 				<Br />
@@ -1123,7 +1044,7 @@
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
 				<Content>La « bulle de filtres</Content>
 			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" FontStyle="Regular" PointSize="8.5">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" FontStyle="Regular">
 				<Content> »</Content>
 			</CharacterStyleRange>
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
@@ -1141,19 +1062,16 @@
 		</ParagraphStyleRange>
 		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Content>Plus on se fie à des recommandations, plus elles nous façonnent. Il y a toujours le risque que les algorithmes quittent le monde de la prédiction pour entrer dans celui de la détermination, en créant un système qui s’autoalimente. Le militant internet Eli Pariser alerte contre le risque que les recommandations isolent les usagers dans une « bulle de filtres » [</Content>
+				<Content>Plus on se fie à des recommandations, plus elles nous façonnent. Il y a toujours le risque que les algorithmes quittent le monde de la prédiction pour entrer dans celui de la détermination, en créant un système qui s’autoalimente. Le militant internet Eli Pariser alerte contre le risque que les recommandations isolent les usagers dans une « bulle de filtres » </Content>
 			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
-				<Content>filter bubble</Content>
-			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Content>] </Content>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Mes styles%3aMot original anglais">
+				<Content>(filter bubble) </Content>
 			</CharacterStyleRange>
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Cite">
 				<Content>(Pariser 2011)</Content>
 			</CharacterStyleRange>
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Content>. Selon lui, suggérer des contenus à un usager en se basant sur son comportement passé reviendrait à le confiner dans sa propre bulle culturelle et idéologique. Ce que vise Pariser c’est avant tout la personnalisation insidieuse du web. Par exemple, les usagers de Facebook ne sont pas explicitement avertis que leur comportement (historique de recherche, publications aimées…) déterminent leur fil d’actualité. Si une personne aime régulièrement les publications d’une personne en particulier, alors elles apparaîtront plus fréquemment dans son fil, et elle sera donc plus à même de les aimer de nouveau. De la même manière, est-ce qu’une personne qui utilise régulièrement des termes violents se verra par conséquent recommander des termes injurieux, qui pourront l’entrainer dans un cercle vicieux ? On peut soulever cette question, et en même temps on peut voir dans l’autocomplétion une opportunité pour justement élargir cette bulle culturelle. Si à l’inverse l’on imagine par exemple suggérer des mots désuets à des jeunes, ou bien des mots issus de l’argot des jeunes à des personnes âgées.</Content>
+				<Content>. Selon lui, suggérer des contenus à un usager en se basant sur son comportement passé reviendrait à le confiner dans sa propre bulle culturelle et idéologique. Ce que vise Pariser c’est avant tout la personnalisation insidieuse du web. Par exemple, les usagers de Facebook ne sont pas explicitement avertis que leur comportement (historique de recherche, publications aimées) déterminent leur fil d’actualité. Si une personne aime régulièrement les publications de quelqu’un en particulier, alors elles apparaîtront plus fréquemment dans son fil, et elle sera donc plus à même de les aimer de nouveau. De la même manière, est-ce qu’une personne qui utilise régulièrement des termes violents se verra par conséquent recommander des termes injurieux, l’entrainant dans un cercle vicieux ? On peut soulever cette question, et en même temps voir dans l’autocomplétion une opportunité pour justement élargir cette bulle culturelle. Si à l’inverse on imagine suggérer des mots désuets à des jeunes, ou bien des mots argotiques à des personnes âgées.</Content>
 				<Br />
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
@@ -1175,29 +1093,29 @@
 				<Br />
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
-		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header3">
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header4">
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Content>Vers de nouvelles manières de designer</Content>
+				<Content>De nouvelles manières de concevoir</Content>
 				<Br />
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
 		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Content>Et si l’évolution technologique était telle qu’elle nécessite de penser différemment la manière dont on conçoit l’expérience des systèmes basés sur des algorithmes de machine learning ? Si les enjeux centraux n’était pas tant l’intuitivité ou la facilité d’usage, mais la capacité à permettre la découverte ou à dépasser ses limites ?</Content>
+				<Content>Et si l’évolution technologique était telle qu’elle nécessite de penser différemment la manière dont on conçoit l’expérience des systèmes basés sur des algorithmes de machine learning ? Si les enjeux centraux n’étaient pas tant l’intuitivité ou la facilité d’usage, mais la capacité à permettre la découverte ou à dépasser ses limites ?</Content>
 			</CharacterStyleRange>
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" Position="Superscript">
 				<Footnote>
 					<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Footnote &gt; Paragraph">
-						<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout">
+						<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout" Tracking="-5">
 							<Content><?ACE 4?></Content>
 						</CharacterStyleRange>
-						<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-							<Content>	Pour une analyse plus détaillée des liens entre design d’expérience et machine learning, voir </Content>
+						<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" Tracking="-5">
+							<Content>	Pour une analyse des liens entre design d’expérience et machine learning, voir </Content>
 						</CharacterStyleRange>
-						<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Cite">
+						<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Cite" Tracking="-5">
 							<Content>(Girardin 2016)</Content>
 						</CharacterStyleRange>
-						<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
+						<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" Tracking="-5">
 							<Content>.</Content>
 						</CharacterStyleRange>
 					</ParagraphStyleRange>
@@ -1211,16 +1129,13 @@
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout" ParagraphBreakType="NextOddPage">
 				<Br />
 			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout">
-				<Br />
-			</CharacterStyleRange>
 		</ParagraphStyleRange>
 		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header2">
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Strikeout">
-				<Content>utilisabilité</Content>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Mes styles%3aHeader3 barré">
+				<Content>Utilisabilité</Content>
 			</CharacterStyleRange>
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Content> =&gt; inventivité</Content>
+				<Content> =&gt; Inventivité</Content>
 				<Br />
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
@@ -1314,21 +1229,13 @@
 			</CharacterStyleRange>
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
 				<Content> Pour illustrer cela, on peut comparer deux projets qui s’inscrivent dans le même champ d’action : l’assistance à la conversation.</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" FontStyle="Light" PointSize="8">
+				<Properties>
+					<Leading type="enumeration">Auto</Leading>
+				</Properties>
 				<Br />
 			</CharacterStyleRange>
-		</ParagraphStyleRange>
-		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Figure">
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Br />
-			</CharacterStyleRange>
-		</ParagraphStyleRange>
-		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Caption">
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Content>MACH</Content>
-				<Br />
-			</CharacterStyleRange>
-		</ParagraphStyleRange>
-		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
 				<Content>Le premier projet vient du laboratoire d’</Content>
 			</CharacterStyleRange>
@@ -1346,18 +1253,6 @@
 			</CharacterStyleRange>
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
 				<Content>MACH, My Automated Conversation coacH</Content>
-			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Content> </Content>
-			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Cite">
-				<Content>(</Content>
-			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Content>« </Content>
-			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Cite">
-				<Content>MACH - My Automated Conversation coacH » n.d.)</Content>
 			</CharacterStyleRange>
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
 				<Content>, « mon coach automatisé pour la conversation ». C’est un système qui a pour but d’améliorer sa posture et sa manière de parler lors des conversations en face-à-face. L’expérience consiste à converser avec un personnage 3D qui répond et réagit en temps réel. Il peut en outre prendre des initiatives comme interrompre une personne qui serait trop bavarde. Après la discussion, le logiciel fournit un bilan détaillé de l’interaction : la fréquence des sourires, des hochements de tête, des modulations de la voix, la quantité de « mots faibles » (très, bien, en fait…), le débit de parole.</Content>
@@ -1502,35 +1397,27 @@
 			</CharacterStyleRange>
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
 				<Content> s’engage à la rendre « claire, efficace et sans erreur ».</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" FontStyle="Light" PointSize="8">
+				<Properties>
+					<Leading type="enumeration">Auto</Leading>
+				</Properties>
 				<Br />
 			</CharacterStyleRange>
-		</ParagraphStyleRange>
-		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Figure">
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Br />
-			</CharacterStyleRange>
-		</ParagraphStyleRange>
-		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Caption">
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Content>Grammarly souligne les mots « problématiques »</Content>
-				<Br />
-			</CharacterStyleRange>
-		</ParagraphStyleRange>
-		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
 				<Content>Cette dernière, </Content>
 			</CharacterStyleRange>
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
-				<Content>Grammarly</Content>
+				<Content>Grammarly </Content>
 			</CharacterStyleRange>
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Content>, est une application et une extension pour navigateur qui souligne en temps réel les fautes d’orthographe, de grammaire et de style. Ces corrections stylistiques incluent par exemple la limitation des répétitions et la proposition de mots plus percutants [</Content>
+				<Content>(image ci-dessous), est une application et une extension pour navigateur qui souligne en temps réel les fautes d’orthographe, de grammaire et de style. Ces corrections stylistiques incluent par exemple la limitation des répétitions et la proposition de mots plus percutants (</Content>
 			</CharacterStyleRange>
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
 				<Content>compelling</Content>
 			</CharacterStyleRange>
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Content>]. Comme extension, elle peut superviser tout ce que l’on écrit sur le web, des emails aux statuts sur les réseaux sociaux. Chaque mot « problématique » est souligné, et une explication sur le problème qu’il pose est accessible au survol. L’extension se revendique comme un assistant pour l’écriture, promettant de la rendre plus claire et communicative.</Content>
+				<Content>). Comme extension, elle peut superviser tout ce que l’on écrit sur le web, des emails aux statuts sur les réseaux sociaux. Chaque mot « problématique » est souligné, et une explication sur le problème qu’il pose est accessible au survol. L’extension se revendique comme un assistant pour l’écriture, promettant de la rendre plus claire et communicative.</Content>
 				<Br />
 				<Content>Le problème de l’optimisation promise par ces applications, c’est qu’elle pousse à la standardisation en ramenant toutes les formes d’écriture (email, statut) vers un mode argumentaire.</Content>
 				<Br />
@@ -1588,13 +1475,16 @@
 		</ParagraphStyleRange>
 		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Content>La notion de « technologie calme » [</Content>
+				<Content>La notion de « technologie calme » </Content>
 			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
-				<Content>calm technology</Content>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Mes styles%3aMot original anglais">
+				<Content>(</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Mes styles%3aMot original anglais">
+				<Content>calm technology)</Content>
 			</CharacterStyleRange>
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Content>] est introduite en 1995 par Mark Weiser et John Seely Brown dans le texte </Content>
+				<Content> est introduite en 1995 par Mark Weiser et John Seely Brown dans le texte </Content>
 			</CharacterStyleRange>
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
 				<Content>Designing Calm Technology</Content>
@@ -1622,13 +1512,7 @@
 		</ParagraphStyleRange>
 		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header3">
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Strikeout">
-				<Content>Une technologie qui fait </Content>
-			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout">
-				<Content>juste</Content>
-			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Strikeout">
-				<Content> ce qu’on lui demande</Content>
+				<Content>Une technologie qui fait juste ce qu’on lui demande</Content>
 			</CharacterStyleRange>
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
 				<Content> / Une technologie qui agit là où on ne l’attend pas</Content>
@@ -1637,13 +1521,13 @@
 		</ParagraphStyleRange>
 		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Content>Dans le chapitre précédent, nous évoquions les limites de la vision de la technologie comme solution à la résolution d’un problème [</Content>
+				<Content>Dans le chapitre précédent, nous évoquions les limites de la vision de la technologie comme solution à la résolution d’un problème </Content>
 			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
-				<Content>problem solver</Content>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Mes styles%3aMot original anglais">
+				<Content>(problem solver)</Content>
 			</CharacterStyleRange>
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Content>], et la vacuité de l’idée de « communication efficace ». De son côté, Weiser défend l’idée que les objets électroniques ne devraient pas gêner des tâches pour lesquelles ils ne sont pas mandatés. Et si, au contraire, on considérait qu’ils peuvent nous surprendre en leur laissant de l’espace pour intervenir justement là où on ne les attend pas ?</Content>
+				<Content>, et la vacuité de l’idée de « communication efficace ». De son côté, Weiser défend l’idée que les objets électroniques ne devraient pas gêner des tâches pour lesquelles ils ne sont pas mandatés. Et si, au contraire, on considérait qu’ils peuvent nous surprendre en leur laissant de l’espace pour intervenir justement là où on ne les attend pas ?</Content>
 				<Br />
 				<Content>Tout designer a déjà entendu cette maxime à un moment de son parcours : </Content>
 			</CharacterStyleRange>
@@ -1690,16 +1574,19 @@
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout" ParagraphBreakType="NextPage">
 				<Br />
 			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout">
-				<Br />
-			</CharacterStyleRange>
 		</ParagraphStyleRange>
 		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header3">
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Strikeout">
 				<Content>Une technologie qui agit en arrière-plan</Content>
 			</CharacterStyleRange>
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Content> / Une technologie explicitement paramétrable</Content>
+				<Content> / Une </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" NoBreak="true">
+				<Content>technologie</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
+				<Content> explicitement paramétrable</Content>
 				<Br />
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
@@ -1800,9 +1687,6 @@
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout" ParagraphBreakType="NextPage">
 				<Br />
 			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout">
-				<Br />
-			</CharacterStyleRange>
 		</ParagraphStyleRange>
 		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header3">
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Strikeout">
@@ -1826,7 +1710,13 @@
 							<Content><?ACE 4?></Content>
 						</CharacterStyleRange>
 						<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-							<Content>	« Nous recueillons des informations sur les personnes et les groupes avec lesquels vous êtes en contact, ainsi que la manière dont vous interagissez avec eux (par exemple, les personnes avec qui vous communiquez le plus ou encore les groupes au sein desquels vous aimez vous exprimer) », « Nous recueillons également des informations concernant la manière dont vous utilisez nos Services, telles que […] la fréquence et la durée de vos activités. » Voir la </Content>
+							<Content>	« Nous recueillons des informations sur les personnes et les groupes avec lesquels vous êtes en contact, ainsi que la manière dont vous interagissez avec eux (par exemple, les personnes avec qui vous communiquez le plus ou encore les groupes au sein desquels vous aimez vous exprimer) », « Nous recueillons également des informations concernant la manière dont vous utilisez nos Services, telles que […</Content>
+						</CharacterStyleRange>
+						<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Mes styles%3aMot original anglais">
+							<Content>]</Content>
+						</CharacterStyleRange>
+						<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
+							<Content> la fréquence et la durée de vos activités. » Voir la </Content>
 						</CharacterStyleRange>
 						<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
 							<HyperlinkTextSource Self="u3aa5" Name="Hyperlien 12" Hidden="false" AppliedCharacterStyle="n">
@@ -1840,13 +1730,13 @@
 				</Footnote>
 			</CharacterStyleRange>
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Content> Or, elles trahissent des aspects intimes de notre vie. On ne sait pas avec exactitude comment toutes ces données sont utilisées, il est donc difficile d’estimer quelles informations sont sensibles. Mais de telles quantités de données peuvent traduire plus qu’on ne pourrait l’imaginer. L’écrivaine Joanne McNeil évoque par exemple comment les « souhaits d’anniversaire » [</Content>
+				<Content> Or, elles trahissent des aspects intimes de notre vie. On ne sait pas avec exactitude comment toutes ces données sont utilisées, il est donc difficile d’estimer quelles informations sont sensibles. Mais de telles quantités de données peuvent traduire plus qu’on ne pourrait l’imaginer. L’écrivaine Joanne McNeil évoque par exemple comment les « souhaits d’anniversaire » </Content>
 			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
-				<Content>birthday wishes</Content>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Mes styles%3aMot original anglais">
+				<Content>(birthday wishes)</Content>
 			</CharacterStyleRange>
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Content>] sur Facebook pourraient être des indicateurs de la proximité affective que l’on a avec un « ami » </Content>
+				<Content> sur Facebook pourraient être des indicateurs de la proximité affective que l’on a avec un « ami » </Content>
 			</CharacterStyleRange>
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Cite">
 				<Content>(McNeil 2014)</Content>
@@ -1861,21 +1751,13 @@
 			</CharacterStyleRange>
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
 				<Content>, si ce n’est que la première est plus sèche, et la seconde plus aimable ? Si je choisis la première, mon interlocuteur sera-t-il interprété comme un collègue que je n’apprécie pas trop ? Et si je choisis la deuxième, sera-t-il considéré comme une personne avec laquelle j’ai des relations amicales ?</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" FontStyle="Light" PointSize="8">
+				<Properties>
+					<Leading type="enumeration">Auto</Leading>
+				</Properties>
 				<Br />
 			</CharacterStyleRange>
-		</ParagraphStyleRange>
-		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Figure">
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Br />
-			</CharacterStyleRange>
-		</ParagraphStyleRange>
-		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Caption">
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Content>« Salut Mathilde, est-ce que tu as le fichier indesign en format idml ? » -&gt; « Oui, le voici ! » | « Non, je ne l’ai pas. » | « Je ne l’ai pas, désolé. »</Content>
-				<Br />
-			</CharacterStyleRange>
-		</ParagraphStyleRange>
-		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
 				<Content>On pourrait aller encore plus loin et spéculer sur ce qui pourrait être connu de nous dans le cas de l’analyse de conversations privées sur une application comme Messenger. La fréquence des contacts, l’usage de mots particuliers ou de smileys sont autant de facteurs qui révèlent avec précision la nature de la relation entre deux personnes (familiale, amicale, amoureuse…).</Content>
 				<Br />
@@ -1898,8 +1780,22 @@
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
 		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header2">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Strikeout">
+				<Content>design invisible</Content>
+			</CharacterStyleRange>
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Content>design invisible =&gt; design visible</Content>
+				<Content> =&gt; </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" NoBreak="true">
+				<Content>design</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
+				<Content> </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" NoBreak="true">
+				<Content>visible</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
 				<Br />
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
@@ -1962,13 +1858,13 @@
 				</Footnote>
 			</CharacterStyleRange>
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Content>. Ce mouvement considère l’interface graphique [</Content>
+				<Content>. Ce mouvement considère l’interface graphique </Content>
 			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
-				<Content>GUI, Graphical User Interface</Content>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Mes styles%3aMot original anglais">
+				<Content>(GUI, Graphical User Interface)</Content>
 			</CharacterStyleRange>
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Content>] comme une couche additionnelle à l’expérience utilisateur, et qui est souvent superflue.</Content>
+				<Content> comme une couche additionnelle à l’expérience utilisateur, et qui est souvent superflue.</Content>
 				<Br />
 				<Content>Or, la multiplication des assistants personnels et la prolifération d’outils de </Content>
 			</CharacterStyleRange>
@@ -2112,7 +2008,7 @@
 				<Content> »</Content>
 			</CharacterStyleRange>
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Content>, représentés par David McCandless &amp; Lee Byron, appuyés sur les mises à jour de statut Facebook, qui montrent une hausse au début du printemps et deux semaines avant Noël[^5ee2]. Quelle explication donner à ce phénomène ? Difficile à dire. Si l’on peut s’amuser à faire des suppositions, il faut garder à l’esprit que ce ne sont que des hypothèses.</Content>
+				<Content>, représentés par David McCandless &amp; Lee Byron, appuyés sur les mises à jour de statut Facebook, qui montrent une hausse au début du printemps et deux semaines avant Noël. Quelle explication donner à ce phénomène ? Difficile à dire. Si l’on peut s’amuser à faire des suppositions, il faut garder à l’esprit que ce ne sont que des hypothèses.</Content>
 				<Br />
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
@@ -2148,13 +2044,13 @@
 				</Footnote>
 			</CharacterStyleRange>
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Content>. Deux modèles sont envisagés : un basé sur des réseaux de neurones [</Content>
+				<Content>. Deux modèles sont envisagés : un basé sur des réseaux de neurones </Content>
 			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
-				<Content>neural networks</Content>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Mes styles%3aMot original anglais">
+				<Content>(neural networks)</Content>
 			</CharacterStyleRange>
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Content>], avec une précision plus élevée mais jugé trop risqué, et un second, basé sur des règles, moins précis, et qui sera choisi en définitive. Sans entrer dans des détails techniques</Content>
+				<Content>, avec une précision plus élevée mais jugé trop risqué, et un second, basé sur des règles, moins précis, et qui sera choisi en définitive. Sans entrer dans des détails techniques</Content>
 			</CharacterStyleRange>
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" Position="Superscript">
 				<Footnote>
@@ -2218,26 +2114,15 @@
 			</CharacterStyleRange>
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
 				<Content>. Ce clavier a pour spécificité un système d’autocomplétion qui suggère des mots issus de champs lexicaux qui vont contre les préjugés que l’on porte envers les femmes.</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" FontStyle="Light" PointSize="8">
+				<Properties>
+					<Leading type="enumeration">Auto</Leading>
+				</Properties>
 				<Br />
 			</CharacterStyleRange>
-		</ParagraphStyleRange>
-		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Figure">
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Br />
-			</CharacterStyleRange>
-		</ParagraphStyleRange>
-		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Caption">
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Content>Le système d’autocomplétion de Sheboard est conçu de telle manière à favoriser l’association de noms féminins avec un champ lexical de la réussite et de la confiance en soi</Content>
-				<Br />
-			</CharacterStyleRange>
-		</ParagraphStyleRange>
-		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
 				<Content>En ayant une visibilité sur comment les suggestions sont produites, on offre la possibilité de relativiser des résultats inappropriés, et d’élaborer des stratégies pour leur faire face.</Content>
-				<Br />
-			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout" ParagraphBreakType="NextOddPage">
 				<Br />
 			</CharacterStyleRange>
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout">
@@ -2246,7 +2131,12 @@
 		</ParagraphStyleRange>
 		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header2">
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Content>Vers de nouvelles formes de collaboration humain-machine</Content>
+				<Content>Vers de nouvelles formes de collaboration </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" NoBreak="true">
+				<Content>humain-machine</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
 				<Br />
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
@@ -2264,9 +2154,9 @@
 				<Br />
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
-		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header3">
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header4">
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Content>La technologie en tant qu’outil créatif d’expression et non en tant qu’assistant</Content>
+				<Content>La technologie comme outil créatif d’expression plutôt qu’assistant</Content>
 				<Br />
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
@@ -2292,7 +2182,7 @@
 				<Br />
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
-		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header3">
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header4">
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
 				<Content>Collaboration humain-machine</Content>
 				<Br />
@@ -2337,7 +2227,7 @@
 				<Br />
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
-		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header3">
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header4">
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
 				<Content>Des logiciels paramétrables et modulaires : le modèle des extensions</Content>
 				<Br />
@@ -2345,13 +2235,16 @@
 		</ParagraphStyleRange>
 		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Content>Un modèle qui tire parti de cette modularité est celui des extensions [</Content>
+				<Content>Un modèle qui tire parti de cette modularité est celui des extensions </Content>
 			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
-				<Content>addons</Content>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Mes styles%3aMot original anglais">
+				<Content>(addons</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Mes styles%3aMot original anglais">
+				<Content>)</Content>
 			</CharacterStyleRange>
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Content>] pour navigateurs (Firefox ou Google Chrome par exemple). Une extension est un petit programme qui enrichit les fonctionnalités d’un navigateur. Ce n’est pas un logiciel ni une application en soit, mais un module que l’on peut greffer sur un logiciel existant pour étendre ses fonctions. Certaines extensions sont officielles et grand public (bloqueurs de publicité, calendriers, traducteurs). D’autres ressemblent plus à de petits </Content>
+				<Content> pour navigateurs (Firefox ou Google Chrome par exemple). Une extension est un petit programme qui enrichit les fonctionnalités d’un navigateur. Ce n’est pas un logiciel ni une application en soit, mais un module que l’on peut greffer sur un logiciel existant pour étendre ses fonctions. Certaines extensions sont officielles et grand public (bloqueurs de publicité, calendriers, traducteurs). D’autres ressemblent plus à de petits </Content>
 			</CharacterStyleRange>
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
 				<Content>hacks</Content>
@@ -2399,7 +2292,7 @@
 				<Br />
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
-		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header3">
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header4">
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
 				<Content>Une technologie pimentée</Content>
 				<Br />
@@ -2451,13 +2344,13 @@
 				<Content>relations</Content>
 			</CharacterStyleRange>
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Content> de curiosité, de peur ou de complicité qui se créent entre le robot et l’environnement dans lequel il est déployé : les enfants, les autres animaux de compagnie ou le maître qui cherche à lui apprendre à reconnaître une balle. Il conclue sa présentation en évoquant l’idée d’une « technologie chili » [</Content>
+				<Content> de curiosité, de peur ou de complicité qui se créent entre le robot et l’environnement dans lequel il est déployé : les enfants, les autres animaux de compagnie ou le maître qui cherche à lui apprendre à reconnaître une balle. Il conclue sa présentation en évoquant l’idée d’une « technologie chili » </Content>
 			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
-				<Content>chili technology</Content>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Mes styles%3aMot original anglais">
+				<Content>(chili technology)</Content>
 			</CharacterStyleRange>
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Content>], qu’il place antipodes d’une technologie calme.</Content>
+				<Content>, qu’il place antipodes d’une technologie calme.</Content>
 				<Br />
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
@@ -2481,13 +2374,11 @@
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout" ParagraphBreakType="NextPage">
 				<Br />
 			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout">
-				<Br />
-			</CharacterStyleRange>
 		</ParagraphStyleRange>
-		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header3">
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header3" Justification="CenterAlign">
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
 				<Content>Technologie pimentée</Content>
+				<Br />
 				<Br />
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
@@ -2499,7 +2390,13 @@
 		</ParagraphStyleRange>
 		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Content>L’intérêt d’une technologie ne se résume pas à solutionner des problèmes. Elle permet de créer un espace pour la pensée associative et la curiosité. On peut par exemple imaginer une application permettant d’écrire dans le style de quelqu’un d’autre (voir page ?). Cela pourrait à la fois créer des conversations drôles et surprenantes, mais aussi faire découvrir du vocabulaire désuet.</Content>
+				<Content>L’intérêt d’une technologie ne se résume pas à solutionner des problèmes. Elle permet de créer un espace pour la pensée associative et la curiosité.</Content>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Chili - détails">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
+				<Content>On peut par exemple imaginer une application permettant d’écrire dans le style de quelqu’un d’autre (voir page ?). Cela pourrait à la fois créer des conversations drôles et surprenantes, mais aussi faire découvrir du vocabulaire désuet.</Content>
 				<Br />
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
@@ -2511,7 +2408,13 @@
 		</ParagraphStyleRange>
 		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Content>Un système automatisé n’agit pas en arrière-plan. Il pousse l’usager à se dépasser, apprend de lui et lui fait front. On peut par exemple imaginer de laisser à l’usager la possibilité de gérer sa personnalité en fonction de son humeur, plutôt que de dépendre d’une personnalisation automatique (voir page ?).</Content>
+				<Content>Un système automatisé n’agit pas en arrière-plan. Il pousse l’usager à se dépasser, apprend de lui et lui fait front. </Content>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Chili - détails">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
+				<Content>On peut par exemple imaginer de laisser à l’usager la possibilité de gérer sa personnalité en fonction de son humeur, plutôt que de dépendre d’une personnalisation automatique (voir page ?).</Content>
 				<Br />
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
@@ -2523,9 +2426,17 @@
 		</ParagraphStyleRange>
 		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Content>L’interface n’est ni une couche d’embellissement, ni une couche accessoire. Elle doit donner les clés de compréhension du fonctionnement du système. On peut par exemple imaginer une interface qui permet de consulter les mots qu’on utilise le plus, ou bien de supprimer les mots qu’on ne souhaite plus se voir proposer (voir page ?).</Content>
+				<Content>L’interface n’est ni une couche d’embellissement, ni une couche accessoire. Elle doit donner les clés de compréhension du fonctionnement du système. </Content>
 				<Br />
 			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Chili - détails">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
+				<Content>On peut par exemple imaginer une interface qui permet de consulter les mots qu’on utilise le plus, ou bien de supprimer les mots qu’on ne souhaite plus se voir proposer (voir page ?).</Content>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout" ParagraphBreakType="NextPage">
 				<Br />
 			</CharacterStyleRange>
@@ -2555,161 +2466,56 @@
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout" ParagraphBreakType="NextPage">
 				<Br />
 			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout">
-				<Br />
-			</CharacterStyleRange>
 		</ParagraphStyleRange>
 		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header3">
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
 				<Content>Coach personnel pour les relations sociales</Content>
-				<Br />
 			</CharacterStyleRange>
-		</ParagraphStyleRange>
-		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Figure">
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Br />
-			</CharacterStyleRange>
-		</ParagraphStyleRange>
-		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Caption">
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Content>Et si… on pouvait recevoir en temps réel des conseils pour améliorer sa manière de converser ?</Content>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" FontStyle="Light" PointSize="8">
+				<Properties>
+					<Leading type="enumeration">Auto</Leading>
+				</Properties>
 				<Br />
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
 		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" ParagraphBreakType="NextPage">
-				<Br />
-			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
 				<Br />
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
 		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header3">
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
 				<Content>Templates de conversation</Content>
-				<Br />
 			</CharacterStyleRange>
-		</ParagraphStyleRange>
-		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Figure">
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Br />
-			</CharacterStyleRange>
-		</ParagraphStyleRange>
-		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Caption">
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Content>Et si… on pouvait télécharger (ou acheter) des templates de conversation ? Pour ne jamais être à court d’idées ?</Content>
-				<Br />
-			</CharacterStyleRange>
-		</ParagraphStyleRange>
-		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" ParagraphBreakType="NextPage">
-				<Br />
-			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" FontStyle="Regular" PointSize="8.5" ParagraphBreakType="NextPage">
 				<Br />
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
 		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header3">
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
 				<Content>Écrire dans le style de…</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" FontStyle="Regular" PointSize="8.5" ParagraphBreakType="NextPage">
 				<Br />
 			</CharacterStyleRange>
-		</ParagraphStyleRange>
-		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Figure">
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Br />
-			</CharacterStyleRange>
-		</ParagraphStyleRange>
-		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Caption">
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Content>Et si… on pouvait écrire dans le style des meilleurs écrivains ?</Content>
-				<Br />
-			</CharacterStyleRange>
-		</ParagraphStyleRange>
-		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" ParagraphBreakType="NextPage">
-				<Br />
-			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Br />
-			</CharacterStyleRange>
-		</ParagraphStyleRange>
-		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header3">
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
 				<Content>Gestionnaire de personnalité</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" FontStyle="Regular" PointSize="8.5" ParagraphBreakType="NextPage">
 				<Br />
 			</CharacterStyleRange>
-		</ParagraphStyleRange>
-		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Figure">
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Br />
-			</CharacterStyleRange>
-		</ParagraphStyleRange>
-		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Caption">
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Content>Et si… on pouvait changer son tempérament en fonction du moment de la journée ou de la personne avec laquelle on parle, et ainsi obtenir des recommandations compatibles avec notre humeur ?</Content>
-				<Br />
-			</CharacterStyleRange>
-		</ParagraphStyleRange>
-		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" ParagraphBreakType="NextPage">
-				<Br />
-			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Br />
-			</CharacterStyleRange>
-		</ParagraphStyleRange>
-		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header3">
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
 				<Content>Gestionnaire de vocabulaire</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" FontStyle="Regular" PointSize="8.5" ParagraphBreakType="NextPage">
 				<Br />
 			</CharacterStyleRange>
-		</ParagraphStyleRange>
-		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Figure">
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Br />
-			</CharacterStyleRange>
-		</ParagraphStyleRange>
-		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Caption">
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Content>Et si… on pouvait contrôler précisément son vocabulaire : ajouter, modifier ou supprimer des mots ? Et même, apprendre des mots nouveaux ?</Content>
-				<Br />
-			</CharacterStyleRange>
-		</ParagraphStyleRange>
-		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" ParagraphBreakType="NextPage">
-				<Br />
-			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Br />
-			</CharacterStyleRange>
-		</ParagraphStyleRange>
-		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header3">
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
 				<Content>Différencier les mots complétés</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" FontStyle="Regular" PointSize="8.5" ParagraphBreakType="NextOddPage">
 				<Br />
 			</CharacterStyleRange>
-		</ParagraphStyleRange>
-		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Figure">
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Br />
-			</CharacterStyleRange>
-		</ParagraphStyleRange>
-		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Caption">
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Content>Et si… l’autocomplétion devenait tellement utilisée qu’il serait nécessaire de préciser quand quelqu’un écrit « réellement » ?</Content>
-				<Br />
-			</CharacterStyleRange>
-		</ParagraphStyleRange>
-		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" ParagraphBreakType="NextOddPage">
-				<Br />
-			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Br />
-			</CharacterStyleRange>
-		</ParagraphStyleRange>
-		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header3">
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
 				<Content>Iconographie</Content>
 				<Br />
@@ -2812,10 +2618,15 @@
 				<Br />
 			</CharacterStyleRange>
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Br />
 				<Content>Imprimé à la HEAD – Genève, avec le caractère typographique GT America.</Content>
 				<Br />
 				<Content>Ce texte est également disponible en ligne sur le site internet alternative.mathildebuenerd.fr/memoire</Content>
+				<Br />
+				<Content>Mémoire de fin d’études</Content>
+				<Br />
+				<Content>Master of Arts HES-SO en Design, orientation Media design Haute École d’Art et de Design (HEAD), Genève</Content>
+				<Br />
+				<Content>imprimé en février 2018</Content>
 				<Br />
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
@@ -3148,6 +2959,27 @@
 			</CharacterStyleRange>
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
 				<Content>. Ed. d’informatique.</Content>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header2">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Sommaire - Sous-titres">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
+				<Content>Remerciements</Content>
+				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
+				<Content>Merci à Nicolas Nova pour sa disponibilité, ses remarques et ses conseils, qui ont rendu ce travail d’écriture aussi plaisant que passionnant.</Content>
+				<Br />
+				<Content>Merci à Fabien Girardin, pour l’impulsion que mon stage a donné à ce mémoire.</Content>
+				<Br />
+				<Content>Merci à Douglas pour l’écoute attentive qu’il m’a accordée à de nombreuses reprises.</Content>
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
 	</Story>
@@ -3840,4 +3672,7 @@
 			<Destination type="object">HyperlinkURLDestination/URL 539</Destination>
 		</Properties>
 	</Hyperlink>
+	<ColorGroup Self="ColorGroup/[Root Color Group]" Name="[Root Color Group]" IsRootColorGroup="true">
+		<ColorGroupSwatch Self="u18ColorGroupSwatch3" SwatchItemRef="Color/Black" />
+	</ColorGroup>
 </Document>

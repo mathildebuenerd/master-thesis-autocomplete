@@ -137,7 +137,7 @@ Dans le cas de ces deux dernières applications, les suggestions sont basées su
 
 ### Fonctionnement d'un système de recommandation
 
-Comprendre les grands principes de fonctionnement d'un système de recommandation permet de mieux apprécier leurs spécificités, leurs contraintes et leurs avantages, et ainsi de pouvoir les concevoir d'un point de vue de design d'expérience. Sans entrer le détail, on peut distinguer deux grandes catégories de système de recommandation : ceux basés sur le contenu et ceux dit "collaboratifs".[^0887] Le schéma ci-dessous donner un aperçu de leurs caractéristiques.
+Comprendre les grands principes de fonctionnement d'un système de recommandation permet de mieux apprécier leurs spécificités, leurs contraintes et leurs avantages, et ainsi de pouvoir les concevoir d'un point de vue de design d'expérience. Sans entrer le détail, on peut distinguer deux grandes catégories de système de recommandation : ceux basés sur le contenu et ceux dit "collaboratifs".[^0887] Le schéma ci-dessous donne un aperçu de leurs caractéristiques.
 
 
 ![Deux types de systèmes de recommandation](images/types-de-filtrage.png)
@@ -353,7 +353,7 @@ Dans cette dernière partie, qui sert de conclusion, nous élargirons le sujet s
 
 
 
-### La technologie en tant qu'outil créatif d'expression et non en tant qu'assistant
+### La technologie en tant qu'outil créatif d'expression plutôt qu'assistant
 
 Les principes évoqués précédemment doivent nous amener à regarder les objets électroniques sous un regard qui n'est peut-être pas celui d'un _assistant_. Est-on obligé de penser l'assistance sous l'angle d'une visée utilitariste ? N'y aurait-il pas des alternatives ?
 
