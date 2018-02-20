@@ -456,17 +456,32 @@ En parallèle, en tant que designer, il me paraissait important d'illustrer ces 
 
 ### Iconographie
 
+#### MACH
+Photo par Manohar Srikanth, http://hoques.com/MACH.htm
+
+#### us+
+Projet par Lauren McCarthy et Kyle McDonald.
+Screenshot extrait de la vidéo : https://vimeo.com/81903116
+
+#### Grammarly
+Screenshot extrait de https://www.grammarly.com/
+
+#### Sheboard
+Visuel extrait du site officiel de l'application : https://sheboard.com/
+
 #### Schéma filtrage collaboratif / filtrage basé sur le contenu
 Schéma inspiré de : http://i65.tinypic.com/2ebah6c.png
 Emojis : Par Twitter, www.flaticon.com
 Personnages : Par Freepik, www.flaticon.com
 
 #### Annexe
-+ Mock-up téléphone : designed by Vexels.com
++ Mock-up téléphone : par Vexels.com
 + Interfaces :
   + Design par Mathilde Buenerd
   + Emojis par Twitter ou Freepik, www.flaticon.com
   + Photographies par www.unsplash.com
+
+
 
 
 \cleardoublepage
