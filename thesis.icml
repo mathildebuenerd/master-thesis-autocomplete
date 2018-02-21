@@ -127,9 +127,6 @@
 		<Font Self="di48e5FontnGT America Mono Black" FontFamily="GT America Mono" Name="GT America Mono Black" PostScriptName="GTAmericaMono-Black" Status="Installed" FontStyleName="Black" FontType="OpenTypeTT" WritingScript="0" FullName="GT America Mono Black" FullNameNative="GT America Mono Black" FontStyleNameNative="Black" PlatformName="$ID/" Version="Version 2.001" TypekitID="$ID/" />
 		<Font Self="di48e5FontnGT America Mono Black Italic" FontFamily="GT America Mono" Name="GT America Mono Black Italic" PostScriptName="GTAmericaMono-BlackItalic" Status="Installed" FontStyleName="Black Italic" FontType="OpenTypeTT" WritingScript="0" FullName="GT America Mono Black Italic" FullNameNative="GT America Mono Black Italic" FontStyleNameNative="Black Italic" PlatformName="$ID/" Version="Version 2.001" TypekitID="$ID/" />
 	</FontFamily>
-	<FontFamily Self="di56fd" Name="Wingdings 3">
-		<Font Self="di56fdFontnWingdings 3 Regular" FontFamily="Wingdings 3" Name="Wingdings 3 Regular" PostScriptName="Wingdings3" Status="Installed" FontStyleName="Regular" FontType="OpenTypeTT" WritingScript="0" FullName="Wingdings 3" FullNameNative="Wingdings 3" FontStyleNameNative="Regular" PlatformName="$ID/" Version="Version 1.55" TypekitID="$ID/" />
-	</FontFamily>
 	<CompositeFont Self="CompositeFont/$ID/[No composite font]" Name="$ID/[No composite font]">
 		<CompositeFontEntry Self="ua2" Name="$ID/Kanji" FontStyle="$ID/R" RelativeSize="100" HorizontalScale="100" VerticalScale="100" Locked="true" ScaleOption="true" BaselineShift="0">
 			<Properties>
@@ -183,7 +180,7 @@
 			</Properties>
 		</CharacterStyle>
 		<CharacterStyleGroup Self="CharacterStyleGroup/$ID/Mes styles" Name="$ID/Mes styles">
-			<CharacterStyle Self="CharacterStyle/Mes styles%3aMot original anglais" Imported="false" SplitDocument="false" EmitCss="true" StyleUniqueId="9923d655-0526-4009-ba5c-0fc5ea273335" KeyboardShortcut="0 0" Name="Mes styles:Mot original anglais" FillColor="Color/Black" FillTint="50">
+			<CharacterStyle Self="CharacterStyle/Mes styles%3aMot original anglais" Imported="false" SplitDocument="false" EmitCss="true" StyleUniqueId="43eb1e4f-133c-4ce1-8d34-684ea7684133" KeyboardShortcut="0 0" Name="Mes styles:Mot original anglais" FillColor="Color/Black" FontStyle="Thin Italic" FillTint="100">
 				<Properties>
 					<BasedOn type="object">CharacterStyle/Italic</BasedOn>
 					<PreviewColor type="enumeration">Nothing</PreviewColor>
@@ -275,7 +272,7 @@
 				<Leading type="unit">11.2</Leading>
 			</Properties>
 		</ParagraphStyle>
-		<ParagraphStyle Self="ParagraphStyle/Chili - détails" Name="Chili - détails" Imported="false" NextStyle="ParagraphStyle/Chili - détails" SplitDocument="false" EmitCss="true" StyleUniqueId="63e379a9-8195-4156-bd11-1c58e3629491" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" KeyboardShortcut="0 0" FontStyle="Light Italic" PointSize="7.5" SpaceAfter="22.4">
+		<ParagraphStyle Self="ParagraphStyle/Chili - détails" Name="Chili - détails" Imported="false" NextStyle="ParagraphStyle/Chili - détails" SplitDocument="false" EmitCss="true" StyleUniqueId="2d548088-e280-4c91-b910-16a6eb4ca0de" EmptyNestedStyles="true" EmptyLineStyles="true" EmptyGrepStyles="true" KeyboardShortcut="0 0" FontStyle="Thin" PointSize="7.5" SpaceAfter="22.4">
 			<Properties>
 				<BasedOn type="object">ParagraphStyle/Paragraph</BasedOn>
 				<PreviewColor type="enumeration">Nothing</PreviewColor>
@@ -420,16 +417,16 @@
 				<Br />
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
-		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic">
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph" Justification="LeftAlign">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic" FontStyle="Light">
 				<Content>Analyse des enjeux de l&apos;autocomplétion par la relecture critique de trois aspects du design d’interaction : l&apos;utilisabilité, la « technologie calme » et </Content>
 			</CharacterStyleRange>
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic" NoBreak="true">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic" FontStyle="Light" NoBreak="true">
 				<Content>le « design invisible ».</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic" NoBreak="true">
 				<Br />
 			</CharacterStyleRange>
-		</ParagraphStyleRange>
-		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph" Justification="LeftAlign">
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
 				<Content>Tutoré par Nicolas Nova HEAD Genève, 2018</Content>
 				<Br />
@@ -1369,7 +1366,22 @@
 				<Content>La quête de l’efficacité</Content>
 			</CharacterStyleRange>
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
-				<Content> La quête de la singularité</Content>
+				<Content> </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" Ligatures="false" Capitalization="AllCaps" OTFContextualAlternate="false">
+				<Properties>
+					<AppliedFont type="string">GT America Mono</AppliedFont>
+					<OpenTypeFeatures type="list">
+						<ListItem type="list">
+							<ListItem type="string">$ID/aalt</ListItem>
+							<ListItem type="long">2</ListItem>
+						</ListItem>
+					</OpenTypeFeatures>
+				</Properties>
+				<Content>→</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
+				<Content> La quête de la singularité</Content>
 				<Br />
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
@@ -2479,10 +2491,14 @@
 				<Br />
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
-		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header3">
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header3" Justification="CenterAlign">
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
 				<Content>« Technologie pimentée »</Content>
 				<Br />
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header3">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
 				<Br />
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
@@ -2561,7 +2577,7 @@
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
 				<Content>Tout au long de ce mémoire, j’ai défendu plusieurs principes pour la conception de l’expérience et l’interface d’un système d’autocomplétion.</Content>
 				<Br />
-				<Content>En parallèle, en tant que designer, il me paraissait important d’illustrer ces principes par des exemples d’application. Cette annexe présente une petite collection d’interfaces fictionnelles, qui tirent parti des algorithmes de machine learning, en se plaçant dans la lignée de la technologie pimentée.</Content>
+				<Content>En parallèle, en tant que designer, il me paraissait important d’illustrer ces principes par des exemples d’application. Cette annexe présente une petite collection d’interfaces fictionnelles, qui tirent parti des algorithmes de machine learning, et se placent dans la lignée de la technologie pimentée.</Content>
 				<Br />
 			</CharacterStyleRange>
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Italic Strikeout" ParagraphBreakType="NextPage">
@@ -2576,7 +2592,7 @@
 				<Br />
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
-		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Annexe - Nom app" Justification="RightAlign">
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Annexe - Nom app" Justification="LeftAlign">
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
 				<Content>Templates de conversation</Content>
 			</CharacterStyleRange>
@@ -2592,7 +2608,7 @@
 				<Br />
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
-		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Annexe - Nom app" Justification="RightAlign">
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Annexe - Nom app" Justification="LeftAlign">
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
 				<Content>Gestionnaire de personnalité</Content>
 			</CharacterStyleRange>
@@ -2608,7 +2624,7 @@
 				<Br />
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
-		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Annexe - Nom app" Justification="RightAlign">
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Annexe - Nom app" Justification="LeftAlign">
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default">
 				<Content>Différencier les mots complétés</Content>
 			</CharacterStyleRange>
@@ -2966,11 +2982,16 @@
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
 		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header4">
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" PointSize="7">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" FontStyle="Medium" PointSize="7">
 				<Properties>
 					<Leading type="enumeration">Auto</Leading>
 				</Properties>
 				<Content>MACH</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" PointSize="7">
+				<Properties>
+					<Leading type="enumeration">Auto</Leading>
+				</Properties>
 				<Br />
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
@@ -2984,11 +3005,16 @@
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
 		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header4">
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" PointSize="7">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" FontStyle="Medium" PointSize="7">
 				<Properties>
 					<Leading type="enumeration">Auto</Leading>
 				</Properties>
 				<Content>us+</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" PointSize="7">
+				<Properties>
+					<Leading type="enumeration">Auto</Leading>
+				</Properties>
 				<Br />
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
@@ -3002,11 +3028,16 @@
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
 		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header4">
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" PointSize="7">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" FontStyle="Medium" PointSize="7">
 				<Properties>
 					<Leading type="enumeration">Auto</Leading>
 				</Properties>
 				<Content>Grammarly</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" PointSize="7">
+				<Properties>
+					<Leading type="enumeration">Auto</Leading>
+				</Properties>
 				<Br />
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
@@ -3020,11 +3051,16 @@
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
 		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header4">
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" PointSize="7">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" FontStyle="Medium" PointSize="7">
 				<Properties>
 					<Leading type="enumeration">Auto</Leading>
 				</Properties>
 				<Content>Sheboard</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" PointSize="7">
+				<Properties>
+					<Leading type="enumeration">Auto</Leading>
+				</Properties>
 				<Br />
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
@@ -3038,7 +3074,7 @@
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
 		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header4">
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" PointSize="7">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" FontStyle="Medium" PointSize="7">
 				<Properties>
 					<Leading type="enumeration">Auto</Leading>
 				</Properties>
@@ -3046,7 +3082,7 @@
 				<Br />
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
-		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph" Justification="LeftAlign">
 			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" PointSize="7">
 				<Properties>
 					<Leading type="enumeration">Auto</Leading>
@@ -3056,11 +3092,16 @@
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
 		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header4">
-			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" PointSize="7">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" FontStyle="Medium" PointSize="7">
 				<Properties>
 					<Leading type="enumeration">Auto</Leading>
 				</Properties>
 				<Content>Annexe</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Default" PointSize="7">
+				<Properties>
+					<Leading type="enumeration">Auto</Leading>
+				</Properties>
 				<Br />
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
@@ -3107,7 +3148,7 @@
 				<Br />
 				<Content>Merci à Fabien Girardin, pour l’impulsion que mon stage a donné à  ce mémoire.</Content>
 				<Br />
-				<Content>Merci à Douglas Edric Stanley, pour l’écoute attentive qu’il m’a accordée à de nombreuses reprises.</Content>
+				<Content>Merci à Douglas Edric Stanley, pour l’écoute attentive accordée à de nombreuses reprises.</Content>
 				<Br />
 			</CharacterStyleRange>
 		</ParagraphStyleRange>
@@ -3119,7 +3160,7 @@
 				<Content>Mémoire de fin d’études, Master of Arts HES-SO en Design, orientation Media design - Haute École d’Art et de Design (HEAD), Genève</Content>
 				<Br />
 				<Br />
-				<Content>Imprimé en février 2018 à la HEAD – Genève.</Content>
+				<Content>Imprimé en février 2018 à la HEAD – Genève. Relié avec l&apos;aide précieuse d&apos;Anaëlle Jud.</Content>
 				<Br />
 				<Br />
 			</CharacterStyleRange>

@@ -1,6 +1,7 @@
 .idea
-*.pdf
+*02*.pdf
 *.idlk
 tex2pdf.*
 html/images
 test-slide.html
+thesis-copie.indd

@@ -14,41 +14,27 @@
 
 # Converser à l'ère de l'autocomplétion
 
-_Relecture critique des caractéristiques que l'on attribue au design d'interaction (*design invisible*, *technologie calme*, *utilisabilité*), dans le cadre des systèmes d'aide à l'écriture et à la conversation, et particulièrement de l'autocomplétion_
+_Analyse des enjeux de l'autocomplétion par la relecture critique de trois aspects du design d’interaction : l'utilisabilité, la « technologie calme » et le « design invisible »._
 
-Mathilde Buenerd
-Tuteur : Nicolas Nova
+Tutoré par Nicolas Nova
+HEAD Genève, 2018
 
-Mémoire  de fin d'études
-
-Master of Arts HES-SO en Design, orientation Media design
-Haute École d'Art et de Design (HEAD), Genève
-
-imprimé en février 2018
+Mémoire de fin d’études, Master of Arts HES-SO en Design, orientation Media design - Haute École d’Art et de Design (HEAD), Genève
 
 \cleardoublepage
 
-## Remerciements
-
-Merci à Nicolas Nova pour sa disponibilité, ses remarques et ses conseils, qui ont rendu ce travail d'écriture aussi plaisant que passionnant.
-
-Merci à Fabien Girardin, pour l'impulsion que mon stage a donné à ce mémoire.
-
-Merci à Douglas pour l'écoute attentive qu'il m'a accordée à de nombreuses reprises.
 
 
-\cleardoublepage
-
-## Abstract
+<!-- ## Abstract
 
 Les systèmes d'autocomplétion sont de plus en plus envahissant, au point qu'on peut les voir comme des systèmes de recommandation pour l'écriture, et au final, pour les relations sociales. Mais est-ce que les concepts sur lesquels s'appuie le design de l'expérience utilisateur sont adaptés au design des systèmes d'autocomplétion ? à travers une revisite de trois tendance issues de l'histoire du design...
 
 
-\cleardoublepage
+\cleardoublepage -->
 
 #### Notes
 
-Les mots en italique entre \[_crochets_] sont utilisés pour clarifier la référence à des mots anglais pour lesquels un équivalent français n'est pas évident.
+Les mots en italique entre \(_parenthèses_) sont utilisés pour clarifier la référence à des mots anglais pour lesquels un équivalent français n'est pas évident.
 
 
 <!-- \newpage -->
@@ -480,6 +466,18 @@ Personnages : Par Freepik, www.flaticon.com
   + Design par Mathilde Buenerd
   + Emojis par Twitter ou Freepik, www.flaticon.com
   + Photographies par www.unsplash.com
+
+
+\cleardoublepage
+
+## Remerciements
+
+Merci à Nicolas Nova pour sa disponibilité, ses remarques et ses conseils, qui ont rendu ce travail d'écriture aussi plaisant que passionnant.
+
+Merci à Fabien Girardin, pour l'impulsion que mon stage a donné à ce mémoire.
+
+Merci à Douglas pour l'écoute attentive qu'il m'a accordée à de nombreuses reprises.
+
 
 
 
