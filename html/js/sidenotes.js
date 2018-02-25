@@ -114,10 +114,34 @@ function createTimeline() {
     let currentChapter = document.createElement('p');
     currentChapter.setAttribute('id', 'currentChapter');
     let percentageBar = document.createElement('div');
-    percentageBar.setAttribute('id', 'percentageBar')
+    percentageBar.setAttribute('id', 'percentageBar');
     chapterBar.appendChild(currentChapter);
     chapterBar.appendChild(percentageBar);
 
     document.body.appendChild(chapterBar);
+
+}
+
+
+/*********
+ *
+ *     Warning
+ *
+ ********/
+
+document.querySelector('#avertissement').addEventListener('click', hideWarning);
+
+placeWarning();
+
+function placeWarning() {
+    let warning = document.querySelector('#avertissement');
+    warning.style.top = (window.innerHeight)/2 + "px";
+    warning.style.left = (window.innerWidth)/2 + "px";
+}
+
+function hideWarning() {
+
+    let warning = document.querySelector('#avertissement');
+    warning.style.opacity = 0;
 
 }

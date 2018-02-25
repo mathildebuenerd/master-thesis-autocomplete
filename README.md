@@ -58,10 +58,11 @@ When you import the icml file in indesign, the text can be very easily styled, b
 `pandoc --lua-filter=page-break-for-indesign.lua -s -f markdown -t icml --bibliography citations-thesis.bib -o thesis.icml thesis.md`
 
 #### Details
-+ `--lua-filter=page-break-for-indesign.lua` is a filter intended to transform 
++ `--bibliography citations-thesis.bib` is for creating the bibliography automatically. If you don't use a bibtex file, just remove it.
++ `--lua-filter=page-break-for-indesign.lua` is a filter intended to help the conversion of some latex commands to indesign features. Thanks to that filter :
     + `\newpage` put the following content at the next page. [More infos here](https://groups.google.com/forum/#!topic/pandoc-discuss/ogofOXIDJuI).
     + `\cleardoublepage` put the following content at the next right (odd) page.
-+ `--bibliography citations-thesis.bib` is for creating the bibliography automatically. If you don't use a bibtex file, just remove it.
+
 
 ### Import it in indesign
 
