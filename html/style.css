@@ -21,7 +21,7 @@ dl, dt, dd,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
+figure, figcaption, footer, header,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
   margin: 0;
@@ -31,7 +31,7 @@ time, mark, audio, video {
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
+footer, header, menu, nav, section {
   display: block;
 }
 
@@ -106,7 +106,7 @@ figcaption {
 }
 
 blockquote {
-  font-family: "EB Garamond";
+  font-family: "EB Garamond", serif;
   font-size: 1em;
   line-height: 1.4;
   margin: 20px 20px 25px 40px;
@@ -271,6 +271,7 @@ sup {
  ******/
 
 #avertissement {
+  display: none;
   position: fixed;
   transform: translateX(-50%) translateY(-50%);
   width:300px;
@@ -288,4 +289,35 @@ sup {
   color: white !important;
   border-bottom: 2px solid white;
   padding: 5px 0 2px 0;
+}
+
+
+/******
+
+      Control panel
+
+ ******/
+
+#control-panel {
+  position: fixed;
+  top:50px;
+  left: 50px;
+  padding: 50px;
+  background-color: yellow;
+  color: black;
+  z-index: 99;
+}
+
+.slider {
+  width: 100px;
+}
+
+.blockSlider {
+  display: flex;
+  justify-content: space-between;
+}
+
+.propertyName {
+  font-size: 12px;
+  margin-right: 15px;
 }
