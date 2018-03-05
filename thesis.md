@@ -12,9 +12,9 @@
 \newpage
 
 
-# Converser à l'ère de l'autocomplétion
+_Converser à l'ère de l'autocomplétion_
 
-_Analyse des enjeux de l'autocomplétion par la relecture critique de trois aspects du design d’interaction : l'utilisabilité, la « technologie calme » et le « design invisible »._
+Analyse des enjeux de l'autocomplétion par la relecture critique de trois aspects du design d’interaction : l'utilisabilité, la « technologie calme » et le « design invisible ».
 
 Tutoré par Nicolas Nova
 HEAD Genève, 2018
@@ -22,7 +22,6 @@ HEAD Genève, 2018
 Mémoire de fin d’études, Master of Arts HES-SO en Design, orientation Media design - Haute École d’Art et de Design (HEAD), Genève
 
 \cleardoublepage
-
 
 
 <!-- ## Abstract
@@ -35,7 +34,6 @@ Les systèmes d'autocomplétion sont de plus en plus envahissant, au point qu'on
 #### Notes
 
 Les mots en italique entre \(_parenthèses_) sont utilisés pour clarifier la référence à des mots anglais pour lesquels un équivalent français n'est pas évident.
-
 
 <!-- \newpage -->
 
@@ -50,7 +48,7 @@ Les mots en italique entre \(_parenthèses_) sont utilisés pour clarifier la r�
 
 <!-- ## Introduction -->
 
-## Introduction
+# Introduction
 
 _Regime of computation_ [@Hayles2005], _Age of the algorithm_ [@Finn2017], ou encore _"logicialisation"_ de la société [@Citton2015], autant de termes pour désigner un même phénomène : la place grandissante du logiciel \[_software_] dans la société, à une échelle importante et dans des domaines variés : travail, finance, relations sociales etc. Une ère dominée par la figure de l'algorithme comme structure ontologique de compréhension de l'univers [@Finn2017, 21].
 
@@ -91,7 +89,7 @@ Ce mémoire n'est pas une contestation unilatérale des principes ou des mouveme
 
 <!-- \part{Du système d'autocomplétion au système de recommandation} -->
 
-## De l'autocomplétion au système de recommandation
+# De l'autocomplétion au système de recommandation
 
 ### D'une aide à la saisie vers une aide à l'écriture
 
@@ -163,7 +161,7 @@ Aujourd'hui, les applications de messagerie (Whatsapp, Messenger, Telegram...) p
 
 
 <!-- \part{\sout{utilisabilité} => inventivité} -->
-## ~~utilisabilité~~ => inventivité
+# ~~Utilisabilité~~ => Inventivité
 
 L'_utilisabilité_ peut se définir par la capacité d'un objet à être utilisé de manière efficace (atteindre le but prévu), efficiente (atteindre ce but avec un effort minimal) et générer une satisfaction de l'utilisateur (être agréable à utiliser)[^0f35].
 
@@ -174,9 +172,9 @@ Nous verrons d'abord pourquoi il faut se méfier de vouloir exploiter naïvement
 \newpage
 
 
-### ~~Des expériences pleines de bonnes intentions~~ / Des expériences critiques
+## ~~Des expériences pleines de bonnes intentions~~ / Des expériences critiques
 
-#### La prison des espérances homogènes[^12b9]
+### La prison des espérances homogènes[^12b9]
 
 On voit apparaître dans la multiplicité des objets connectés, de nombreux produits qui se targuent de vouloir régler des problèmes sociétaux. Simples gadgets ou appareils complexes, leur point commun est que leurs auteurs sont pleins de bonnes intentions, ils viennent avec une sincère volonté de rendre le monde meilleur. Mais être bien intentionné n'est pas suffisant pour régler des problèmes complexes, et ces projets finissent souvent par être maladroits, embarrassants, voir dangereux.[^5496]
 Pour illustrer cela, on peut comparer deux projets qui s'inscrivent dans le même champ d'action : l'assistance à la conversation.
@@ -194,7 +192,7 @@ Bien que s'appuyant sur des études scientifiques similaires (analyse des sentim
 
 \newpage
 
-### ~~La quête de l'efficacité~~ / La quête de la singularité
+## ~~La quête de l'efficacité~~ / La quête de la singularité
 
 Si le design doit viser à l'efficacité, alors on peut se poser la question de la signification de "communiquer efficacement". De nombreux outils nous font miroiter un "discours optimisé" : [_Ginger_](http://www.gingersoftware.com/fr) promet à l'usager "d'écrire mieux et plus vite", [_Hemingway_](http://www.hemingwayapp.com/) aide à produire une écriture "claire et audacieuse", l'extension [_Grammarly_](https://www.grammarly.com/) s'engage à la rendre "claire, efficace et sans erreur".
 
@@ -215,7 +213,7 @@ Si l'argument de la "communication efficace" n'est pas univoque, doit-on pour au
 
 
 <!-- \part{\sout{technologie calme} => technologie perturbante} -->
-## technologie calme => technologie perturbante
+# Technologie calme => Technologie perturbante
 
 La notion de "technologie calme" \[_calm technology_] est introduite en 1995 par Mark Weiser et John Seely Brown dans le texte _Designing Calm Technology_ [@Weiser1995]. Ces deux figures, occupant alors des postes à responsabilité au XEROX Parc, et notamment Weiser, considéré comme le père de l'informatique ubiquitaire, font le constat que les technologies de l'information sont de plus en plus invasives et accaparent trop l'attention. Contre cette tendance, ils expriment leur souhait d'une technologie calme, c'est-à-dire qui n'accapare pas explicitement l'attention de l'utilisateur, et se situe en périphérie de celui-ci.
 
@@ -226,7 +224,7 @@ Nous verrons tout d'abord pourquoi l'idée d'une technologie qui contraint l'usa
 \newpage
 
 
-### ~~Une technologie qui fait _juste_ ce qu'on lui demande~~ / Une technologie qui agit là où on ne l'attend pas
+## ~~Une technologie qui fait _juste_ ce qu'on lui demande~~ / Une technologie qui agit là où on ne l'attend pas
 
 Dans le chapitre précédent, nous évoquions les limites de la vision de la technologie comme solution à la résolution d'un problème \[_problem solver_], et la vacuité de l'idée de "communication efficace". De son côté, Weiser défend l'idée que les objets électroniques ne devraient pas gêner des tâches pour lesquelles ils ne sont pas mandatés. Et si, au contraire, on considérait qu'ils peuvent nous surprendre en leur laissant de l'espace pour intervenir justement là où on ne les attend pas ?
 
@@ -241,11 +239,11 @@ Ces projets sont deux exemples d'outils d'écriture qui utilisent la contrainte 
 
 \newpage
 
-### ~~Une technologie qui agit en arrière-plan~~ / Une technologie explicitement paramétrable
+## ~~Une technologie qui agit en arrière-plan~~ / Une technologie explicitement paramétrable
 
 Une notion au centre de la _calm technology_ est celle de "périphérie". Weiser recommande de concevoir des objets électroniques qui sont présents de manière ambiante[^3b2a], et qui s'approprient le moins possible l'attention explicite de l'utilisateur. Une illustration de cette idée est celle du thermostat, qui une fois configuré ne nécessite plus d'intervention pour maintenir la température souhaitée, ou encore le coffre de la voiture qui s'ouvre avec un simple mouvement de la jambe. Concrètement, un moyen souvent évoqué est de recourir à des capteurs, qui vont recueillir des informations "en arrière-plan", et ainsi laisser à l'usager toute son attention. Les deux prochains chapitres expliquent pourquoi cette idée n'est pas compatible avec l'utilisation massive de données personnelles.
 
-#### Fais ce que je dis, pas ce que je fais
+### Fais ce que je dis, pas ce que je fais
 
 La personnalisation, dans le sens de l'adaptation d'un système aux habitudes de l'utilisateur, élément clé des systèmes de recommandation, repose précisément sur cette idée. Ces derniers se nourrissent de notre comportement quotidien implicite, comme retenir les mots employés fréquemment pour nous les proposer par la suite, ou encore identifier les contacts desquels nous sommes le plus proche pour nous suggérer qui est en ligne. Toujours en quête de métadonnées à analyser, ils considèrent des actions inconscientes comme des choix manifestes.
 
@@ -258,7 +256,7 @@ C'est pourquoi un point primordial à considérer est celui de concéder à l'us
 
 \newpage
 
-### ~~Ne pas en dire trop sur comment le système fonctionne~~ => Dire clairement comment le système fonctionne
+## ~~Ne pas en dire trop sur comment le système fonctionne~~ => Dire clairement comment le système fonctionne
 
 Nous venons de voir qu'il faut relativiser les données récupérées sur les usagers, car elles peuvent être loin de représenter leur personnalité. Mais parfois, l'effet inverse peut se produire : elles peuvent traduire des détails sensibles sur notre vie.
 
@@ -279,9 +277,9 @@ De ce point de vue, l'idée d'une technologie qui capte en arrière-plan des inf
 
 
 <!-- \part{\sout{design invisible} => design visible} -->
-## design invisible => design visible
+# design invisible => design visible
 
-#### "La meilleure interface est... pas d'interface"
+### "La meilleure interface est... pas d'interface"
 
 Nous venons de voir les problèmes que peut soulever l'idée de calm technology, notamment dans le cadre de systèmes manipulant des données personnelles. Souvent affiliée sur le plan idéologique avec l'idée de "calm technology", la notion de "design invisible" ou le mouvement _NoUI_ (littéralement _pas d'interface utilisateur_), nouvellement popularisés par des ouvrages comme _The Best Interface is No Interface_ [@Krishna2015], sont plusieurs termes qui désignent une même tendance : celle selon laquelle le bon design est celui qui ne se voit pas, celui qui génère le moins de friction possible avec l'utilisateur[^5f04]. Ce mouvement considère l'interface graphique \[_GUI, Graphical User Interface_] comme une couche additionnelle à l'expérience utilisateur, et qui est souvent superflue.
 
@@ -293,7 +291,7 @@ Ce mouvement est régulièrement critiqué, on peut par exemple citer Timo Arnal
 \newpage
 
 
-### ~~Tirer parti des ordinateurs plutôt que de les servir~~ => S'adapter à la logique computationnelle
+## ~~Tirer parti des ordinateurs plutôt que de les servir~~ => S'adapter à la logique computationnelle
 
 
 Parmi les principes évoqués dans _The Best Interface is No Interface_, il y a celui selon lequel ce n'est pas aux humains de s'adapter aux ordinateurs, mais aux ordinateurs de s'adapter aux humains. Et si, à l'inverse, encourager les usagers à s'adapter à leurs outils, c'était leur donner la capacité de mieux les comprendre et de construire les conditions nécessaires à une appropriation plus forte de la technologie par les gens qui la côtoient au quotidien ?
@@ -310,11 +308,11 @@ Sur le même sujet, Matt Ratto souligne qu'une incompréhension de la technologi
 
 \newpage
 
-### ~~La magie de l'invisibilité~~ => La nécessité de visibilité
+## ~~La magie de l'invisibilité~~ => La nécessité de visibilité
 
 Les modèles statistiques à la base des algorithmes de machine learning parviennent, par l'analyse de grandes quantités de données, à souligner des corrélations invisibles pour un humain ordinaire. Ces liens mystérieux sont fascinants, ils captivent, bien qu'ils ne soient pas une source de connaissance explicable. À titre d'exemple, on peut penser aux ["pics de rupture"]((https://informationisbeautiful.net/2010/peak-break-up-times-on-facebook/)), représentés par David McCandless & Lee Byron, appuyés sur les mises à jour de statut Facebook, qui montrent une hausse au début du printemps et deux semaines avant Noël[^5ee2]. Quelle explication donner à ce phénomène ? Difficile à dire. Si l'on peut s'amuser à faire des suppositions, il faut garder à l'esprit que ce ne sont que des hypothèses.
 
-#### Déceler les dysfonctionnements
+### Déceler les dysfonctionnements
 
 Pour illustrer cette problématique, on peut se pencher sur une étude exposant le problème posé par une faible intelligibilité des modèles basés sur du machine learning. "L'intelligibilité" correspond à la capacité à comprendre pourquoi le système prend une décision. \
 Cette étude se place dans le cadre de services de santé. Son but était de concevoir un modèle capable de déterminer les patients avec une haute probabilité de décès (PDD) par pneumonie de manière à les hospitaliser, et traiter ceux avec une faible probabilité en consultation externe [@Caruana2015][^a3fa]. Deux modèles sont envisagés : un basé sur des réseaux de neurones \[_neural networks_], avec une précision plus élevée mais jugé trop risqué, et un second, basé sur des règles, moins précis, et qui sera choisi en définitive.
@@ -331,7 +329,7 @@ En ayant une visibilité sur comment les suggestions sont produites, on offre la
 
 
 <!-- \part{Vers de nouvelles formes de collaboration humain-machine} -->
-## Vers de nouvelles formes de collaboration humain-machine
+# Vers de nouvelles formes de collaboration humain-machine
 
 Au cours des trois chapitres précédents, nous avons vu comment les logiciels changent, et pourraient changer notre manière d'interagir via la parole et l'écriture. Nous avons également vu quelles habitudes de conceptions instaurer pour tenir compte des spécificités des expériences basées sur des algorithmes. Ces habitudes s'articulent autour de trois points clés : en premier lieu, pousser à l'inventivité en privilégiant une approche critique et en relativisant l'idée que le design a pour but la résolution d'un problème. En second lieu imaginer des expériences plus surprenantes en valorisant des usages insolites de la technologie et en la mettant au centre de l'attention plutôt qu'en périphérie. Et enfin, ne pas voir l'interface comme un acte de polissage mais comme un moyen de rendre visible fonctionnement du système.
 
@@ -373,7 +371,7 @@ Il définit ce type de technologie par sa capacité à être un peu excitante, �
 
 \newpage
 
-### Technologie pimentée
+## Technologie pimentée
 
 #### Un objectif : pousser à l'inventivité
 L'intérêt d'une technologie ne se résume pas à solutionner des problèmes. Elle permet de créer un espace pour la pensée associative et la curiosité.\
@@ -394,7 +392,7 @@ On peut par exemple imaginer une interface qui permet de consulter les mots qu'o
 \cleardoublepage
 
 
-## Annexe : Et si... ?
+# Annexe : Et si... ?
 
 Tout au long de ce mémoire, j'ai défendu plusieurs principes pour la conception de l'expérience et l'interface d'un système d'autocomplétion.
 
@@ -470,7 +468,7 @@ Personnages : Par Freepik, www.flaticon.com
 
 \cleardoublepage
 
-## Remerciements
+# Remerciements
 
 Merci à Nicolas Nova pour sa disponibilité, ses remarques et ses conseils, qui ont rendu ce travail d'écriture aussi plaisant que passionnant.
 
@@ -492,7 +490,7 @@ Ce texte est également disponible en ligne sur le site internet
 alternative.mathildebuenerd.fr/memoire
 
 
-## Bibliographie
+# Bibliographie
 
 [^a8fe]: On peut penser par exemple à Mark Zuckerberg, qui déclarait en 2011 à David Kirkpatrick dans _The Facebook Effect_ (Simon & Schuster) qu'avoir deux identités était un exemple de "manque d'intégrité".
 
