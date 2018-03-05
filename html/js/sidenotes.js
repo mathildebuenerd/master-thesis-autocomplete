@@ -10,12 +10,12 @@ window.addEventListener('resize', () => {
 window.addEventListener('scroll', (e) => {
     // console.log(e.pageY);
 
-    let chapters = document.querySelectorAll('h2'); // every chapter should begin with a h2
+    let chapters = document.querySelectorAll('h1'); // every chapter should begin with a h1
     let currentChapterNumber = findCurrentChapter(e.pageY);
 
 
     function findCurrentChapter(scrollPosition) {
-        // we compare the scroll position to the offset position of all h2 in order to know what is the chapter currently read
+        // we compare the scroll position to the offset position of all h1 in order to know what is the chapter currently read
         for (let i=0; i<chapters.length; i++) {
             if (scrollPosition < chapters[i].offsetTop) {
                 return i-1;
@@ -26,7 +26,7 @@ window.addEventListener('scroll', (e) => {
     let currentContent = document.querySelectorAll('#TOC > ul > li > ul > li');
     // console.log(currentContent);
 
-    // if it equals -1, it means we are before the first h2, so we display the h1 instead
+    // if it equals -1, it means we are before the first h1, so we display the h1 instead
     if (currentChapterNumber === -1) {
         currentChapter = '';
     } else {
@@ -145,3 +145,4 @@ function hideWarning() {
     warning.style.opacity = 0;
 
 }
+

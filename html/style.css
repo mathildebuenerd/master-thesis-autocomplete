@@ -21,7 +21,7 @@ dl, dt, dd,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed,
-figure, figcaption, footer, header,
+figure, figcaption, footer, header
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
   margin: 0;
@@ -143,15 +143,21 @@ header {
   position: fixed;
   width: 33%;
   max-width: 300px;
-  left: 0;
-  top: 300px;
-  padding: 0 30px;
+  top: 0;
+  padding: 100px 30px;
   font-size: 80%;
   text-align: left;
+  height: 100vh;
+  transition: 1s ease;
+  left:-300px; /* that value will need to modified if we increase the width of the TOC*/
 }
 
 #TOC ul li {
   list-style-type: none;
+}
+
+#TOC ul li ul {
+  padding: 10px;
 }
 
 #TOC > ul {
@@ -160,7 +166,7 @@ header {
 
 /* we remove the first link because that's the h1, and it's already displayed at the top left corner */
 #TOC > ul > li > a {
-  display: none;
+  /*display: none;*/
   list-style: none;
 }
 
@@ -174,19 +180,17 @@ header {
 }
 
 #TOC > ul > li > ul > li {
-  margin-bottom: 15px;
+  margin-bottom: 7px;
   opacity: 0.5;
+  line-height:1.2;
 }
 
-#TOC ul li ul li ul {
-  display: none;
-}
 
 /*#TOC ul li ul li:hover ul {*/
   /*display: block;*/
 /*}*/
 
-#TOC ul li ul li:hover::before {
+#TOC ul li:hover::before {
   content: '->';
   box-sizing: border-box;
   padding: 0 10px 0 0;
@@ -200,6 +204,26 @@ header {
 .current {
   opacity:1 !important;
 }
+
+
+.sidebar-toc {
+  padding: 400px 10px 0;
+  height: 100vh;
+  width: 50px;
+  position: absolute;
+  font-size: 20px;
+  top: 0;
+  border: 1px solid #eee;
+  cursor: pointer;
+  box-sizing: border-box;
+  writing-mode:tb-rl;
+  transform: rotate(180deg);
+  white-space:nowrap;
+  display:block;
+  bottom:0;
+}
+
+
 
 /******
 

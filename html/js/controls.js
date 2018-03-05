@@ -50,9 +50,6 @@ function createSliders() {
         let slider = document.createElement('div');
         slider.setAttribute('class', 'slider');
 
-        let minValue = Object.values(listOfSliders)[i]['minValue'];
-        let maxValue = Object.values(listOfSliders)[i]['maxValue'];
-        let defaultValue = Object.values(listOfSliders)[i]['defaultValue'];
         let propertyName = Object.values(listOfSliders)[i]['propertyName'];
 
         console.log(Object.values(listOfSliders)[i]);
@@ -67,8 +64,52 @@ function createSliders() {
         document.querySelector('#control-panel').appendChild(blockSlider);
     }
 
+    // let promesse = setupSliders();
+    //
+    // //    Setup jquery UI
+    // function setupSliders() {
+    //     $( function() {
+    //         $( ".slider" ).slider();
+    //     } );
+    // }
+    //
+    // promesse.then(maPromesse).catch( () => {
+    //     console.log('erreur eeeee');
+    // });
+    //
+    // function maPromesse() {
+    //     console.log('success');
+    //     console.log(document.querySelectorAll('.ui-slider-handle'));
+    // }
+    //
+    // function failure() {
+    //     console.log('failure');
+    // }
+
+
+
+
+
+    for (let i=0; i<numberOfSliders; i++) {
+
+        let slider = document.querySelectorAll('.slider');
+
+        let minValue = Object.values(listOfSliders)[i]['minValue'];
+        let maxValue = Object.values(listOfSliders)[i]['maxValue'];
+        let defaultValue = Object.values(listOfSliders)[i]['defaultValue'];
+
+        let handlePosition = (defaultValue - minValue) * 100 / maxValue - minValue;
+
+
+
+        // document.querySelectorAll('.ui-slider-handle')[i].style.left = handlePosition + "%";
+
+    }
+
 
 }
+
+
 
 
 /*******
@@ -77,7 +118,5 @@ function createSliders() {
 
  *******/
 
-$( function() {
-    $( ".slider" ).slider();
-} );
+
 
