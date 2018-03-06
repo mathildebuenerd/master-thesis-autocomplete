@@ -258,7 +258,7 @@ sup {
 /******
 
     Heading
-    En-tête
+    En-tête / Tête de chapitre
 
  ******/
 
@@ -275,6 +275,12 @@ sup {
   border-bottom: solid 1px #eee;
   flex-direction: column;
   align-content: space-between;
+}
+
+#chapterBar h1 {
+  font-size: 0.8em;
+  font-weight: normal;
+  margin-left: 15px;
 }
 
 #currentChapter {

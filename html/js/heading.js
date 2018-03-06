@@ -2,19 +2,23 @@
  * Created by mathi on 05/03/2018.
  */
 
-createTimeline();
+createHeading();
 
 // creates the html elements of the top nav bar
-function createTimeline() {
+function createHeading() {
 
     let chapterBar = document.createElement('div');
     chapterBar.setAttribute('id', 'chapterBar');
-    let currentChapter = document.createElement('p');
-    currentChapter.setAttribute('id', 'currentChapter');
-    let percentageBar = document.createElement('div');
-    percentageBar.setAttribute('id', 'percentageBar');
-    chapterBar.appendChild(currentChapter);
-    chapterBar.appendChild(percentageBar);
+    let bigTitle = document.querySelectorAll('h1')[0]; // the name of the document is the name of the first h1
+    chapterBar.appendChild(bigTitle);
+
+
+    // let currentChapter = document.createElement('p');
+    // currentChapter.setAttribute('id', 'currentChapter');
+    // let percentageBar = document.createElement('div');
+    // percentageBar.setAttribute('id', 'percentageBar');
+    // chapterBar.appendChild(currentChapter);
+    // chapterBar.appendChild(percentageBar);
 
     document.body.appendChild(chapterBar);
 
@@ -40,7 +44,7 @@ window.addEventListener('scroll', (e) => {
     let currentContent = document.querySelectorAll('#TOC > ul > li > ul > li');
     // console.log(currentContent);
 
-    // if it equals -1, it means we are before the first h1, so we display the h1 instead
+    // if it equals -1, it means we are before the first h1, so we display nothing instead
     if (currentChapterNumber === -1) {
         currentChapter = '';
     } else {

@@ -5,7 +5,7 @@ numberParagraphs();
 
 function numberParagraphs() {
 
-    let paragraphs = document.querySelectorAll('p');
+    let paragraphs = document.querySelectorAll('body > p, body > blockquote');
 
     for (let i=0; i<paragraphs.length; i++) {
 
