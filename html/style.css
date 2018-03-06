@@ -89,6 +89,16 @@ p {
   margin-bottom: 12px;
 }
 
+.paragraph-number {
+  color: #bbb;
+  font-family: monospace;
+  position: relative;
+  /*left: -20px;*/
+  /*margin-right: -12px;*/
+  font-size: 10px;
+  justify-content: space-between;
+}
+
 figure {
   margin-left: -150px;
   margin-top:25px;
