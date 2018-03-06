@@ -22,7 +22,28 @@ function numberParagraphs() {
         lineNumber.style.marginRight = '-' + lineNumber.offsetWidth + 'px'; // as some the line numbers can have 1 2 ou 3 numbers, we need to check the width to apply a correct offset
         lineNumber.style.left = '-' + (lineNumber.offsetWidth + 10) + 'px';
 
+        lineNumber.addEventListener('mouseover', showCopyMessage);
+        lineNumber.addEventListener('mouseout', hideCopyMessage);
         lineNumber.addEventListener('click', copyAnchor);
+
+        function showCopyMessage(e) {
+
+            // when the line number is hovering, we display a little message to indicate to the user that he can click to copy the link to that paragraph
+            let copyMessage = document.createElement('div');
+            copyMessage.textContent = "Copier le lien";
+            copyMessage.setAttribute('id', 'copymessage');
+            copyMessage.style.top = ((e.target.offsetTop) + 20) + "px";
+            copyMessage.style.left = (e.target.offsetLeft) + "px";
+            document.body.appendChild(copyMessage);
+
+        }
+
+        function hideCopyMessage() {
+
+            let copyMessage = document.querySelector('#copymessage');
+            document.body.removeChild(copyMessage);
+
+        }
 
         function copyAnchor(e) {
             // we create a temporary input, because we can only copy to clipboard from a value in a input tag
@@ -35,6 +56,10 @@ function numberParagraphs() {
             document.execCommand("copy"); // the selected value is copied!
             tempInput = document.querySelector('#tempinput');
             document.body.removeChild(tempInput); // then we remove the input from the DOM
+
+            // we display a message to say to the user that the link is succesfully copied
+            let copyMessage = document.querySelector('#copymessage');
+            copyMessage.textContent = "Lien copié ;)";
         }
     }
 

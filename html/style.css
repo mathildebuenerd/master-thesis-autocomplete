@@ -89,15 +89,6 @@ p {
   margin-bottom: 12px;
 }
 
-.paragraph-number {
-  color: #bbb;
-  font-family: monospace;
-  position: relative;
-  /*left: -20px;*/
-  /*margin-right: -12px;*/
-  font-size: 10px;
-  justify-content: space-between;
-}
 
 figure {
   margin-left: -150px;
@@ -145,6 +136,7 @@ header {
 /******
 
     Table of content
+    Sommaire
 
  ******/
 
@@ -240,6 +232,7 @@ header {
 /******
 
     Footnotes
+    Notes de bas de page
 
  ******/
 
@@ -264,7 +257,8 @@ sup {
 
 /******
 
-    Reading help
+    Heading
+    En-tête
 
  ******/
 
@@ -302,6 +296,7 @@ sup {
 
 /******
 
+      Warning
       Avertissement
 
  ******/
@@ -331,6 +326,7 @@ sup {
 /******
 
       Control panel
+      Panneau de contrôle
 
  ******/
 
@@ -356,4 +352,30 @@ sup {
 .propertyName {
   font-size: 12px;
   margin-right: 15px;
+}
+
+/******
+
+      Lines numbering
+      Numérotation des lignes
+
+ ******/
+
+.paragraph-number {
+  color: #bbb;
+  font-family: monospace;
+  position: relative;
+  /*left: -20px;*/
+  /*margin-right: -12px;*/
+  font-size: 10px;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+#copymessage {
+  padding: 6px;
+  background-color: black;
+  color: white;
+  font-size: 10px;
+  position:absolute;
 }
