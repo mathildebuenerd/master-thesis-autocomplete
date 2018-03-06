@@ -139,6 +139,7 @@ header {
  ******/
 
 #TOC {
+  background-color: white;
   box-sizing: border-box;
   position: fixed;
   width: 33%;
@@ -207,20 +208,21 @@ header {
 
 
 .sidebar-toc {
-  padding: 400px 10px 0;
   height: 100vh;
   width: 50px;
+  background-color: white;
+  padding: 400px 10px 0;
   position: absolute;
-  font-size: 20px;
   top: 0;
+  box-sizing: border-box;
   border: 1px solid #eee;
   cursor: pointer;
-  box-sizing: border-box;
+
+  font-size: 20px;
   writing-mode:tb-rl;
   transform: rotate(180deg);
   white-space:nowrap;
   display:block;
-  bottom:0;
 }
 
 
