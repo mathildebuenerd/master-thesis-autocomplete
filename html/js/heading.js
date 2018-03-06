@@ -10,16 +10,9 @@ function createHeading() {
     let chapterBar = document.createElement('div');
     chapterBar.setAttribute('id', 'chapterBar');
     let bigTitle = document.querySelectorAll('h1')[0]; // the name of the document is the name of the first h1
-    chapterBar.appendChild(bigTitle);
-
-
-    // let currentChapter = document.createElement('p');
-    // currentChapter.setAttribute('id', 'currentChapter');
-    // let percentageBar = document.createElement('div');
-    // percentageBar.setAttribute('id', 'percentageBar');
-    // chapterBar.appendChild(currentChapter);
-    // chapterBar.appendChild(percentageBar);
-
+    let titleElement = document.createElement('h1');
+    titleElement.textContent = bigTitle.textContent;
+    chapterBar.appendChild(titleElement);
     document.body.appendChild(chapterBar);
 
 }
@@ -42,7 +35,6 @@ window.addEventListener('scroll', (e) => {
     }
     let currentChapter = '';
     let currentContent = document.querySelectorAll('#TOC > ul > li > ul > li');
-    // console.log(currentContent);
 
     // if it equals -1, it means we are before the first h1, so we display nothing instead
     if (currentChapterNumber === -1) {
