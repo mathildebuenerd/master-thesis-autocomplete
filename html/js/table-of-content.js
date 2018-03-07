@@ -16,7 +16,9 @@ function createSideBar() { // we create the sidebar we have to click on to see t
 
     let sideBar = document.createElement('div');
     sideBar.setAttribute('class', 'sidebar-toc');
-    tableOfContentWidth = window.getComputedStyle(tableOfContent, null).getPropertyValue('width');
+    tableOfContentWidth = window.getComputedStyle(tableOfContent, null).getPropertyValue('width')
+    console.log('tableOfContentWidth');
+    console.log(tableOfContent.offsetWidth);
     sideBar.style.left = tableOfContentWidth;
     sideBar.textContent = "Sommaire";
     console.log(tableOfContentWidth);

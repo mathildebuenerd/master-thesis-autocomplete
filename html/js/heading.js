@@ -13,6 +13,11 @@ function createHeading() {
     let titleElement = document.createElement('h1');
     titleElement.textContent = bigTitle.textContent;
     chapterBar.appendChild(titleElement);
+
+    let currentChapter = document.createElement('p');
+    currentChapter.setAttribute('id', 'currentChapter');
+    chapterBar.appendChild(currentChapter);
+
     document.body.appendChild(chapterBar);
 
 }
