@@ -3,7 +3,7 @@
  */
 
 
-createSliders();
+// createSliders();
 
 function createSliders() {
 

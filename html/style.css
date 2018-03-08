@@ -42,8 +42,10 @@ table {
 
 
 
-
-
+html {
+  width: 100vw;
+  overflow-x: hidden;
+}
 
 body {
   padding-top:80px; /* the body has to start just after de navigation top bar */
@@ -156,10 +158,33 @@ section.content {
 
 header {
   box-sizing: border-box;
-  position: absolute;
-  width: 33%;
-  left: 0;
+  position: fixed;
+  width: 300px;
+  right: 0;
   padding: 20px;
+  transition: 1s ease;
+}
+
+header h1 {
+  font-size: 25px;
+  word-wrap: break-word;
+}
+
+.sidebar-about {
+  height: 100vh;
+  width: 50px;
+  background-color: white;
+  padding: 330px 10px 0;
+  position: absolute;
+  top: 0;
+  box-sizing: border-box;
+  border: 1px solid #eee;
+  cursor: pointer;
+  font-size: 20px;
+  writing-mode:vertical-rl;
+  /*transform: rotate(180deg);*/
+  white-space:nowrap;
+  display:block;
 }
 
 
