@@ -6,16 +6,28 @@ window.addEventListener('resize', () => {
     placeFootnotes();
 });
 
-document.querySelector('#TOC').addEventListener('click', () => { // il faut placer les footnotes chaque fois qu'on change de section, donc à chaque clic sur un lien
-    placeFootnotes();
-});
+let linksTOC = document.querySelectorAll('.link-table-of-content');
+
+for (let i=0; i<linksTOC.length; i++) {
+    linksTOC[i].addEventListener('click', () => { // il faut placer les footnotes chaque fois qu'on change de section, donc à chaque clic sur un lien
+        console.log('jai cliqué sur le menu');
+        placeFootnotes();
+    });
+}
+
 
 
 
 
 function placeFootnotes() {
+
+    console.log('I place the footnotes ');
+
     let notes = document.querySelectorAll('.footnote-ref');
     let notesContent = document.querySelector('.footnotes').querySelectorAll('li');
+
+    console.log('notes');
+    console.log(notes);
 
     // let lineHeight = getLineHeight(); // we check le fontsize in order to have to line height and place the note at the right top position.
     // function getLineHeight() {
@@ -27,6 +39,8 @@ function placeFootnotes() {
 
     for (let i=0; i<notes.length; i++) { // /!\ the notes ids start at 1 not 0
         let yPosNotes = notes[i].offsetTop;
+
+        console.log(yPosNotes);
 
         if (yPosNotes !== 0) { // because not all the sections are displayed, we check before that the reference to the note is currently displayed
             // console.log("ypos " + yPosNotes);
@@ -44,7 +58,7 @@ function placeFootnotes() {
 
             // we also remove the backlink to the footnote, because the footnote is very close to the text
             notesContent[i].querySelector('.footnote-back').style.display = 'none';
-        } else {
+        } else if (yPosNotes === 0) {
             notesContent[i].style.display = 'none';
         }
 

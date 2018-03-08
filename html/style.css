@@ -129,6 +129,9 @@ blockquote em {
 
  ******/
 
+section.content {
+  padding-top: 150px;
+}
 
 .bottomNav {
   display: flex;

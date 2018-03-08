@@ -3,11 +3,32 @@
  */
 
 let tableOfContentWidth = '';
+
+createTOC();
 createSideBar();
 
 let sidebarTOC = document.querySelector(".sidebar-toc");
 
 sidebarTOC.addEventListener('click', toggleTableOfContent);
+
+function createTOC() {
+
+    let TOC = document.querySelector('#TOC ul');
+    TOC.innerHTML = '';
+
+    let titles = document.querySelectorAll('h1');
+
+    for (let i=0; i<titles.length; i++) {
+        let title = document.createElement('li');
+        let linkTitle = document.createElement('a');
+        linkTitle.setAttribute('class', 'link-table-of-content');
+        linkTitle.textContent = titles[i].textContent;
+        linkTitle.href = '#' + titles[i].parentNode.id;
+        title.appendChild(linkTitle);
+        TOC.appendChild(title);
+    }
+
+}
 
 function createSideBar() { // we create the sidebar we have to click on to see the menu
 

@@ -17,6 +17,7 @@ function createSections() {
 
         let bodyTags = document.querySelectorAll('body > h1, body > h2, body > h3, body > h4, body > h5, body > h6, body > p, body > blockquote, body > figure, body > ul, #refs');
         let newSection = document.createElement('section');
+        newSection.setAttribute('class', 'content');
 
         for (let i=0; i<bodyTags.length; i++) {
             if (bodyTags[i].tagName !== 'H1' || i === 0 || bodyTags[i].id === 'refs') { // the first element always go inside the section, because it's usually a h1
@@ -51,7 +52,7 @@ function createSections() {
 
     function giveIdToSections() {
 
-        let sections =  document.querySelectorAll('section:not(.footnotes)');
+        let sections =  document.querySelectorAll('section.content');
 
         for (let i=0; i<sections.length; i++) {
             let sectionId = '';
@@ -103,7 +104,7 @@ function displayOneSectionAtATime() {
     }
 
     window.addEventListener('scroll', (e) => {
-        console.log(e);
+        // console.log(e);
     });
 
 
