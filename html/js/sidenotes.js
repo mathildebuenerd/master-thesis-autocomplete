@@ -6,6 +6,10 @@ window.addEventListener('resize', () => {
     placeFootnotes();
 });
 
+document.querySelector('#TOC').addEventListener('click', () => { // il faut placer les footnotes chaque fois qu'on change de section, donc à chaque clic sur un lien
+    placeFootnotes();
+});
+
 
 
 
@@ -24,20 +28,26 @@ function placeFootnotes() {
     for (let i=0; i<notes.length; i++) { // /!\ the notes ids start at 1 not 0
         let yPosNotes = notes[i].offsetTop;
 
-        if (i > 0) { // for all notes except the first one, we check if the previous note is not too big and is going to be hidden by the next one
-            let yPosPreviousNote = notesContent[i-1].offsetTop;
-            let heightPreviousNote = notesContent[i-1].offsetHeight;
-            console.log(heightPreviousNote);
-            if (yPosNotes < yPosPreviousNote + heightPreviousNote) { // if the yPos of the note is over the previous note, we move it
-                // let difference = yPosPreviousNote - yPosNotes + heightPreviousNote;
-                yPosNotes = yPosPreviousNote + heightPreviousNote + 10; // 15 is a little margin
+        if (yPosNotes !== 0) { // because not all the sections are displayed, we check before that the reference to the note is currently displayed
+            // console.log("ypos " + yPosNotes);
+            if (i > 0) { // for all notes except the first one, we check if the previous note is not too big and is going to be hidden by the next one
+                let yPosPreviousNote = notesContent[i-1].offsetTop;
+                let heightPreviousNote = notesContent[i-1].offsetHeight;
+                // console.log(heightPreviousNote);
+                if (yPosNotes < yPosPreviousNote + heightPreviousNote) { // if the yPos of the note is over the previous note, we move it
+                    // let difference = yPosPreviousNote - yPosNotes + heightPreviousNote;
+                    yPosNotes = yPosPreviousNote + heightPreviousNote + 10; // 15 is a little margin
+                }
             }
+
+            notesContent[i].style.top = yPosNotes + "px";
+
+            // we also remove the backlink to the footnote, because the footnote is very close to the text
+            notesContent[i].querySelector('.footnote-back').style.display = 'none';
+        } else {
+            notesContent[i].style.display = 'none';
         }
 
-        notesContent[i].style.top = yPosNotes + "px";
-
-        // we also remove the backlink to the footnote, because the footnote is very close to the text
-        notesContent[i].querySelector('.footnote-back').style.display = 'none';
     }
 }
 
@@ -66,4 +76,3 @@ function hideWarning() {
     warning.style.opacity = 0;
 
 }
-

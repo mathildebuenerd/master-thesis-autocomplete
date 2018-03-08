@@ -22,6 +22,11 @@ function transformTranslateWords() {
             translatedWord = new RegExp(/\[<em>([\w ]+)<\/em>]/, 'gi'); // a translated word has the form '[<em>' + any number of letter, tiret or space + '</em>]'
             let word = translatedWord.exec(paragraphs[i].innerHTML);
             console.log(word[0]);
+
+            // Ici il faut remplacer word[0] par <span class="translatedWord"> + word[0] + </span>
+            // Probablement avec la fonction replace plutôt que exec, voir https://stackoverflow.com/questions/23833597/javascript-regex-exec-and-replace
+            // Attention il y a un genre de bug avec exec, une fois qu'on a utilisé exec() il faut toujours réinitialiser la regex
+            // Voir : https://stackoverflow.com/questions/4724701/regexp-exec-returns-null-sporadically
         }
 
     }

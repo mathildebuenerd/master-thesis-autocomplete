@@ -16,10 +16,12 @@ function createSideBar() { // we create the sidebar we have to click on to see t
 
     let sideBar = document.createElement('div');
     sideBar.setAttribute('class', 'sidebar-toc');
-    tableOfContentWidth = window.getComputedStyle(tableOfContent, null).getPropertyValue('width')
-    console.log('tableOfContentWidth');
-    console.log(tableOfContent.offsetWidth);
-    sideBar.style.left = tableOfContentWidth;
+    // tableOfContentWidth = window.getComputedStyle(tableOfContent, null).getPropertyValue('width')
+    // console.log('tableOfContentWidth');
+    // console.log(window.getComputedStyle(tableOfContent, null));
+
+    tableOfContentWidth = 300;
+    sideBar.style.left = tableOfContentWidth + "px"; // we don't need the 'px' if we use getComputedStyle
     sideBar.textContent = "Sommaire";
     console.log(tableOfContentWidth);
     tableOfContent.appendChild(sideBar);
@@ -27,12 +29,15 @@ function createSideBar() { // we create the sidebar we have to click on to see t
 
 }
 
-function toggleTableOfContent() {
+function toggleTableOfContent(e) {
+
+    console.log('toggle');
+    console.log(e);
 
     let tableOfContent = document.querySelector('#TOC');
 
     if(tableOfContent.style.left === 0 || tableOfContent.style.left === '0px') {
-        tableOfContent.style.left = '-' + tableOfContentWidth;
+        tableOfContent.style.left = '-' + tableOfContentWidth + 'px'; // we don't need the 'px' if we use getComputedStyle
     } else {
         tableOfContent.style.left = 0;
     }

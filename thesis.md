@@ -35,11 +35,6 @@ Les systèmes d'autocomplétion sont de plus en plus envahissant, au point qu'on
 
 Les mots en italique entre \(_parenthèses_) sont utilisés pour clarifier la référence à des mots anglais pour lesquels un équivalent français n'est pas évident.
 
-<!-- \newpage -->
-
-\cleardoublepage
-
-## Sommaire
 
 
 <!-- \newpage -->
