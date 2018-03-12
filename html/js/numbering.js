@@ -7,27 +7,21 @@ window.addEventListener('hashchange', goToLine);
 
 function goToLine(e) {
 
-    let anchor = location.hash;
+    let anchor = location.hash; // we get the hash which equal the id we have to go to (#hash)
 
-    if (anchor.search(/paragraph/) !== -1) {
+    if (anchor.search(/paragraph/) !== -1) { // if the hash is a link to a paragraph
         let elementToGoTo = document.querySelector(anchor);
 
-        window.location.hash = elementToGoTo.parentNode.id;
+        window.location.hash = elementToGoTo.parentNode.id; // we replace the current hash with the parent section hash
 
         let chapterBar = document.querySelector('#chapterBar');
-        let chapterBarHeight = parseInt(window.getComputedStyle(chapterBar, null).getPropertyValue('height'));
+        let chapterBarHeight = parseInt(window.getComputedStyle(chapterBar, null).getPropertyValue('height')); // we get the height of the chapterbar in order to scroll exactly to the right paragraph (or the begining of the paragrah is gonna be hidden by the chapterbar)
 
         let scrollPos = elementToGoTo.offsetTop - chapterBarHeight;
-        // console.log(elementToGoTo.offsetTop);
-        // console.log(scrollPos);
 
-        window.scrollTo(0, scrollPos);
-
-
+        window.scrollTo(0, scrollPos); // we scroll to the paragraph position
 
     }
-
-
 
 }
 
