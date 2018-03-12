@@ -3,6 +3,34 @@ let url = "http://alternative.mathildebuenerd.fr/memoire/index.html";
 
 numberParagraphs();
 
+window.addEventListener('hashchange', goToLine);
+
+function goToLine(e) {
+
+    let anchor = location.hash;
+
+    if (anchor.search(/paragraph/) !== -1) {
+        let elementToGoTo = document.querySelector(anchor);
+
+        window.location.hash = elementToGoTo.parentNode.id;
+
+        let chapterBar = document.querySelector('#chapterBar');
+        let chapterBarHeight = parseInt(window.getComputedStyle(chapterBar, null).getPropertyValue('height'));
+
+        let scrollPos = elementToGoTo.offsetTop - chapterBarHeight;
+        // console.log(elementToGoTo.offsetTop);
+        // console.log(scrollPos);
+
+        window.scrollTo(0, scrollPos);
+
+
+
+    }
+
+
+
+}
+
 function numberParagraphs() {
 
     let paragraphs = document.querySelectorAll('body > section > p, body > section > blockquote');
