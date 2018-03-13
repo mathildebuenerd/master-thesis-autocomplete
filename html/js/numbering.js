@@ -23,6 +23,14 @@ function goToLine(e) {
 
     }
 
+    // Put the #intro block to display:none
+    let intro = document.querySelector('#intro');
+    if (location.hash !== '') {
+        intro.style.display = 'none';
+    } else {
+        intro.style.display = 'block';
+    }
+
 }
 
 function numberParagraphs() {
