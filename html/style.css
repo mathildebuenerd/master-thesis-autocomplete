@@ -150,16 +150,23 @@ section.content {
 
 /******
 
-    Header
+    Intro
 
  ******/
 
 #intro {
-  text-align: left !important;
+  /*text-align: left !important;*/
 }
 
 #intro h1 {
+  text-align: center;
   margin-top: 150px;
+  font-size: 90px;
+  font-weight: 400;
+  position: absolute;
+  left: 50%;
+  width:70vw;
+  transform: translateX(-50%);
 }
 
 #intro h2 {
@@ -167,7 +174,39 @@ section.content {
   font-size: 120% !important;
 }
 
+#pipe {
+  font-weight: 100;
+  margin-left: -15px;
+  animation: blinker 1s step-start infinite;
+}
 
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+#start {
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 300px;
+  padding: 20px;
+  font-weight: 300;
+  font-size: 120%;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  transition: 1s ease;
+}
+
+#start:hover {
+  color: black;
+  background-color: white;
+  border: 2px solid black;
+}
 
 
 /******
